@@ -1,0 +1,737 @@
+"interpeteur/lexiqueTransitions.ml" 4 110 114 "interpeteur/lexiqueTransitions.ml" 4 110 132
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "interpeteur/lexiqueTransitions.ml" 801 54785 54785 --
+)
+"interpeteur/lexiqueTransitions.ml" 6 158 161 "interpeteur/lexiqueTransitions.ml" 16 858 911
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 18 937 940 "interpeteur/lexiqueTransitions.ml" 28 1637 1690
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 30 1716 1719 "interpeteur/lexiqueTransitions.ml" 40 2416 2469
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 42 2493 2496 "interpeteur/lexiqueTransitions.ml" 413 28463 28524
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 415 28548 28551 "interpeteur/lexiqueTransitions.ml" 786 54518 54579
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 788 54607 54610 "interpeteur/lexiqueTransitions.ml" 788 54607 54612
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 790 54643 54646 "interpeteur/lexiqueTransitions.ml" 790 54643 54648
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 792 54679 54682 "interpeteur/lexiqueTransitions.ml" 792 54679 54684
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 794 54713 54716 "interpeteur/lexiqueTransitions.ml" 794 54713 54718
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 796 54747 54750 "interpeteur/lexiqueTransitions.ml" 796 54747 54752
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 798 54775 54778 "interpeteur/lexiqueTransitions.ml" 798 54775 54780
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 4 110 135 "interpeteur/lexiqueTransitions.ml" 799 54782 54783
+type(
+  Lexing.lex_tables
+)
+"interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  def token "interpeteur/lexiqueTransitions.ml" 801 54785 54785 --
+)
+"interpeteur/lexiqueTransitions.ml" 801 54785 54799 "interpeteur/lexiqueTransitions.ml" 801 54785 54805
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interpeteur/lexiqueTransitions.ml" 802 54808 54812 "interpeteur/lexiqueTransitions.ml" 802 54808 54842
+)
+"interpeteur/lexiqueTransitions.ml" 802 54808 54812 "interpeteur/lexiqueTransitions.ml" 802 54808 54833
+type(
+  Lexing.lexbuf -> int -> AnalyseurTransitions.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "interpeteur/lexiqueTransitions.ml" 803 54843 54847 "interpeteur/lexiqueTransitions.ml" 803 54843 54868
+)
+"interpeteur/lexiqueTransitions.ml" 802 54808 54834 "interpeteur/lexiqueTransitions.ml" 802 54808 54840
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 801 54785 54799 "interpeteur/lexiqueTransitions.ml" 801 54785 54805
+)
+"interpeteur/lexiqueTransitions.ml" 802 54808 54841 "interpeteur/lexiqueTransitions.ml" 802 54808 54842
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.ml" 802 54808 54812 "interpeteur/lexiqueTransitions.ml" 802 54808 54842
+call(
+  tail
+)
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 803 54843 54847 "interpeteur/lexiqueTransitions.ml" 803 54843 54868
+type(
+  Lexing.lexbuf -> int -> AnalyseurTransitions.token
+)
+ident(
+  def __ocaml_lex_token_rec "interpeteur/lexiqueTransitions.ml" 801 54785 54785 --
+)
+"interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54876 "interpeteur/lexiqueTransitions.ml" 930 58086 58191
+)
+"interpeteur/lexiqueTransitions.ml" 803 54843 54876 "interpeteur/lexiqueTransitions.ml" 803 54843 54893
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "interpeteur/lexiqueTransitions.ml" 804 54896 54898 "interpeteur/lexiqueTransitions.ml" 930 58086 58191
+)
+"interpeteur/lexiqueTransitions.ml" 804 54896 54904 "interpeteur/lexiqueTransitions.ml" 804 54896 54917
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"interpeteur/lexiqueTransitions.ml" 804 54896 54918 "interpeteur/lexiqueTransitions.ml" 804 54896 54936
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "interpeteur/lexiqueTransitions.ml" 4 110 114 "interpeteur/lexiqueTransitions.ml" 4 110 132
+)
+"interpeteur/lexiqueTransitions.ml" 804 54896 54937 "interpeteur/lexiqueTransitions.ml" 804 54896 54954
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "interpeteur/lexiqueTransitions.ml" 803 54843 54876 "interpeteur/lexiqueTransitions.ml" 803 54843 54893
+)
+"interpeteur/lexiqueTransitions.ml" 804 54896 54955 "interpeteur/lexiqueTransitions.ml" 804 54896 54961
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.ml" 804 54896 54904 "interpeteur/lexiqueTransitions.ml" 804 54896 54961
+call(
+  stack
+)
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.ml" 805 54967 54975 "interpeteur/lexiqueTransitions.ml" 805 54967 54976
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 4 55021 55044 "interpeteur/lexiqueTransitions.mll" 4 55021 55049
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 4 55021 55050 "interpeteur/lexiqueTransitions.mll" 4 55021 55056
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 4 55021 55042 "interpeteur/lexiqueTransitions.mll" 4 55021 55058
+call(
+  tail
+)
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 810 55102 55106 "interpeteur/lexiqueTransitions.ml" 810 55102 55107
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 5 55152 55158 "interpeteur/lexiqueTransitions.mll" 5 55152 55168
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 815 55212 55216 "interpeteur/lexiqueTransitions.ml" 815 55212 55217
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 6 55262 55268 "interpeteur/lexiqueTransitions.mll" 6 55262 55278
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 820 55322 55326 "interpeteur/lexiqueTransitions.ml" 820 55322 55327
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 7 55372 55393 "interpeteur/lexiqueTransitions.mll" 7 55372 55399
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 825 55443 55447 "interpeteur/lexiqueTransitions.ml" 825 55443 55448
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 8 55497 55533 "interpeteur/lexiqueTransitions.mll" 8 55497 55537
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.ml" 830 55580 55582 "interpeteur/lexiqueTransitions.ml" 830 55580 55599
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"interpeteur/lexiqueTransitions.ml" 830 55580 55600 "interpeteur/lexiqueTransitions.ml" 830 55580 55606
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.ml" 830 55580 55607 "interpeteur/lexiqueTransitions.ml" 830 55580 55613
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.ml" 830 55580 55607 "interpeteur/lexiqueTransitions.ml" 830 55580 55634
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.ml" 830 55580 55635 "interpeteur/lexiqueTransitions.ml" 830 55580 55641
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.ml" 830 55580 55635 "interpeteur/lexiqueTransitions.ml" 830 55580 55661
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.ml" 830 55580 55582 "interpeteur/lexiqueTransitions.ml" 830 55580 55661
+call(
+  stack
+)
+type(
+  string
+)
+"interpeteur/lexiqueTransitions.mll" 8 55706 55753 "interpeteur/lexiqueTransitions.mll" 8 55706 55759
+type(
+  string
+)
+ident(
+  int_ref mcle "interpeteur/lexiqueTransitions.mll" 8 55497 55533 "interpeteur/lexiqueTransitions.mll" 8 55497 55537
+)
+"interpeteur/lexiqueTransitions.mll" 8 55706 55747 "interpeteur/lexiqueTransitions.mll" 8 55706 55761
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 826 55452 55452 "interpeteur/lexiqueTransitions.mll" 8 55706 55761
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 835 55805 55809 "interpeteur/lexiqueTransitions.ml" 835 55805 55810
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 9 55855 55861 "interpeteur/lexiqueTransitions.mll" 9 55855 55868
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 840 55912 55916 "interpeteur/lexiqueTransitions.ml" 840 55912 55917
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 10 55963 55976 "interpeteur/lexiqueTransitions.mll" 10 55963 55981
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 10 55963 55982 "interpeteur/lexiqueTransitions.mll" 10 55963 55988
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 10 55963 55974 "interpeteur/lexiqueTransitions.mll" 10 55963 55990
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 845 56034 56038 "interpeteur/lexiqueTransitions.ml" 845 56034 56039
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 11 56085 56098 "interpeteur/lexiqueTransitions.mll" 11 56085 56103
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 11 56085 56104 "interpeteur/lexiqueTransitions.mll" 11 56085 56110
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 11 56085 56096 "interpeteur/lexiqueTransitions.mll" 11 56085 56112
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 850 56156 56160 "interpeteur/lexiqueTransitions.ml" 850 56156 56161
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 12 56207 56221 "interpeteur/lexiqueTransitions.mll" 12 56207 56226
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 12 56207 56227 "interpeteur/lexiqueTransitions.mll" 12 56207 56233
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 12 56207 56219 "interpeteur/lexiqueTransitions.mll" 12 56207 56235
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 855 56279 56283 "interpeteur/lexiqueTransitions.ml" 855 56279 56284
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 13 56330 56344 "interpeteur/lexiqueTransitions.mll" 13 56330 56349
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 13 56330 56350 "interpeteur/lexiqueTransitions.mll" 13 56330 56356
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 13 56330 56342 "interpeteur/lexiqueTransitions.mll" 13 56330 56358
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 860 56402 56406 "interpeteur/lexiqueTransitions.ml" 860 56402 56408
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 14 56454 56466 "interpeteur/lexiqueTransitions.mll" 14 56454 56471
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 14 56454 56472 "interpeteur/lexiqueTransitions.mll" 14 56454 56478
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 14 56454 56464 "interpeteur/lexiqueTransitions.mll" 14 56454 56480
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 865 56524 56528 "interpeteur/lexiqueTransitions.ml" 865 56524 56530
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 15 56576 56588 "interpeteur/lexiqueTransitions.mll" 15 56576 56593
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 15 56576 56594 "interpeteur/lexiqueTransitions.mll" 15 56576 56600
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 15 56576 56586 "interpeteur/lexiqueTransitions.mll" 15 56576 56602
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 870 56646 56650 "interpeteur/lexiqueTransitions.ml" 870 56646 56652
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 16 56698 56708 "interpeteur/lexiqueTransitions.mll" 16 56698 56713
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 16 56698 56714 "interpeteur/lexiqueTransitions.mll" 16 56698 56720
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 16 56698 56706 "interpeteur/lexiqueTransitions.mll" 16 56698 56722
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 875 56766 56770 "interpeteur/lexiqueTransitions.ml" 875 56766 56772
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 17 56818 56828 "interpeteur/lexiqueTransitions.mll" 17 56818 56833
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 17 56818 56834 "interpeteur/lexiqueTransitions.mll" 17 56818 56840
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 17 56818 56826 "interpeteur/lexiqueTransitions.mll" 17 56818 56842
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 880 56886 56890 "interpeteur/lexiqueTransitions.ml" 880 56886 56892
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 18 56938 56946 "interpeteur/lexiqueTransitions.mll" 18 56938 56951
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 18 56938 56952 "interpeteur/lexiqueTransitions.mll" 18 56938 56958
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 18 56938 56944 "interpeteur/lexiqueTransitions.mll" 18 56938 56960
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 885 57004 57008 "interpeteur/lexiqueTransitions.ml" 885 57004 57010
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 19 57056 57064 "interpeteur/lexiqueTransitions.mll" 19 57056 57069
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 19 57056 57070 "interpeteur/lexiqueTransitions.mll" 19 57056 57076
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 19 57056 57062 "interpeteur/lexiqueTransitions.mll" 19 57056 57078
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 890 57122 57126 "interpeteur/lexiqueTransitions.ml" 890 57122 57128
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 20 57174 57183 "interpeteur/lexiqueTransitions.mll" 20 57174 57188
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 20 57174 57189 "interpeteur/lexiqueTransitions.mll" 20 57174 57195
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 20 57174 57181 "interpeteur/lexiqueTransitions.mll" 20 57174 57197
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 895 57241 57245 "interpeteur/lexiqueTransitions.ml" 895 57241 57247
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 21 57293 57302 "interpeteur/lexiqueTransitions.mll" 21 57293 57307
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 21 57293 57308 "interpeteur/lexiqueTransitions.mll" 21 57293 57314
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 21 57293 57300 "interpeteur/lexiqueTransitions.mll" 21 57293 57316
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 900 57360 57364 "interpeteur/lexiqueTransitions.ml" 900 57360 57366
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 22 57412 57422 "interpeteur/lexiqueTransitions.mll" 22 57412 57427
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 22 57412 57428 "interpeteur/lexiqueTransitions.mll" 22 57412 57434
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 22 57412 57420 "interpeteur/lexiqueTransitions.mll" 22 57412 57436
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 905 57480 57484 "interpeteur/lexiqueTransitions.ml" 905 57480 57486
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 23 57532 57542 "interpeteur/lexiqueTransitions.mll" 23 57532 57547
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 23 57532 57548 "interpeteur/lexiqueTransitions.mll" 23 57532 57554
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 23 57532 57540 "interpeteur/lexiqueTransitions.mll" 23 57532 57556
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 910 57600 57604 "interpeteur/lexiqueTransitions.ml" 910 57600 57606
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 24 57652 57660 "interpeteur/lexiqueTransitions.mll" 24 57652 57665
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 24 57652 57666 "interpeteur/lexiqueTransitions.mll" 24 57652 57672
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 24 57652 57658 "interpeteur/lexiqueTransitions.mll" 24 57652 57674
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 915 57718 57722 "interpeteur/lexiqueTransitions.ml" 915 57718 57724
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 25 57770 57778 "interpeteur/lexiqueTransitions.mll" 25 57770 57783
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 25 57770 57784 "interpeteur/lexiqueTransitions.mll" 25 57770 57790
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 25 57770 57776 "interpeteur/lexiqueTransitions.mll" 25 57770 57792
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 920 57836 57840 "interpeteur/lexiqueTransitions.ml" 920 57836 57842
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 26 57888 57903 "interpeteur/lexiqueTransitions.mll" 26 57888 57908
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 26 57888 57909 "interpeteur/lexiqueTransitions.mll" 26 57888 57915
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 26 57888 57901 "interpeteur/lexiqueTransitions.mll" 26 57888 57917
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 925 57961 57965 "interpeteur/lexiqueTransitions.ml" 925 57961 57967
+type(
+  int
+)
+"interpeteur/lexiqueTransitions.mll" 27 58013 58028 "interpeteur/lexiqueTransitions.mll" 27 58013 58033
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueTransitions.ml" 801 54785 54793 "interpeteur/lexiqueTransitions.ml" 801 54785 54798
+)
+"interpeteur/lexiqueTransitions.mll" 27 58013 58034 "interpeteur/lexiqueTransitions.mll" 27 58013 58040
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.mll" 27 58013 58026 "interpeteur/lexiqueTransitions.mll" 27 58013 58042
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58090 "interpeteur/lexiqueTransitions.ml" 930 58086 58107
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "interpeteur/lexiqueTransitions.ml" 930 58086 58111 "interpeteur/lexiqueTransitions.ml" 930 58086 58191
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58111 "interpeteur/lexiqueTransitions.ml" 930 58086 58117
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58111 "interpeteur/lexiqueTransitions.ml" 930 58086 58136
+type(
+  Lexing.lexbuf -> unit
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58137 "interpeteur/lexiqueTransitions.ml" 930 58086 58143
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58111 "interpeteur/lexiqueTransitions.ml" 930 58086 58143
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58145 "interpeteur/lexiqueTransitions.ml" 930 58086 58166
+type(
+  Lexing.lexbuf -> int -> AnalyseurTransitions.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "interpeteur/lexiqueTransitions.ml" 803 54843 54847 "interpeteur/lexiqueTransitions.ml" 803 54843 54868
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58167 "interpeteur/lexiqueTransitions.ml" 930 58086 58173
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueTransitions.ml" 803 54843 54869 "interpeteur/lexiqueTransitions.ml" 803 54843 54875
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58174 "interpeteur/lexiqueTransitions.ml" 930 58086 58191
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "interpeteur/lexiqueTransitions.ml" 930 58086 58090 "interpeteur/lexiqueTransitions.ml" 930 58086 58107
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58145 "interpeteur/lexiqueTransitions.ml" 930 58086 58191
+call(
+  tail
+)
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 930 58086 58111 "interpeteur/lexiqueTransitions.ml" 930 58086 58191
+type(
+  AnalyseurTransitions.token
+)
+"interpeteur/lexiqueTransitions.ml" 804 54896 54898 "interpeteur/lexiqueTransitions.ml" 930 58086 58191
+type(
+  AnalyseurTransitions.token
+)

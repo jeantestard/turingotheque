@@ -1,0 +1,1061 @@
+"interpeteur/analyseurTransitions.ml" 12 201 205 "interpeteur/analyseurTransitions.ml" 12 201 219
+type(
+  int array
+)
+ident(
+  def yytransl_const "interpeteur/analyseurTransitions.ml" 19 307 307 --
+)
+"interpeteur/analyseurTransitions.ml" 13 225 227 "interpeteur/analyseurTransitions.ml" 13 225 230
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 14 245 247 "interpeteur/analyseurTransitions.ml" 14 245 250
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 15 265 267 "interpeteur/analyseurTransitions.ml" 15 265 270
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 16 281 285 "interpeteur/analyseurTransitions.ml" 16 281 286
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 17 298 302 "interpeteur/analyseurTransitions.ml" 17 298 303
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 12 201 222 "interpeteur/analyseurTransitions.ml" 17 298 305
+type(
+  int array
+)
+"interpeteur/analyseurTransitions.ml" 19 307 311 "interpeteur/analyseurTransitions.ml" 19 307 325
+type(
+  int array
+)
+ident(
+  def yytransl_block "interpeteur/analyseurTransitions.ml" 23 358 358 --
+)
+"interpeteur/analyseurTransitions.ml" 20 331 333 "interpeteur/analyseurTransitions.ml" 20 331 336
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 21 349 353 "interpeteur/analyseurTransitions.ml" 21 349 354
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 19 307 328 "interpeteur/analyseurTransitions.ml" 21 349 356
+type(
+  int array
+)
+"interpeteur/analyseurTransitions.ml" 23 358 362 "interpeteur/analyseurTransitions.ml" 23 358 367
+type(
+  string
+)
+ident(
+  def yylhs "interpeteur/analyseurTransitions.ml" 26 448 448 --
+)
+"interpeteur/analyseurTransitions.ml" 23 358 370 "interpeteur/analyseurTransitions.ml" 24 381 446
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 26 448 452 "interpeteur/analyseurTransitions.ml" 26 448 457
+type(
+  string
+)
+ident(
+  def yylen "interpeteur/analyseurTransitions.ml" 29 538 538 --
+)
+"interpeteur/analyseurTransitions.ml" 26 448 460 "interpeteur/analyseurTransitions.ml" 27 471 536
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 29 538 542 "interpeteur/analyseurTransitions.ml" 29 538 550
+type(
+  string
+)
+ident(
+  def yydefred "interpeteur/analyseurTransitions.ml" 33 689 689 --
+)
+"interpeteur/analyseurTransitions.ml" 29 538 553 "interpeteur/analyseurTransitions.ml" 31 630 687
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 33 689 693 "interpeteur/analyseurTransitions.ml" 33 689 700
+type(
+  string
+)
+ident(
+  def yydgoto "interpeteur/analyseurTransitions.ml" 36 749 749 --
+)
+"interpeteur/analyseurTransitions.ml" 33 689 703 "interpeteur/analyseurTransitions.ml" 34 714 747
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 36 749 753 "interpeteur/analyseurTransitions.ml" 36 749 761
+type(
+  string
+)
+ident(
+  def yysindex "interpeteur/analyseurTransitions.ml" 40 900 900 --
+)
+"interpeteur/analyseurTransitions.ml" 36 749 764 "interpeteur/analyseurTransitions.ml" 38 841 898
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 40 900 904 "interpeteur/analyseurTransitions.ml" 40 900 912
+type(
+  string
+)
+ident(
+  def yyrindex "interpeteur/analyseurTransitions.ml" 44 1051 1051 --
+)
+"interpeteur/analyseurTransitions.ml" 40 900 915 "interpeteur/analyseurTransitions.ml" 42 992 1049
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 44 1051 1055 "interpeteur/analyseurTransitions.ml" 44 1051 1063
+type(
+  string
+)
+ident(
+  def yygindex "interpeteur/analyseurTransitions.ml" 47 1112 1112 --
+)
+"interpeteur/analyseurTransitions.ml" 44 1051 1066 "interpeteur/analyseurTransitions.ml" 45 1077 1110
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 47 1112 1116 "interpeteur/analyseurTransitions.ml" 47 1112 1127
+type(
+  int
+)
+ident(
+  def yytablesize "interpeteur/analyseurTransitions.ml" 48 1134 1134 --
+)
+"interpeteur/analyseurTransitions.ml" 47 1112 1130 "interpeteur/analyseurTransitions.ml" 47 1112 1133
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 48 1134 1138 "interpeteur/analyseurTransitions.ml" 48 1134 1145
+type(
+  string
+)
+ident(
+  def yytable "interpeteur/analyseurTransitions.ml" 83 3314 3314 --
+)
+"interpeteur/analyseurTransitions.ml" 48 1134 1148 "interpeteur/analyseurTransitions.ml" 81 3271 3312
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 83 3314 3318 "interpeteur/analyseurTransitions.ml" 83 3314 3325
+type(
+  string
+)
+ident(
+  def yycheck "interpeteur/analyseurTransitions.ml" 118 5494 5494 --
+)
+"interpeteur/analyseurTransitions.ml" 83 3314 3328 "interpeteur/analyseurTransitions.ml" 116 5451 5492
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 118 5494 5498 "interpeteur/analyseurTransitions.ml" 118 5494 5511
+type(
+  string
+)
+ident(
+  def yynames_const "interpeteur/analyseurTransitions.ml" 125 5571 5571 --
+)
+"interpeteur/analyseurTransitions.ml" 118 5494 5514 "interpeteur/analyseurTransitions.ml" 123 5566 5569
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 125 5571 5575 "interpeteur/analyseurTransitions.ml" 125 5571 5588
+type(
+  string
+)
+ident(
+  def yynames_block "interpeteur/analyseurTransitions.ml" 129 5611 5611 --
+)
+"interpeteur/analyseurTransitions.ml" 125 5571 5591 "interpeteur/analyseurTransitions.ml" 127 5606 5609
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 129 5611 5615 "interpeteur/analyseurTransitions.ml" 129 5611 5620
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+  def yyact "interpeteur/analyseurTransitions.ml" 193 7988 7988 --
+)
+"interpeteur/analyseurTransitions.ml" 130 5626 5633 "interpeteur/analyseurTransitions.ml" 130 5626 5634
+type(
+  Parsing.parser_env
+)
+"interpeteur/analyseurTransitions.ml" 130 5626 5638 "interpeteur/analyseurTransitions.ml" 130 5626 5646
+type(
+  string -> Obj.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"interpeteur/analyseurTransitions.ml" 130 5626 5647 "interpeteur/analyseurTransitions.ml" 130 5626 5655
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 130 5626 5638 "interpeteur/analyseurTransitions.ml" 130 5626 5655
+call(
+  tail
+)
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 130 5626 5628 "interpeteur/analyseurTransitions.ml" 130 5626 5656
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 131 5657 5664 "interpeteur/analyseurTransitions.ml" 131 5657 5681
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 132 5685 5689 "interpeteur/analyseurTransitions.ml" 136 5803 5824
+)
+"interpeteur/analyseurTransitions.ml" 132 5685 5689 "interpeteur/analyseurTransitions.ml" 132 5685 5697
+type(
+  int -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"interpeteur/analyseurTransitions.mly" 16 5743 5752 "interpeteur/analyseurTransitions.mly" 16 5743 5758
+type(
+  int
+)
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 132 5685 5689 "interpeteur/analyseurTransitions.ml" 136 5803 5824
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 131 5657 5659 "interpeteur/analyseurTransitions.ml" 136 5803 5825
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 137 5826 5833 "interpeteur/analyseurTransitions.ml" 137 5826 5850
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 138 5854 5858 "interpeteur/analyseurTransitions.ml" 142 5973 5994
+)
+"interpeteur/analyseurTransitions.ml" 138 5854 5858 "interpeteur/analyseurTransitions.ml" 138 5854 5866
+type(
+  int -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"interpeteur/analyseurTransitions.mly" 17 5912 5923 "interpeteur/analyseurTransitions.mly" 17 5912 5928
+type(
+  int
+)
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 138 5854 5858 "interpeteur/analyseurTransitions.ml" 142 5973 5994
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 137 5826 5828 "interpeteur/analyseurTransitions.ml" 142 5973 5995
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 143 5996 6003 "interpeteur/analyseurTransitions.ml" 143 5996 6020
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 144 6024 6028 "interpeteur/analyseurTransitions.ml" 148 6139 6160
+)
+"interpeteur/analyseurTransitions.ml" 144 6024 6028 "interpeteur/analyseurTransitions.ml" 144 6024 6036
+type(
+  int -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"interpeteur/analyseurTransitions.mly" 18 6082 6089 "interpeteur/analyseurTransitions.mly" 18 6082 6094
+type(
+  int
+)
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 144 6024 6028 "interpeteur/analyseurTransitions.ml" 148 6139 6160
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 143 5996 5998 "interpeteur/analyseurTransitions.ml" 148 6139 6161
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 149 6162 6169 "interpeteur/analyseurTransitions.ml" 149 6162 6186
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 150 6190 6194 "interpeteur/analyseurTransitions.ml" 167 6788 6837
+)
+"interpeteur/analyseurTransitions.ml" 150 6190 6198 "interpeteur/analyseurTransitions.ml" 150 6190 6200
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 150 6190 6204 "interpeteur/analyseurTransitions.ml" 150 6190 6220
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 150 6190 6221 "interpeteur/analyseurTransitions.ml" 150 6190 6238
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 149 6162 6169 "interpeteur/analyseurTransitions.ml" 149 6162 6186
+)
+"interpeteur/analyseurTransitions.ml" 150 6190 6239 "interpeteur/analyseurTransitions.ml" 150 6190 6240
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 150 6190 6204 "interpeteur/analyseurTransitions.ml" 150 6190 6240
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 151 6254 6262 "interpeteur/analyseurTransitions.ml" 151 6254 6264
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 151 6254 6268 "interpeteur/analyseurTransitions.ml" 151 6254 6284
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 151 6254 6285 "interpeteur/analyseurTransitions.ml" 151 6254 6302
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 149 6162 6169 "interpeteur/analyseurTransitions.ml" 149 6162 6186
+)
+"interpeteur/analyseurTransitions.ml" 151 6254 6303 "interpeteur/analyseurTransitions.ml" 151 6254 6304
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 151 6254 6268 "interpeteur/analyseurTransitions.ml" 151 6254 6304
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 152 6318 6326 "interpeteur/analyseurTransitions.ml" 152 6318 6328
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 152 6318 6332 "interpeteur/analyseurTransitions.ml" 152 6318 6348
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 152 6318 6349 "interpeteur/analyseurTransitions.ml" 152 6318 6366
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 149 6162 6169 "interpeteur/analyseurTransitions.ml" 149 6162 6186
+)
+"interpeteur/analyseurTransitions.ml" 152 6318 6367 "interpeteur/analyseurTransitions.ml" 152 6318 6368
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 152 6318 6332 "interpeteur/analyseurTransitions.ml" 152 6318 6368
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 153 6382 6390 "interpeteur/analyseurTransitions.ml" 153 6382 6392
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 153 6382 6396 "interpeteur/analyseurTransitions.ml" 153 6382 6412
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 153 6382 6413 "interpeteur/analyseurTransitions.ml" 153 6382 6430
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 149 6162 6169 "interpeteur/analyseurTransitions.ml" 149 6162 6186
+)
+"interpeteur/analyseurTransitions.ml" 153 6382 6431 "interpeteur/analyseurTransitions.ml" 153 6382 6432
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 153 6382 6396 "interpeteur/analyseurTransitions.ml" 153 6382 6432
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+"interpeteur/analyseurTransitions.ml" 154 6446 6454 "interpeteur/analyseurTransitions.ml" 154 6446 6456
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 154 6446 6460 "interpeteur/analyseurTransitions.ml" 154 6446 6476
+type(
+  Parsing.parser_env -> int -> int
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 154 6446 6477 "interpeteur/analyseurTransitions.ml" 154 6446 6494
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 149 6162 6169 "interpeteur/analyseurTransitions.ml" 149 6162 6186
+)
+"interpeteur/analyseurTransitions.ml" 154 6446 6495 "interpeteur/analyseurTransitions.ml" 154 6446 6496
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 154 6446 6460 "interpeteur/analyseurTransitions.ml" 154 6446 6496
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 155 6507 6511 "interpeteur/analyseurTransitions.ml" 155 6507 6519
+type(
+  GrammaireTransitions.transition -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"interpeteur/analyseurTransitions.mly" 23 6602 6624 "interpeteur/analyseurTransitions.mly" 23 6602 6626
+type(
+  string
+)
+ident(
+  int_ref _1 "interpeteur/analyseurTransitions.ml" 150 6190 6198 "interpeteur/analyseurTransitions.ml" 150 6190 6200
+)
+"interpeteur/analyseurTransitions.mly" 24 6628 6651 "interpeteur/analyseurTransitions.mly" 24 6628 6653
+type(
+  string
+)
+ident(
+  int_ref _2 "interpeteur/analyseurTransitions.ml" 151 6254 6262 "interpeteur/analyseurTransitions.ml" 151 6254 6264
+)
+"interpeteur/analyseurTransitions.mly" 25 6655 6677 "interpeteur/analyseurTransitions.mly" 25 6655 6679
+type(
+  string
+)
+ident(
+  int_ref _3 "interpeteur/analyseurTransitions.ml" 152 6318 6326 "interpeteur/analyseurTransitions.ml" 152 6318 6328
+)
+"interpeteur/analyseurTransitions.mly" 26 6681 6705 "interpeteur/analyseurTransitions.mly" 26 6681 6707
+type(
+  string
+)
+ident(
+  int_ref _4 "interpeteur/analyseurTransitions.ml" 153 6382 6390 "interpeteur/analyseurTransitions.ml" 153 6382 6392
+)
+"interpeteur/analyseurTransitions.mly" 27 6709 6735 "interpeteur/analyseurTransitions.mly" 27 6709 6737
+type(
+  int
+)
+ident(
+  int_ref _5 "interpeteur/analyseurTransitions.ml" 154 6446 6454 "interpeteur/analyseurTransitions.ml" 154 6446 6456
+)
+"interpeteur/analyseurTransitions.mly" 21 6565 6596 "interpeteur/analyseurTransitions.mly" 29 6742 6743
+type(
+  GrammaireTransitions.transition
+)
+type(
+  GrammaireTransitions.transition
+)
+"interpeteur/analyseurTransitions.ml" 155 6507 6511 "interpeteur/analyseurTransitions.ml" 167 6788 6837
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 154 6446 6450 "interpeteur/analyseurTransitions.ml" 167 6788 6837
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 153 6382 6386 "interpeteur/analyseurTransitions.ml" 167 6788 6837
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 152 6318 6322 "interpeteur/analyseurTransitions.ml" 167 6788 6837
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 151 6254 6258 "interpeteur/analyseurTransitions.ml" 167 6788 6837
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 150 6190 6194 "interpeteur/analyseurTransitions.ml" 167 6788 6837
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 149 6162 6164 "interpeteur/analyseurTransitions.ml" 167 6788 6838
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 168 6839 6846 "interpeteur/analyseurTransitions.ml" 168 6839 6863
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 169 6867 6871 "interpeteur/analyseurTransitions.ml" 175 7192 7246
+)
+"interpeteur/analyseurTransitions.ml" 169 6867 6875 "interpeteur/analyseurTransitions.ml" 169 6867 6877
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/analyseurTransitions.ml" 169 6867 6881 "interpeteur/analyseurTransitions.ml" 169 6867 6897
+type(
+  Parsing.parser_env -> int -> GrammaireTransitions.transition list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 169 6867 6898 "interpeteur/analyseurTransitions.ml" 169 6867 6915
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 168 6839 6846 "interpeteur/analyseurTransitions.ml" 168 6839 6863
+)
+"interpeteur/analyseurTransitions.ml" 169 6867 6916 "interpeteur/analyseurTransitions.ml" 169 6867 6917
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 169 6867 6881 "interpeteur/analyseurTransitions.ml" 169 6867 6917
+call(
+  stack
+)
+type(
+  GrammaireTransitions.transition list
+)
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/analyseurTransitions.ml" 170 6961 6969 "interpeteur/analyseurTransitions.ml" 170 6961 6971
+type(
+  GrammaireTransitions.transition
+)
+"interpeteur/analyseurTransitions.ml" 170 6961 6975 "interpeteur/analyseurTransitions.ml" 170 6961 6991
+type(
+  Parsing.parser_env -> int -> GrammaireTransitions.transition
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 170 6961 6992 "interpeteur/analyseurTransitions.ml" 170 6961 7009
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 168 6839 6846 "interpeteur/analyseurTransitions.ml" 168 6839 6863
+)
+"interpeteur/analyseurTransitions.ml" 170 6961 7010 "interpeteur/analyseurTransitions.ml" 170 6961 7011
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 170 6961 6975 "interpeteur/analyseurTransitions.ml" 170 6961 7011
+call(
+  stack
+)
+type(
+  GrammaireTransitions.transition
+)
+type(
+  GrammaireTransitions.transition
+)
+"interpeteur/analyseurTransitions.ml" 171 7050 7054 "interpeteur/analyseurTransitions.ml" 171 7050 7062
+type(
+  GrammaireTransitions.transition list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"interpeteur/analyseurTransitions.mly" 32 7108 7139 "interpeteur/analyseurTransitions.mly" 32 7108 7141
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  int_ref _2 "interpeteur/analyseurTransitions.ml" 170 6961 6969 "interpeteur/analyseurTransitions.ml" 170 6961 6971
+)
+"interpeteur/analyseurTransitions.mly" 32 7108 7143 "interpeteur/analyseurTransitions.mly" 32 7108 7145
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref _1 "interpeteur/analyseurTransitions.ml" 169 6867 6875 "interpeteur/analyseurTransitions.ml" 169 6867 6877
+)
+"interpeteur/analyseurTransitions.mly" 32 7108 7137 "interpeteur/analyseurTransitions.mly" 32 7108 7147
+type(
+  GrammaireTransitions.transition list
+)
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/analyseurTransitions.ml" 171 7050 7054 "interpeteur/analyseurTransitions.ml" 175 7192 7246
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 170 6961 6965 "interpeteur/analyseurTransitions.ml" 175 7192 7246
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 169 6867 6871 "interpeteur/analyseurTransitions.ml" 175 7192 7246
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 168 6839 6841 "interpeteur/analyseurTransitions.ml" 175 7192 7247
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 176 7248 7255 "interpeteur/analyseurTransitions.ml" 176 7248 7272
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 177 7276 7280 "interpeteur/analyseurTransitions.ml" 182 7491 7545
+)
+"interpeteur/analyseurTransitions.ml" 177 7276 7284 "interpeteur/analyseurTransitions.ml" 177 7276 7286
+type(
+  GrammaireTransitions.transition
+)
+"interpeteur/analyseurTransitions.ml" 177 7276 7290 "interpeteur/analyseurTransitions.ml" 177 7276 7306
+type(
+  Parsing.parser_env -> int -> GrammaireTransitions.transition
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 177 7276 7307 "interpeteur/analyseurTransitions.ml" 177 7276 7324
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 176 7248 7255 "interpeteur/analyseurTransitions.ml" 176 7248 7272
+)
+"interpeteur/analyseurTransitions.ml" 177 7276 7325 "interpeteur/analyseurTransitions.ml" 177 7276 7326
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 177 7276 7290 "interpeteur/analyseurTransitions.ml" 177 7276 7326
+call(
+  stack
+)
+type(
+  GrammaireTransitions.transition
+)
+type(
+  GrammaireTransitions.transition
+)
+"interpeteur/analyseurTransitions.ml" 178 7365 7369 "interpeteur/analyseurTransitions.ml" 178 7365 7377
+type(
+  GrammaireTransitions.transition list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"interpeteur/analyseurTransitions.mly" 33 7423 7441 "interpeteur/analyseurTransitions.mly" 33 7423 7443
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  int_ref _1 "interpeteur/analyseurTransitions.ml" 177 7276 7284 "interpeteur/analyseurTransitions.ml" 177 7276 7286
+)
+"interpeteur/analyseurTransitions.mly" 33 7423 7438 "interpeteur/analyseurTransitions.mly" 33 7423 7446
+type(
+  GrammaireTransitions.transition list
+)
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/analyseurTransitions.ml" 178 7365 7369 "interpeteur/analyseurTransitions.ml" 182 7491 7545
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 177 7276 7280 "interpeteur/analyseurTransitions.ml" 182 7491 7545
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 176 7248 7250 "interpeteur/analyseurTransitions.ml" 182 7491 7546
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 183 7547 7554 "interpeteur/analyseurTransitions.ml" 183 7547 7571
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 184 7575 7579 "interpeteur/analyseurTransitions.ml" 189 7809 7863
+)
+"interpeteur/analyseurTransitions.ml" 184 7575 7583 "interpeteur/analyseurTransitions.ml" 184 7575 7585
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/analyseurTransitions.ml" 184 7575 7589 "interpeteur/analyseurTransitions.ml" 184 7575 7605
+type(
+  Parsing.parser_env -> int -> GrammaireTransitions.transition list
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 184 7575 7606 "interpeteur/analyseurTransitions.ml" 184 7575 7623
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 183 7547 7554 "interpeteur/analyseurTransitions.ml" 183 7547 7571
+)
+"interpeteur/analyseurTransitions.ml" 184 7575 7624 "interpeteur/analyseurTransitions.ml" 184 7575 7625
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 184 7575 7589 "interpeteur/analyseurTransitions.ml" 184 7575 7625
+call(
+  stack
+)
+type(
+  GrammaireTransitions.transition list
+)
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/analyseurTransitions.ml" 185 7669 7673 "interpeteur/analyseurTransitions.ml" 185 7669 7681
+type(
+  GrammaireTransitions.transition list -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"interpeteur/analyseurTransitions.mly" 36 7727 7751 "interpeteur/analyseurTransitions.mly" 36 7727 7759
+type(
+  GrammaireTransitions.transition list ->
+  GrammaireTransitions.transition list
+)
+ident(
+  ext_ref List.rev
+)
+"interpeteur/analyseurTransitions.mly" 36 7727 7760 "interpeteur/analyseurTransitions.mly" 36 7727 7762
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref _1 "interpeteur/analyseurTransitions.ml" 184 7575 7583 "interpeteur/analyseurTransitions.ml" 184 7575 7585
+)
+"interpeteur/analyseurTransitions.mly" 36 7727 7749 "interpeteur/analyseurTransitions.mly" 36 7727 7764
+call(
+  tail
+)
+type(
+  GrammaireTransitions.transition list
+)
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/analyseurTransitions.ml" 185 7669 7673 "interpeteur/analyseurTransitions.ml" 189 7809 7863
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 184 7575 7579 "interpeteur/analyseurTransitions.ml" 189 7809 7863
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 183 7547 7549 "interpeteur/analyseurTransitions.ml" 189 7809 7864
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7901 "interpeteur/analyseurTransitions.ml" 191 7894 7918
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "interpeteur/analyseurTransitions.ml" 191 7894 7922 "interpeteur/analyseurTransitions.ml" 191 7894 7983
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7922 "interpeteur/analyseurTransitions.ml" 191 7894 7927
+type(
+  exn -> Obj.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7945 "interpeteur/analyseurTransitions.ml" 191 7894 7961
+type(
+  Parsing.parser_env -> int -> Obj.t
+)
+ident(
+  ext_ref Parsing.peek_val
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7962 "interpeteur/analyseurTransitions.ml" 191 7894 7979
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "interpeteur/analyseurTransitions.ml" 191 7894 7901 "interpeteur/analyseurTransitions.ml" 191 7894 7918
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7980 "interpeteur/analyseurTransitions.ml" 191 7894 7981
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7944 "interpeteur/analyseurTransitions.ml" 191 7894 7982
+call(
+  stack
+)
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7928 "interpeteur/analyseurTransitions.ml" 191 7894 7983
+type(
+  exn
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7922 "interpeteur/analyseurTransitions.ml" 191 7894 7983
+type(
+  Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 191 7894 7896 "interpeteur/analyseurTransitions.ml" 191 7894 7984
+type(
+  Parsing.parser_env -> Obj.t
+)
+"interpeteur/analyseurTransitions.ml" 129 5611 5623 "interpeteur/analyseurTransitions.ml" 192 7985 7987
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+"interpeteur/analyseurTransitions.ml" 193 7988 7992 "interpeteur/analyseurTransitions.ml" 193 7988 8000
+type(
+  Parsing.parse_tables
+)
+ident(
+  def yytables "interpeteur/analyseurTransitions.ml" 210 8509 8509 --
+)
+"interpeteur/analyseurTransitions.ml" 194 8003 8023 "interpeteur/analyseurTransitions.ml" 194 8003 8028
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+  int_ref yyact "interpeteur/analyseurTransitions.ml" 129 5611 5615 "interpeteur/analyseurTransitions.ml" 129 5611 5620
+)
+"interpeteur/analyseurTransitions.ml" 195 8030 8055 "interpeteur/analyseurTransitions.ml" 195 8030 8069
+type(
+  int array
+)
+ident(
+  int_ref yytransl_const "interpeteur/analyseurTransitions.ml" 12 201 205 "interpeteur/analyseurTransitions.ml" 12 201 219
+)
+"interpeteur/analyseurTransitions.ml" 196 8071 8096 "interpeteur/analyseurTransitions.ml" 196 8071 8110
+type(
+  int array
+)
+ident(
+  int_ref yytransl_block "interpeteur/analyseurTransitions.ml" 19 307 311 "interpeteur/analyseurTransitions.ml" 19 307 325
+)
+"interpeteur/analyseurTransitions.ml" 197 8112 8128 "interpeteur/analyseurTransitions.ml" 197 8112 8133
+type(
+  string
+)
+ident(
+  int_ref yylhs "interpeteur/analyseurTransitions.ml" 23 358 362 "interpeteur/analyseurTransitions.ml" 23 358 367
+)
+"interpeteur/analyseurTransitions.ml" 198 8135 8151 "interpeteur/analyseurTransitions.ml" 198 8135 8156
+type(
+  string
+)
+ident(
+  int_ref yylen "interpeteur/analyseurTransitions.ml" 26 448 452 "interpeteur/analyseurTransitions.ml" 26 448 457
+)
+"interpeteur/analyseurTransitions.ml" 199 8158 8177 "interpeteur/analyseurTransitions.ml" 199 8158 8185
+type(
+  string
+)
+ident(
+  int_ref yydefred "interpeteur/analyseurTransitions.ml" 29 538 542 "interpeteur/analyseurTransitions.ml" 29 538 550
+)
+"interpeteur/analyseurTransitions.ml" 200 8187 8205 "interpeteur/analyseurTransitions.ml" 200 8187 8212
+type(
+  string
+)
+ident(
+  int_ref yydgoto "interpeteur/analyseurTransitions.ml" 33 689 693 "interpeteur/analyseurTransitions.ml" 33 689 700
+)
+"interpeteur/analyseurTransitions.ml" 201 8214 8233 "interpeteur/analyseurTransitions.ml" 201 8214 8241
+type(
+  string
+)
+ident(
+  int_ref yysindex "interpeteur/analyseurTransitions.ml" 36 749 753 "interpeteur/analyseurTransitions.ml" 36 749 761
+)
+"interpeteur/analyseurTransitions.ml" 202 8243 8262 "interpeteur/analyseurTransitions.ml" 202 8243 8270
+type(
+  string
+)
+ident(
+  int_ref yyrindex "interpeteur/analyseurTransitions.ml" 40 900 904 "interpeteur/analyseurTransitions.ml" 40 900 912
+)
+"interpeteur/analyseurTransitions.ml" 203 8272 8291 "interpeteur/analyseurTransitions.ml" 203 8272 8299
+type(
+  string
+)
+ident(
+  int_ref yygindex "interpeteur/analyseurTransitions.ml" 44 1051 1055 "interpeteur/analyseurTransitions.ml" 44 1051 1063
+)
+"interpeteur/analyseurTransitions.ml" 204 8301 8323 "interpeteur/analyseurTransitions.ml" 204 8301 8334
+type(
+  int
+)
+ident(
+  int_ref yytablesize "interpeteur/analyseurTransitions.ml" 47 1112 1116 "interpeteur/analyseurTransitions.ml" 47 1112 1127
+)
+"interpeteur/analyseurTransitions.ml" 205 8336 8354 "interpeteur/analyseurTransitions.ml" 205 8336 8361
+type(
+  string
+)
+ident(
+  int_ref yytable "interpeteur/analyseurTransitions.ml" 48 1134 1138 "interpeteur/analyseurTransitions.ml" 48 1134 1145
+)
+"interpeteur/analyseurTransitions.ml" 206 8363 8381 "interpeteur/analyseurTransitions.ml" 206 8363 8388
+type(
+  string
+)
+ident(
+  int_ref yycheck "interpeteur/analyseurTransitions.ml" 83 3314 3318 "interpeteur/analyseurTransitions.ml" 83 3314 3325
+)
+"interpeteur/analyseurTransitions.ml" 207 8390 8417 "interpeteur/analyseurTransitions.ml" 207 8390 8428
+type(
+  string -> unit
+)
+ident(
+  ext_ref Parsing.parse_error
+)
+"interpeteur/analyseurTransitions.ml" 208 8430 8454 "interpeteur/analyseurTransitions.ml" 208 8430 8467
+type(
+  string
+)
+ident(
+  int_ref yynames_const "interpeteur/analyseurTransitions.ml" 118 5494 5498 "interpeteur/analyseurTransitions.ml" 118 5494 5511
+)
+"interpeteur/analyseurTransitions.ml" 209 8469 8493 "interpeteur/analyseurTransitions.ml" 209 8469 8506
+type(
+  string
+)
+ident(
+  int_ref yynames_block "interpeteur/analyseurTransitions.ml" 125 5571 5575 "interpeteur/analyseurTransitions.ml" 125 5571 5588
+)
+"interpeteur/analyseurTransitions.ml" 194 8003 8005 "interpeteur/analyseurTransitions.ml" 209 8469 8508
+type(
+  Parsing.parse_tables
+)
+"interpeteur/analyseurTransitions.ml" 210 8509 8513 "interpeteur/analyseurTransitions.ml" 210 8509 8529
+type(
+  (Lexing.lexbuf -> token) ->
+  Lexing.lexbuf -> GrammaireTransitions.transition list
+)
+ident(
+  def tableTransitions "interpeteur/analyseurTransitions.ml" 211 8591 8675 --
+)
+"interpeteur/analyseurTransitions.ml" 210 8509 8531 "interpeteur/analyseurTransitions.ml" 210 8509 8537
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  def lexfun "interpeteur/analyseurTransitions.ml" 210 8509 8564 "interpeteur/analyseurTransitions.ml" 211 8591 8675
+)
+"interpeteur/analyseurTransitions.ml" 210 8509 8565 "interpeteur/analyseurTransitions.ml" 210 8509 8571
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interpeteur/analyseurTransitions.ml" 211 8591 8594 "interpeteur/analyseurTransitions.ml" 211 8591 8675
+)
+"interpeteur/analyseurTransitions.ml" 211 8591 8595 "interpeteur/analyseurTransitions.ml" 211 8591 8610
+type(
+  Parsing.parse_tables ->
+  int ->
+  (Lexing.lexbuf -> token) ->
+  Lexing.lexbuf -> GrammaireTransitions.transition list
+)
+ident(
+  ext_ref Parsing.yyparse
+)
+"interpeteur/analyseurTransitions.ml" 211 8591 8611 "interpeteur/analyseurTransitions.ml" 211 8591 8619
+type(
+  Parsing.parse_tables
+)
+ident(
+  int_ref yytables "interpeteur/analyseurTransitions.ml" 193 7988 7992 "interpeteur/analyseurTransitions.ml" 193 7988 8000
+)
+"interpeteur/analyseurTransitions.ml" 211 8591 8620 "interpeteur/analyseurTransitions.ml" 211 8591 8621
+type(
+  int
+)
+"interpeteur/analyseurTransitions.ml" 211 8591 8622 "interpeteur/analyseurTransitions.ml" 211 8591 8628
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  int_ref lexfun "interpeteur/analyseurTransitions.ml" 210 8509 8531 "interpeteur/analyseurTransitions.ml" 210 8509 8537
+)
+"interpeteur/analyseurTransitions.ml" 211 8591 8629 "interpeteur/analyseurTransitions.ml" 211 8591 8635
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/analyseurTransitions.ml" 210 8509 8565 "interpeteur/analyseurTransitions.ml" 210 8509 8571
+)
+"interpeteur/analyseurTransitions.ml" 211 8591 8595 "interpeteur/analyseurTransitions.ml" 211 8591 8635
+call(
+  tail
+)
+type(
+  GrammaireTransitions.transition list
+)
+type(
+  GrammaireTransitions.transition list
+)

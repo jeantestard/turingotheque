@@ -1,0 +1,96 @@
+D{
+etat1 1 etat2 1 D
+etat1 0 etat2 0 D
+}D
+SI{
+FIN{
+etat3 1 etat5 1 lecture_ecriture
+etat3 0 etat5 0 lecture_ecriture
+}FIN
+etat2 1 etat3 1 lecture_ecriture
+etat2 0 etat4 0 lecture_ecriture
+}SI
+BOUCLE{
+etat0 1 etat1 1 lecture_ecriture
+etat0 0 etat1 0 lecture_ecriture
+etat4 1 etat0 1 lecture_ecriture
+etat4 0 etat0 0 lecture_ecriture
+}BOUCLE
+D{
+etat6 1 etat7 1 D
+etat6 0 etat7 0 D
+}D
+D{
+etat7 1 etat8 1 D
+etat7 0 etat8 0 D
+}D
+SI{
+FIN{
+etat9 1 etat11 1 lecture_ecriture
+etat9 0 etat11 0 lecture_ecriture
+}FIN
+etat8 1 etat10 1 lecture_ecriture
+etat8 0 etat9 0 lecture_ecriture
+}SI
+BOUCLE{
+etat5 1 etat6 1 lecture_ecriture
+etat5 0 etat6 0 lecture_ecriture
+etat10 1 etat5 1 lecture_ecriture
+etat10 0 etat5 0 lecture_ecriture
+}BOUCLE
+G{
+etat11 1 etat12 1 G
+etat11 0 etat12 0 G
+}G
+G{
+etat12 1 etat13 1 G
+etat12 0 etat13 0 G
+}G
+G{
+etat13 1 etat14 1 G
+etat13 0 etat14 0 G
+}G
+SIALT{
+ECRITURE{
+etat16 1 etat17 0 lecture_ecriture
+etat16 0 etat17 0 lecture_ecriture
+}ECRITURE 
+G{
+etat17 1 etat18 1 G
+etat17 0 etat18 0 G
+}G
+etat15 1 etat16 1 lecture_ecriture
+etat15 0 etat19 0 lecture_ecriture
+}SIALT
+ALT{
+FIN{
+etat19 1 etat21 1 lecture_ecriture
+etat19 0 etat21 0 lecture_ecriture
+}FIN
+etat18 1 etat20 1 lecture_ecriture
+etat18 0 etat20 0 lecture_ecriture
+}ALT
+BOUCLE{
+etat14 1 etat15 1 lecture_ecriture
+etat14 0 etat15 0 lecture_ecriture
+etat20 1 etat14 1 lecture_ecriture
+etat20 0 etat14 0 lecture_ecriture
+}BOUCLE
+D{
+etat22 1 etat23 1 D
+etat22 0 etat23 0 D
+}D
+SI{
+FIN{
+etat24 1 etat26 1 lecture_ecriture
+etat24 0 etat26 0 lecture_ecriture
+}FIN
+etat23 1 etat24 1 lecture_ecriture
+etat23 0 etat25 0 lecture_ecriture
+}SI
+BOUCLE{
+etat21 1 etat22 1 lecture_ecriture
+etat21 0 etat22 0 lecture_ecriture
+etat25 1 etat21 1 lecture_ecriture
+etat25 0 etat21 0 lecture_ecriture
+}BOUCLE

@@ -1,0 +1,134 @@
+D{
+etat1 1 etat2 1 D
+etat1 0 etat2 0 D
+}D
+SI{
+FIN{
+etat3 1 etat5 1 lecture_ecriture
+etat3 0 etat5 0 lecture_ecriture
+}FIN
+etat2 1 etat3 1 lecture_ecriture
+etat2 0 etat4 0 lecture_ecriture
+}SI
+BOUCLE{
+etat0 1 etat1 1 lecture_ecriture
+etat0 0 etat1 0 lecture_ecriture
+etat4 1 etat0 1 lecture_ecriture
+etat4 0 etat0 0 lecture_ecriture
+}BOUCLE
+D{
+etat6 1 etat7 1 D
+etat6 0 etat7 0 D
+}D
+ECRITURE{
+etat7 1 etat8 0 lecture_ecriture
+etat7 0 etat8 0 lecture_ecriture
+}ECRITURE 
+D{
+etat8 1 etat9 1 D
+etat8 0 etat9 0 D
+}D
+SI{
+FIN{
+etat10 1 etat12 1 lecture_ecriture
+etat10 0 etat12 0 lecture_ecriture
+}FIN
+etat9 1 etat11 1 lecture_ecriture
+etat9 0 etat10 0 lecture_ecriture
+}SI
+BOUCLE{
+etat5 1 etat6 1 lecture_ecriture
+etat5 0 etat6 0 lecture_ecriture
+etat11 1 etat5 1 lecture_ecriture
+etat11 0 etat5 0 lecture_ecriture
+}BOUCLE
+G{
+etat12 1 etat13 1 G
+etat12 0 etat13 0 G
+}G
+G{
+etat14 1 etat15 1 G
+etat14 0 etat15 0 G
+}G
+G{
+etat16 1 etat17 1 G
+etat16 0 etat17 0 G
+}G
+SI{
+FIN{
+etat18 1 etat20 1 lecture_ecriture
+etat18 0 etat20 0 lecture_ecriture
+}FIN
+etat17 1 etat19 1 lecture_ecriture
+etat17 0 etat18 0 lecture_ecriture
+}SI
+BOUCLE{
+etat15 1 etat16 1 lecture_ecriture
+etat15 0 etat16 0 lecture_ecriture
+etat19 1 etat15 1 lecture_ecriture
+etat19 0 etat15 0 lecture_ecriture
+}BOUCLE
+G{
+etat20 1 etat21 1 G
+etat20 0 etat21 0 G
+}G
+SIALT{
+D{
+etat22 1 etat23 1 D
+etat22 0 etat23 0 D
+}D
+ECRITURE{
+etat23 1 etat24 1 lecture_ecriture
+etat23 0 etat24 1 lecture_ecriture
+}ECRITURE 
+D{
+etat25 1 etat26 1 D
+etat25 0 etat26 0 D
+}D
+SI{
+FIN{
+etat27 1 etat29 1 lecture_ecriture
+etat27 0 etat29 0 lecture_ecriture
+}FIN
+etat26 1 etat28 1 lecture_ecriture
+etat26 0 etat27 0 lecture_ecriture
+}SI
+BOUCLE{
+etat24 1 etat25 1 lecture_ecriture
+etat24 0 etat25 0 lecture_ecriture
+etat28 1 etat24 1 lecture_ecriture
+etat28 0 etat24 0 lecture_ecriture
+}BOUCLE
+G{
+etat29 1 etat30 1 G
+etat29 0 etat30 0 G
+}G
+ECRITURE{
+etat30 1 etat31 0 lecture_ecriture
+etat30 0 etat31 0 lecture_ecriture
+}ECRITURE 
+etat21 1 etat22 1 lecture_ecriture
+etat21 0 etat32 0 lecture_ecriture
+}SIALT
+ALT{
+FIN{
+etat32 1 etat34 1 lecture_ecriture
+etat32 0 etat34 0 lecture_ecriture
+}FIN
+etat31 1 etat33 1 lecture_ecriture
+etat31 0 etat33 0 lecture_ecriture
+}ALT
+BOUCLE{
+etat13 1 etat14 1 lecture_ecriture
+etat13 0 etat14 0 lecture_ecriture
+etat33 1 etat13 1 lecture_ecriture
+etat33 0 etat13 0 lecture_ecriture
+}BOUCLE
+D{
+etat34 1 etat35 1 D
+etat34 0 etat35 0 D
+}D
+D{
+etat35 1 etat36 1 D
+etat35 0 etat36 0 D
+}D

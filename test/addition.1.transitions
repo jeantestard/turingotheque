@@ -1,0 +1,64 @@
+BOUCLE2{
+D{
+etat1 1 etat2 1 D
+etat1 0 etat2 0 D
+}D
+etat0 1 etat3 1 lecture_ecriture
+etat0 0 etat1 0 lecture_ecriture
+etat2 1 etat0 1 lecture_ecriture
+etat2 0 etat0 0 lecture_ecriture
+}BOUCLE2
+BOUCLE2{
+D{
+etat4 1 etat5 1 D
+etat4 0 etat5 0 D
+}D
+SI{
+BOUCLE2{
+D{
+etat7 1 etat8 1 D
+etat7 0 etat8 0 D
+}D
+SI{
+ECRITURE{
+etat9 1 etat10 0 lecture_ecriture
+etat9 0 etat10 0 lecture_ecriture
+}ECRITURE 
+BOUCLE2{
+G{
+etat11 1 etat12 1 G
+etat11 0 etat12 0 G
+}G
+SI{
+D{
+etat13 1 etat14 1 D
+etat13 0 etat14 0 D
+}D
+ECRITURE{
+etat14 1 etat15 1 lecture_ecriture
+etat14 0 etat15 1 lecture_ecriture
+}ECRITURE 
+etat12 1 etat13 1 lecture_ecriture
+etat12 0 etat15 0 lecture_ecriture
+}SI
+etat10 1 etat16 1 lecture_ecriture
+etat10 0 etat11 0 lecture_ecriture
+etat15 1 etat10 1 lecture_ecriture
+etat15 0 etat10 0 lecture_ecriture
+}BOUCLE2
+etat8 1 etat9 1 lecture_ecriture
+etat8 0 etat16 0 lecture_ecriture
+}SI
+etat6 1 etat17 1 lecture_ecriture
+etat6 0 etat7 0 lecture_ecriture
+etat16 1 etat6 1 lecture_ecriture
+etat16 0 etat6 0 lecture_ecriture
+}BOUCLE2
+etat5 1 etat17 1 lecture_ecriture
+etat5 0 etat6 0 lecture_ecriture
+}SI
+etat3 1 etat4 1 lecture_ecriture
+etat3 0 etat18 0 lecture_ecriture
+etat17 1 etat3 1 lecture_ecriture
+etat17 0 etat3 0 lecture_ecriture
+}BOUCLE2

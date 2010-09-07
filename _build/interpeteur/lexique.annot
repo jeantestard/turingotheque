@@ -1,0 +1,737 @@
+"interpeteur/lexique.ml" 4 77 81 "interpeteur/lexique.ml" 4 77 99
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "interpeteur/lexique.ml" 971 66572 66572 --
+)
+"interpeteur/lexique.ml" 6 125 128 "interpeteur/lexique.ml" 16 825 878
+type(
+  string
+)
+"interpeteur/lexique.ml" 18 904 907 "interpeteur/lexique.ml" 28 1604 1657
+type(
+  string
+)
+"interpeteur/lexique.ml" 30 1683 1686 "interpeteur/lexique.ml" 40 2383 2436
+type(
+  string
+)
+"interpeteur/lexique.ml" 42 2460 2463 "interpeteur/lexique.ml" 498 34380 34401
+type(
+  string
+)
+"interpeteur/lexique.ml" 500 34425 34428 "interpeteur/lexique.ml" 956 66345 66366
+type(
+  string
+)
+"interpeteur/lexique.ml" 958 66394 66397 "interpeteur/lexique.ml" 958 66394 66399
+type(
+  string
+)
+"interpeteur/lexique.ml" 960 66430 66433 "interpeteur/lexique.ml" 960 66430 66435
+type(
+  string
+)
+"interpeteur/lexique.ml" 962 66466 66469 "interpeteur/lexique.ml" 962 66466 66471
+type(
+  string
+)
+"interpeteur/lexique.ml" 964 66500 66503 "interpeteur/lexique.ml" 964 66500 66505
+type(
+  string
+)
+"interpeteur/lexique.ml" 966 66534 66537 "interpeteur/lexique.ml" 966 66534 66539
+type(
+  string
+)
+"interpeteur/lexique.ml" 968 66562 66565 "interpeteur/lexique.ml" 968 66562 66567
+type(
+  string
+)
+"interpeteur/lexique.ml" 4 77 102 "interpeteur/lexique.ml" 969 66569 66570
+type(
+  Lexing.lex_tables
+)
+"interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  def token "interpeteur/lexique.ml" 971 66572 66572 --
+)
+"interpeteur/lexique.ml" 971 66572 66586 "interpeteur/lexique.ml" 971 66572 66592
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interpeteur/lexique.ml" 972 66595 66599 "interpeteur/lexique.ml" 972 66595 66629
+)
+"interpeteur/lexique.ml" 972 66595 66599 "interpeteur/lexique.ml" 972 66595 66620
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "interpeteur/lexique.ml" 973 66630 66634 "interpeteur/lexique.ml" 973 66630 66655
+)
+"interpeteur/lexique.ml" 972 66595 66621 "interpeteur/lexique.ml" 972 66595 66627
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 971 66572 66586 "interpeteur/lexique.ml" 971 66572 66592
+)
+"interpeteur/lexique.ml" 972 66595 66628 "interpeteur/lexique.ml" 972 66595 66629
+type(
+  int
+)
+"interpeteur/lexique.ml" 972 66595 66599 "interpeteur/lexique.ml" 972 66595 66629
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 973 66630 66634 "interpeteur/lexique.ml" 973 66630 66655
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  def __ocaml_lex_token_rec "interpeteur/lexique.ml" 971 66572 66572 --
+)
+"interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interpeteur/lexique.ml" 973 66630 66663 "interpeteur/lexique.ml" 1100 69335 69440
+)
+"interpeteur/lexique.ml" 973 66630 66663 "interpeteur/lexique.ml" 973 66630 66680
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "interpeteur/lexique.ml" 974 66683 66685 "interpeteur/lexique.ml" 1100 69335 69440
+)
+"interpeteur/lexique.ml" 974 66683 66691 "interpeteur/lexique.ml" 974 66683 66704
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"interpeteur/lexique.ml" 974 66683 66705 "interpeteur/lexique.ml" 974 66683 66723
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "interpeteur/lexique.ml" 4 77 81 "interpeteur/lexique.ml" 4 77 99
+)
+"interpeteur/lexique.ml" 974 66683 66724 "interpeteur/lexique.ml" 974 66683 66741
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "interpeteur/lexique.ml" 973 66630 66663 "interpeteur/lexique.ml" 973 66630 66680
+)
+"interpeteur/lexique.ml" 974 66683 66742 "interpeteur/lexique.ml" 974 66683 66748
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.ml" 974 66683 66691 "interpeteur/lexique.ml" 974 66683 66748
+call(
+  stack
+)
+type(
+  int
+)
+"interpeteur/lexique.ml" 975 66754 66762 "interpeteur/lexique.ml" 975 66754 66763
+type(
+  int
+)
+"interpeteur/lexique.mll" 4 66797 66820 "interpeteur/lexique.mll" 4 66797 66825
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 4 66797 66826 "interpeteur/lexique.mll" 4 66797 66832
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 4 66797 66818 "interpeteur/lexique.mll" 4 66797 66834
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 980 66867 66871 "interpeteur/lexique.ml" 980 66867 66872
+type(
+  int
+)
+"interpeteur/lexique.mll" 5 66906 66912 "interpeteur/lexique.mll" 5 66906 66920
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 985 66953 66957 "interpeteur/lexique.ml" 985 66953 66958
+type(
+  int
+)
+"interpeteur/lexique.mll" 6 66992 66998 "interpeteur/lexique.mll" 6 66992 67007
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 990 67040 67044 "interpeteur/lexique.ml" 990 67040 67045
+type(
+  int
+)
+"interpeteur/lexique.mll" 7 67079 67100 "interpeteur/lexique.mll" 7 67079 67108
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 995 67141 67145 "interpeteur/lexique.ml" 995 67141 67146
+type(
+  int
+)
+"interpeteur/lexique.mll" 8 67184 67220 "interpeteur/lexique.mll" 8 67184 67222
+type(
+  string
+)
+"interpeteur/lexique.ml" 1000 67255 67257 "interpeteur/lexique.ml" 1000 67255 67274
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"interpeteur/lexique.ml" 1000 67255 67275 "interpeteur/lexique.ml" 1000 67255 67281
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.ml" 1000 67255 67282 "interpeteur/lexique.ml" 1000 67255 67288
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.ml" 1000 67255 67282 "interpeteur/lexique.ml" 1000 67255 67309
+type(
+  int
+)
+"interpeteur/lexique.ml" 1000 67255 67310 "interpeteur/lexique.ml" 1000 67255 67316
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.ml" 1000 67255 67310 "interpeteur/lexique.ml" 1000 67255 67336
+type(
+  int
+)
+"interpeteur/lexique.ml" 1000 67255 67257 "interpeteur/lexique.ml" 1000 67255 67336
+call(
+  stack
+)
+type(
+  string
+)
+"interpeteur/lexique.mll" 8 67370 67413 "interpeteur/lexique.mll" 8 67370 67417
+type(
+  string
+)
+ident(
+  int_ref id "interpeteur/lexique.mll" 8 67184 67220 "interpeteur/lexique.mll" 8 67184 67222
+)
+"interpeteur/lexique.mll" 8 67370 67409 "interpeteur/lexique.mll" 8 67370 67419
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 996 67150 67150 "interpeteur/lexique.mll" 8 67370 67419
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1005 67453 67457 "interpeteur/lexique.ml" 1005 67453 67458
+type(
+  int
+)
+"interpeteur/lexique.mll" 9 67492 67498 "interpeteur/lexique.mll" 9 67492 67505
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1010 67539 67543 "interpeteur/lexique.ml" 1010 67539 67544
+type(
+  int
+)
+"interpeteur/lexique.mll" 10 67579 67592 "interpeteur/lexique.mll" 10 67579 67597
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 10 67579 67598 "interpeteur/lexique.mll" 10 67579 67604
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 10 67579 67590 "interpeteur/lexique.mll" 10 67579 67606
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1015 67640 67644 "interpeteur/lexique.ml" 1015 67640 67645
+type(
+  int
+)
+"interpeteur/lexique.mll" 11 67680 67693 "interpeteur/lexique.mll" 11 67680 67698
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 11 67680 67699 "interpeteur/lexique.mll" 11 67680 67705
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 11 67680 67691 "interpeteur/lexique.mll" 11 67680 67707
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1020 67741 67745 "interpeteur/lexique.ml" 1020 67741 67746
+type(
+  int
+)
+"interpeteur/lexique.mll" 12 67781 67795 "interpeteur/lexique.mll" 12 67781 67800
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 12 67781 67801 "interpeteur/lexique.mll" 12 67781 67807
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 12 67781 67793 "interpeteur/lexique.mll" 12 67781 67809
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1025 67843 67847 "interpeteur/lexique.ml" 1025 67843 67848
+type(
+  int
+)
+"interpeteur/lexique.mll" 13 67883 67897 "interpeteur/lexique.mll" 13 67883 67902
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 13 67883 67903 "interpeteur/lexique.mll" 13 67883 67909
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 13 67883 67895 "interpeteur/lexique.mll" 13 67883 67911
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1030 67945 67949 "interpeteur/lexique.ml" 1030 67945 67951
+type(
+  int
+)
+"interpeteur/lexique.mll" 14 67986 67998 "interpeteur/lexique.mll" 14 67986 68003
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 14 67986 68004 "interpeteur/lexique.mll" 14 67986 68010
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 14 67986 67996 "interpeteur/lexique.mll" 14 67986 68012
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1035 68046 68050 "interpeteur/lexique.ml" 1035 68046 68052
+type(
+  int
+)
+"interpeteur/lexique.mll" 15 68087 68099 "interpeteur/lexique.mll" 15 68087 68104
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 15 68087 68105 "interpeteur/lexique.mll" 15 68087 68111
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 15 68087 68097 "interpeteur/lexique.mll" 15 68087 68113
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1040 68147 68151 "interpeteur/lexique.ml" 1040 68147 68153
+type(
+  int
+)
+"interpeteur/lexique.mll" 16 68188 68198 "interpeteur/lexique.mll" 16 68188 68203
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 16 68188 68204 "interpeteur/lexique.mll" 16 68188 68210
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 16 68188 68196 "interpeteur/lexique.mll" 16 68188 68212
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1045 68246 68250 "interpeteur/lexique.ml" 1045 68246 68252
+type(
+  int
+)
+"interpeteur/lexique.mll" 17 68287 68297 "interpeteur/lexique.mll" 17 68287 68302
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 17 68287 68303 "interpeteur/lexique.mll" 17 68287 68309
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 17 68287 68295 "interpeteur/lexique.mll" 17 68287 68311
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1050 68345 68349 "interpeteur/lexique.ml" 1050 68345 68351
+type(
+  int
+)
+"interpeteur/lexique.mll" 18 68386 68394 "interpeteur/lexique.mll" 18 68386 68399
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 18 68386 68400 "interpeteur/lexique.mll" 18 68386 68406
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 18 68386 68392 "interpeteur/lexique.mll" 18 68386 68408
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1055 68442 68446 "interpeteur/lexique.ml" 1055 68442 68448
+type(
+  int
+)
+"interpeteur/lexique.mll" 19 68483 68491 "interpeteur/lexique.mll" 19 68483 68496
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 19 68483 68497 "interpeteur/lexique.mll" 19 68483 68503
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 19 68483 68489 "interpeteur/lexique.mll" 19 68483 68505
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1060 68539 68543 "interpeteur/lexique.ml" 1060 68539 68545
+type(
+  int
+)
+"interpeteur/lexique.mll" 20 68580 68589 "interpeteur/lexique.mll" 20 68580 68594
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 20 68580 68595 "interpeteur/lexique.mll" 20 68580 68601
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 20 68580 68587 "interpeteur/lexique.mll" 20 68580 68603
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1065 68637 68641 "interpeteur/lexique.ml" 1065 68637 68643
+type(
+  int
+)
+"interpeteur/lexique.mll" 21 68678 68687 "interpeteur/lexique.mll" 21 68678 68692
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 21 68678 68693 "interpeteur/lexique.mll" 21 68678 68699
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 21 68678 68685 "interpeteur/lexique.mll" 21 68678 68701
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1070 68735 68739 "interpeteur/lexique.ml" 1070 68735 68741
+type(
+  int
+)
+"interpeteur/lexique.mll" 22 68776 68786 "interpeteur/lexique.mll" 22 68776 68791
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 22 68776 68792 "interpeteur/lexique.mll" 22 68776 68798
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 22 68776 68784 "interpeteur/lexique.mll" 22 68776 68800
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1075 68834 68838 "interpeteur/lexique.ml" 1075 68834 68840
+type(
+  int
+)
+"interpeteur/lexique.mll" 23 68875 68885 "interpeteur/lexique.mll" 23 68875 68890
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 23 68875 68891 "interpeteur/lexique.mll" 23 68875 68897
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 23 68875 68883 "interpeteur/lexique.mll" 23 68875 68899
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1080 68933 68937 "interpeteur/lexique.ml" 1080 68933 68939
+type(
+  int
+)
+"interpeteur/lexique.mll" 24 68974 68982 "interpeteur/lexique.mll" 24 68974 68987
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 24 68974 68988 "interpeteur/lexique.mll" 24 68974 68994
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 24 68974 68980 "interpeteur/lexique.mll" 24 68974 68996
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1085 69030 69034 "interpeteur/lexique.ml" 1085 69030 69036
+type(
+  int
+)
+"interpeteur/lexique.mll" 25 69071 69079 "interpeteur/lexique.mll" 25 69071 69084
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 25 69071 69085 "interpeteur/lexique.mll" 25 69071 69091
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 25 69071 69077 "interpeteur/lexique.mll" 25 69071 69093
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1090 69127 69131 "interpeteur/lexique.ml" 1090 69127 69133
+type(
+  int
+)
+"interpeteur/lexique.mll" 26 69168 69183 "interpeteur/lexique.mll" 26 69168 69188
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 26 69168 69189 "interpeteur/lexique.mll" 26 69168 69195
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 26 69168 69181 "interpeteur/lexique.mll" 26 69168 69197
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1095 69231 69235 "interpeteur/lexique.ml" 1095 69231 69237
+type(
+  int
+)
+"interpeteur/lexique.mll" 27 69272 69287 "interpeteur/lexique.mll" 27 69272 69292
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "interpeteur/lexique.ml" 971 66572 66580 "interpeteur/lexique.ml" 971 66572 66585
+)
+"interpeteur/lexique.mll" 27 69272 69293 "interpeteur/lexique.mll" 27 69272 69299
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.mll" 27 69272 69285 "interpeteur/lexique.mll" 27 69272 69301
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1100 69335 69339 "interpeteur/lexique.ml" 1100 69335 69356
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "interpeteur/lexique.ml" 1100 69335 69360 "interpeteur/lexique.ml" 1100 69335 69440
+)
+"interpeteur/lexique.ml" 1100 69335 69360 "interpeteur/lexique.ml" 1100 69335 69366
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.ml" 1100 69335 69360 "interpeteur/lexique.ml" 1100 69335 69385
+type(
+  Lexing.lexbuf -> unit
+)
+"interpeteur/lexique.ml" 1100 69335 69386 "interpeteur/lexique.ml" 1100 69335 69392
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.ml" 1100 69335 69360 "interpeteur/lexique.ml" 1100 69335 69392
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/lexique.ml" 1100 69335 69394 "interpeteur/lexique.ml" 1100 69335 69415
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "interpeteur/lexique.ml" 973 66630 66634 "interpeteur/lexique.ml" 973 66630 66655
+)
+"interpeteur/lexique.ml" 1100 69335 69416 "interpeteur/lexique.ml" 1100 69335 69422
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexique.ml" 973 66630 66656 "interpeteur/lexique.ml" 973 66630 66662
+)
+"interpeteur/lexique.ml" 1100 69335 69423 "interpeteur/lexique.ml" 1100 69335 69440
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "interpeteur/lexique.ml" 1100 69335 69339 "interpeteur/lexique.ml" 1100 69335 69356
+)
+"interpeteur/lexique.ml" 1100 69335 69394 "interpeteur/lexique.ml" 1100 69335 69440
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 1100 69335 69360 "interpeteur/lexique.ml" 1100 69335 69440
+type(
+  Analyseur.token
+)
+"interpeteur/lexique.ml" 974 66683 66685 "interpeteur/lexique.ml" 1100 69335 69440
+type(
+  Analyseur.token
+)

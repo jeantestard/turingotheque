@@ -1,0 +1,317 @@
+"interpeteur/lexiqueRuban.ml" 4 92 96 "interpeteur/lexiqueRuban.ml" 4 92 114
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "interpeteur/lexiqueRuban.ml" 115 6587 6587 --
+)
+"interpeteur/lexiqueRuban.ml" 6 140 143 "interpeteur/lexiqueRuban.ml" 6 140 177
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 8 203 206 "interpeteur/lexiqueRuban.ml" 8 203 240
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 10 266 269 "interpeteur/lexiqueRuban.ml" 10 266 303
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 12 327 330 "interpeteur/lexiqueRuban.ml" 55 3337 3342
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 57 3366 3369 "interpeteur/lexiqueRuban.ml" 100 6376 6381
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 102 6409 6412 "interpeteur/lexiqueRuban.ml" 102 6409 6414
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 104 6445 6448 "interpeteur/lexiqueRuban.ml" 104 6445 6450
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 106 6481 6484 "interpeteur/lexiqueRuban.ml" 106 6481 6486
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 108 6515 6518 "interpeteur/lexiqueRuban.ml" 108 6515 6520
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 110 6549 6552 "interpeteur/lexiqueRuban.ml" 110 6549 6554
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 112 6577 6580 "interpeteur/lexiqueRuban.ml" 112 6577 6582
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 4 92 117 "interpeteur/lexiqueRuban.ml" 113 6584 6585
+type(
+  Lexing.lex_tables
+)
+"interpeteur/lexiqueRuban.ml" 115 6587 6595 "interpeteur/lexiqueRuban.ml" 115 6587 6600
+type(
+  Lexing.lexbuf -> AnalyseurRuban.token
+)
+ident(
+  def token "interpeteur/lexiqueRuban.ml" 115 6587 6587 --
+)
+"interpeteur/lexiqueRuban.ml" 115 6587 6601 "interpeteur/lexiqueRuban.ml" 115 6587 6607
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interpeteur/lexiqueRuban.ml" 116 6610 6614 "interpeteur/lexiqueRuban.ml" 116 6610 6644
+)
+"interpeteur/lexiqueRuban.ml" 116 6610 6614 "interpeteur/lexiqueRuban.ml" 116 6610 6635
+type(
+  Lexing.lexbuf -> int -> AnalyseurRuban.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "interpeteur/lexiqueRuban.ml" 117 6645 6649 "interpeteur/lexiqueRuban.ml" 117 6645 6670
+)
+"interpeteur/lexiqueRuban.ml" 116 6610 6636 "interpeteur/lexiqueRuban.ml" 116 6610 6642
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 115 6587 6601 "interpeteur/lexiqueRuban.ml" 115 6587 6607
+)
+"interpeteur/lexiqueRuban.ml" 116 6610 6643 "interpeteur/lexiqueRuban.ml" 116 6610 6644
+type(
+  int
+)
+"interpeteur/lexiqueRuban.ml" 116 6610 6614 "interpeteur/lexiqueRuban.ml" 116 6610 6644
+call(
+  tail
+)
+type(
+  AnalyseurRuban.token
+)
+"interpeteur/lexiqueRuban.ml" 117 6645 6649 "interpeteur/lexiqueRuban.ml" 117 6645 6670
+type(
+  Lexing.lexbuf -> int -> AnalyseurRuban.token
+)
+ident(
+  def __ocaml_lex_token_rec "interpeteur/lexiqueRuban.ml" 115 6587 6587 --
+)
+"interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6678 "interpeteur/lexiqueRuban.ml" 139 7337 7442
+)
+"interpeteur/lexiqueRuban.ml" 117 6645 6678 "interpeteur/lexiqueRuban.ml" 117 6645 6695
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "interpeteur/lexiqueRuban.ml" 118 6698 6700 "interpeteur/lexiqueRuban.ml" 139 7337 7442
+)
+"interpeteur/lexiqueRuban.ml" 118 6698 6706 "interpeteur/lexiqueRuban.ml" 118 6698 6719
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"interpeteur/lexiqueRuban.ml" 118 6698 6720 "interpeteur/lexiqueRuban.ml" 118 6698 6738
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "interpeteur/lexiqueRuban.ml" 4 92 96 "interpeteur/lexiqueRuban.ml" 4 92 114
+)
+"interpeteur/lexiqueRuban.ml" 118 6698 6739 "interpeteur/lexiqueRuban.ml" 118 6698 6756
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "interpeteur/lexiqueRuban.ml" 117 6645 6678 "interpeteur/lexiqueRuban.ml" 117 6645 6695
+)
+"interpeteur/lexiqueRuban.ml" 118 6698 6757 "interpeteur/lexiqueRuban.ml" 118 6698 6763
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.ml" 118 6698 6706 "interpeteur/lexiqueRuban.ml" 118 6698 6763
+call(
+  stack
+)
+type(
+  int
+)
+"interpeteur/lexiqueRuban.ml" 119 6769 6777 "interpeteur/lexiqueRuban.ml" 119 6769 6778
+type(
+  int
+)
+"interpeteur/lexiqueRuban.mll" 4 6817 6840 "interpeteur/lexiqueRuban.mll" 4 6817 6845
+type(
+  Lexing.lexbuf -> AnalyseurRuban.token
+)
+ident(
+  int_ref token "interpeteur/lexiqueRuban.ml" 115 6587 6595 "interpeteur/lexiqueRuban.ml" 115 6587 6600
+)
+"interpeteur/lexiqueRuban.mll" 4 6817 6846 "interpeteur/lexiqueRuban.mll" 4 6817 6852
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.mll" 4 6817 6838 "interpeteur/lexiqueRuban.mll" 4 6817 6854
+call(
+  tail
+)
+type(
+  AnalyseurRuban.token
+)
+"interpeteur/lexiqueRuban.ml" 124 6892 6896 "interpeteur/lexiqueRuban.ml" 124 6892 6897
+type(
+  int
+)
+"interpeteur/lexiqueRuban.mll" 5 6940 6976 "interpeteur/lexiqueRuban.mll" 5 6940 6983
+type(
+  string
+)
+"interpeteur/lexiqueRuban.ml" 129 7020 7022 "interpeteur/lexiqueRuban.ml" 129 7020 7039
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"interpeteur/lexiqueRuban.ml" 129 7020 7040 "interpeteur/lexiqueRuban.ml" 129 7020 7046
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.ml" 129 7020 7047 "interpeteur/lexiqueRuban.ml" 129 7020 7053
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.ml" 129 7020 7047 "interpeteur/lexiqueRuban.ml" 129 7020 7074
+type(
+  int
+)
+"interpeteur/lexiqueRuban.ml" 129 7020 7075 "interpeteur/lexiqueRuban.ml" 129 7020 7081
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.ml" 129 7020 7075 "interpeteur/lexiqueRuban.ml" 129 7020 7101
+type(
+  int
+)
+"interpeteur/lexiqueRuban.ml" 129 7020 7022 "interpeteur/lexiqueRuban.ml" 129 7020 7101
+call(
+  stack
+)
+type(
+  string
+)
+"interpeteur/lexiqueRuban.mll" 5 7140 7193 "interpeteur/lexiqueRuban.mll" 5 7140 7202
+type(
+  string
+)
+ident(
+  int_ref symbole "interpeteur/lexiqueRuban.mll" 5 6940 6976 "interpeteur/lexiqueRuban.mll" 5 6940 6983
+)
+"interpeteur/lexiqueRuban.mll" 5 7140 7184 "interpeteur/lexiqueRuban.mll" 5 7140 7204
+type(
+  AnalyseurRuban.token
+)
+"interpeteur/lexiqueRuban.ml" 125 6901 6901 "interpeteur/lexiqueRuban.mll" 5 7140 7204
+type(
+  AnalyseurRuban.token
+)
+"interpeteur/lexiqueRuban.ml" 134 7242 7246 "interpeteur/lexiqueRuban.ml" 134 7242 7247
+type(
+  int
+)
+"interpeteur/lexiqueRuban.mll" 6 7286 7292 "interpeteur/lexiqueRuban.mll" 6 7286 7299
+type(
+  AnalyseurRuban.token
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7341 "interpeteur/lexiqueRuban.ml" 139 7337 7358
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "interpeteur/lexiqueRuban.ml" 139 7337 7362 "interpeteur/lexiqueRuban.ml" 139 7337 7442
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7362 "interpeteur/lexiqueRuban.ml" 139 7337 7368
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7362 "interpeteur/lexiqueRuban.ml" 139 7337 7387
+type(
+  Lexing.lexbuf -> unit
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7388 "interpeteur/lexiqueRuban.ml" 139 7337 7394
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7362 "interpeteur/lexiqueRuban.ml" 139 7337 7394
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7396 "interpeteur/lexiqueRuban.ml" 139 7337 7417
+type(
+  Lexing.lexbuf -> int -> AnalyseurRuban.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "interpeteur/lexiqueRuban.ml" 117 6645 6649 "interpeteur/lexiqueRuban.ml" 117 6645 6670
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7418 "interpeteur/lexiqueRuban.ml" 139 7337 7424
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "interpeteur/lexiqueRuban.ml" 117 6645 6671 "interpeteur/lexiqueRuban.ml" 117 6645 6677
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7425 "interpeteur/lexiqueRuban.ml" 139 7337 7442
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "interpeteur/lexiqueRuban.ml" 139 7337 7341 "interpeteur/lexiqueRuban.ml" 139 7337 7358
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7396 "interpeteur/lexiqueRuban.ml" 139 7337 7442
+call(
+  tail
+)
+type(
+  AnalyseurRuban.token
+)
+"interpeteur/lexiqueRuban.ml" 139 7337 7362 "interpeteur/lexiqueRuban.ml" 139 7337 7442
+type(
+  AnalyseurRuban.token
+)
+"interpeteur/lexiqueRuban.ml" 118 6698 6700 "interpeteur/lexiqueRuban.ml" 139 7337 7442
+type(
+  AnalyseurRuban.token
+)

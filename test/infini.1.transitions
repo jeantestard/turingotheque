@@ -1,0 +1,6 @@
+BOUCLE{
+etat0 1 etat1 1 lecture_ecriture
+etat0 0 etat1 0 lecture_ecriture
+etat1 1 etat0 1 lecture_ecriture
+etat1 0 etat0 0 lecture_ecriture
+}BOUCLE

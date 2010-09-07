@@ -1,0 +1,524 @@
+"turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+type(
+  string
+)
+ident(
+  def repertoire "turingotheque/turingotheque.ml" 10 208 208 --
+)
+"turingotheque/turingotheque.ml" 8 177 194 "turingotheque/turingotheque.ml" 8 177 202
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"turingotheque/turingotheque.ml" 8 177 204 "turingotheque/turingotheque.ml" 8 177 205
+type(
+  int
+)
+"turingotheque/turingotheque.ml" 8 177 194 "turingotheque/turingotheque.ml" 8 177 206
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 10 208 212 "turingotheque/turingotheque.ml" 10 208 221
+type(
+  string * string * int -> unit
+)
+ident(
+  def execution "turingotheque/turingotheque.ml" 13 333 333 --
+)
+"turingotheque/turingotheque.ml" 10 208 223 "turingotheque/turingotheque.ml" 10 208 234
+type(
+  string
+)
+ident(
+  def programmeme "turingotheque/turingotheque.ml" 11 255 257 "turingotheque/turingotheque.ml" 11 255 331
+)
+"turingotheque/turingotheque.ml" 10 208 236 "turingotheque/turingotheque.ml" 10 208 241
+type(
+  string
+)
+ident(
+  def ruban "turingotheque/turingotheque.ml" 11 255 257 "turingotheque/turingotheque.ml" 11 255 331
+)
+"turingotheque/turingotheque.ml" 10 208 243 "turingotheque/turingotheque.ml" 10 208 251
+type(
+  int
+)
+ident(
+  def priorite "turingotheque/turingotheque.ml" 11 255 257 "turingotheque/turingotheque.ml" 11 255 331
+)
+"turingotheque/turingotheque.ml" 10 208 222 "turingotheque/turingotheque.ml" 10 208 252
+type(
+  string * string * int
+)
+"turingotheque/turingotheque.ml" 11 255 263 "turingotheque/turingotheque.ml" 11 255 267
+type(
+  bool
+)
+"turingotheque/turingotheque.ml" 11 255 271 "turingotheque/turingotheque.ml" 11 255 299
+type(
+  string -> string -> int -> unit
+)
+ident(
+  ext_ref Interpreteur.Interpreteur.machineDeTuring
+)
+"turingotheque/turingotheque.ml" 11 255 300 "turingotheque/turingotheque.ml" 11 255 311
+type(
+  string
+)
+ident(
+  int_ref programmeme "turingotheque/turingotheque.ml" 10 208 223 "turingotheque/turingotheque.ml" 10 208 234
+)
+"turingotheque/turingotheque.ml" 11 255 312 "turingotheque/turingotheque.ml" 11 255 317
+type(
+  string
+)
+ident(
+  int_ref ruban "turingotheque/turingotheque.ml" 10 208 236 "turingotheque/turingotheque.ml" 10 208 241
+)
+"turingotheque/turingotheque.ml" 11 255 318 "turingotheque/turingotheque.ml" 11 255 326
+type(
+  int
+)
+ident(
+  int_ref priorite "turingotheque/turingotheque.ml" 10 208 243 "turingotheque/turingotheque.ml" 10 208 251
+)
+"turingotheque/turingotheque.ml" 11 255 271 "turingotheque/turingotheque.ml" 11 255 326
+call(
+  stack
+)
+type(
+  unit
+)
+"turingotheque/turingotheque.ml" 11 255 257 "turingotheque/turingotheque.ml" 11 255 331
+type(
+  unit
+)
+"turingotheque/turingotheque.ml" 13 333 337 "turingotheque/turingotheque.ml" 13 333 344
+type(
+  Thread.t list
+)
+ident(
+  def threads "turingotheque/turingotheque.ml" 27 949 949 --
+)
+"turingotheque/turingotheque.ml" 14 347 349 "turingotheque/turingotheque.ml" 14 347 357
+type(
+  (string * string * int -> Thread.t) ->
+  (string * string * int) list -> Thread.t list
+)
+ident(
+  ext_ref List.map
+)
+"turingotheque/turingotheque.ml" 14 347 359 "turingotheque/turingotheque.ml" 14 347 372
+type(
+  (string * string * int -> unit) -> string * string * int -> Thread.t
+)
+ident(
+  ext_ref Thread.create
+)
+"turingotheque/turingotheque.ml" 14 347 373 "turingotheque/turingotheque.ml" 14 347 382
+type(
+  string * string * int -> unit
+)
+ident(
+  int_ref execution "turingotheque/turingotheque.ml" 10 208 212 "turingotheque/turingotheque.ml" 10 208 221
+)
+"turingotheque/turingotheque.ml" 14 347 358 "turingotheque/turingotheque.ml" 14 347 383
+call(
+  stack
+)
+type(
+  string * string * int -> Thread.t
+)
+"turingotheque/turingotheque.ml" 15 384 392 "turingotheque/turingotheque.ml" 15 384 402
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 15 384 403 "turingotheque/turingotheque.ml" 15 384 404
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 15 384 405 "turingotheque/turingotheque.ml" 15 384 429
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 15 384 391 "turingotheque/turingotheque.ml" 15 384 430
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 16 432 440 "turingotheque/turingotheque.ml" 16 432 450
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 16 432 451 "turingotheque/turingotheque.ml" 16 432 452
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 16 432 453 "turingotheque/turingotheque.ml" 16 432 471
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 16 432 439 "turingotheque/turingotheque.ml" 16 432 472
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 16 432 474 "turingotheque/turingotheque.ml" 16 432 475
+type(
+  int
+)
+"turingotheque/turingotheque.ml" 15 384 390 "turingotheque/turingotheque.ml" 16 432 476
+type(
+  string * string * int
+)
+"turingotheque/turingotheque.ml" 17 478 486 "turingotheque/turingotheque.ml" 17 478 496
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 17 478 497 "turingotheque/turingotheque.ml" 17 478 498
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 17 478 499 "turingotheque/turingotheque.ml" 17 478 521
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 17 478 485 "turingotheque/turingotheque.ml" 17 478 522
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 18 524 532 "turingotheque/turingotheque.ml" 18 524 542
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 18 524 543 "turingotheque/turingotheque.ml" 18 524 544
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 18 524 545 "turingotheque/turingotheque.ml" 18 524 561
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 18 524 531 "turingotheque/turingotheque.ml" 18 524 562
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 18 524 564 "turingotheque/turingotheque.ml" 18 524 565
+type(
+  int
+)
+"turingotheque/turingotheque.ml" 17 478 484 "turingotheque/turingotheque.ml" 18 524 566
+type(
+  string * string * int
+)
+"turingotheque/turingotheque.ml" 19 568 576 "turingotheque/turingotheque.ml" 19 568 586
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 19 568 587 "turingotheque/turingotheque.ml" 19 568 588
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 19 568 589 "turingotheque/turingotheque.ml" 19 568 619
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 19 568 575 "turingotheque/turingotheque.ml" 19 568 620
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 20 622 630 "turingotheque/turingotheque.ml" 20 622 640
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 20 622 641 "turingotheque/turingotheque.ml" 20 622 642
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 20 622 643 "turingotheque/turingotheque.ml" 20 622 667
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 20 622 629 "turingotheque/turingotheque.ml" 20 622 668
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 20 622 670 "turingotheque/turingotheque.ml" 20 622 671
+type(
+  int
+)
+"turingotheque/turingotheque.ml" 19 568 574 "turingotheque/turingotheque.ml" 20 622 672
+type(
+  string * string * int
+)
+"turingotheque/turingotheque.ml" 21 674 682 "turingotheque/turingotheque.ml" 21 674 692
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 21 674 693 "turingotheque/turingotheque.ml" 21 674 694
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 21 674 695 "turingotheque/turingotheque.ml" 21 674 723
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 21 674 681 "turingotheque/turingotheque.ml" 21 674 724
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 22 726 734 "turingotheque/turingotheque.ml" 22 726 744
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 22 726 745 "turingotheque/turingotheque.ml" 22 726 746
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 22 726 747 "turingotheque/turingotheque.ml" 22 726 769
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 22 726 733 "turingotheque/turingotheque.ml" 22 726 770
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 22 726 772 "turingotheque/turingotheque.ml" 22 726 773
+type(
+  int
+)
+"turingotheque/turingotheque.ml" 21 674 680 "turingotheque/turingotheque.ml" 22 726 774
+type(
+  string * string * int
+)
+"turingotheque/turingotheque.ml" 23 776 784 "turingotheque/turingotheque.ml" 23 776 794
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 23 776 795 "turingotheque/turingotheque.ml" 23 776 796
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 23 776 797 "turingotheque/turingotheque.ml" 23 776 822
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 23 776 783 "turingotheque/turingotheque.ml" 23 776 823
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 24 825 833 "turingotheque/turingotheque.ml" 24 825 843
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 24 825 844 "turingotheque/turingotheque.ml" 24 825 845
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 24 825 846 "turingotheque/turingotheque.ml" 24 825 865
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 24 825 832 "turingotheque/turingotheque.ml" 24 825 866
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 24 825 868 "turingotheque/turingotheque.ml" 24 825 869
+type(
+  int
+)
+"turingotheque/turingotheque.ml" 23 776 782 "turingotheque/turingotheque.ml" 24 825 870
+type(
+  string * string * int
+)
+"turingotheque/turingotheque.ml" 25 872 880 "turingotheque/turingotheque.ml" 25 872 890
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 25 872 891 "turingotheque/turingotheque.ml" 25 872 892
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 25 872 893 "turingotheque/turingotheque.ml" 25 872 911
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 25 872 879 "turingotheque/turingotheque.ml" 25 872 912
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 25 872 915 "turingotheque/turingotheque.ml" 25 872 925
+type(
+  string
+)
+ident(
+  int_ref repertoire "turingotheque/turingotheque.ml" 8 177 181 "turingotheque/turingotheque.ml" 8 177 191
+)
+"turingotheque/turingotheque.ml" 25 872 926 "turingotheque/turingotheque.ml" 25 872 927
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"turingotheque/turingotheque.ml" 25 872 928 "turingotheque/turingotheque.ml" 25 872 940
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 25 872 914 "turingotheque/turingotheque.ml" 25 872 941
+call(
+  stack
+)
+type(
+  string
+)
+"turingotheque/turingotheque.ml" 25 872 943 "turingotheque/turingotheque.ml" 25 872 944
+type(
+  int
+)
+"turingotheque/turingotheque.ml" 25 872 878 "turingotheque/turingotheque.ml" 25 872 945
+type(
+  string * string * int
+)
+"turingotheque/turingotheque.ml" 15 384 388 "turingotheque/turingotheque.ml" 25 872 947
+type(
+  (string * string * int) list
+)
+"turingotheque/turingotheque.ml" 14 347 349 "turingotheque/turingotheque.ml" 25 872 947
+call(
+  stack
+)
+type(
+  Thread.t list
+)
+"turingotheque/turingotheque.ml" 27 949 953 "turingotheque/turingotheque.ml" 27 949 955
+type(
+  unit
+)
+"turingotheque/turingotheque.ml" 27 949 958 "turingotheque/turingotheque.ml" 27 949 967
+type(
+  (Thread.t -> unit) -> Thread.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"turingotheque/turingotheque.ml" 27 949 968 "turingotheque/turingotheque.ml" 27 949 979
+type(
+  Thread.t -> unit
+)
+ident(
+  ext_ref Thread.join
+)
+"turingotheque/turingotheque.ml" 27 949 980 "turingotheque/turingotheque.ml" 27 949 987
+type(
+  Thread.t list
+)
+ident(
+  int_ref threads "turingotheque/turingotheque.ml" 13 333 337 "turingotheque/turingotheque.ml" 13 333 344
+)
+"turingotheque/turingotheque.ml" 27 949 958 "turingotheque/turingotheque.ml" 27 949 987
+call(
+  stack
+)
+type(
+  unit
+)

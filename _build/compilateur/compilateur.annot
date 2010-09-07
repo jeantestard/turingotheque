@@ -1,0 +1,3198 @@
+"compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+type(
+  out_channel
+)
+ident(
+  def reference "compilateur/compilateur.ml" 9 110 114 "compilateur/compilateur.ml" 169 5934 5939
+)
+"compilateur/compilateur.ml" 7 67 87 "compilateur/compilateur.ml" 7 67 95
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"compilateur/compilateur.ml" 7 67 96 "compilateur/compilateur.ml" 7 67 104
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"compilateur/compilateur.ml" 7 67 106 "compilateur/compilateur.ml" 7 67 107
+type(
+  int
+)
+"compilateur/compilateur.ml" 7 67 96 "compilateur/compilateur.ml" 7 67 108
+type(
+  string
+)
+"compilateur/compilateur.ml" 7 67 87 "compilateur/compilateur.ml" 7 67 108
+call(
+  stack
+)
+type(
+  out_channel
+)
+"compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+type(
+  int * string * int * string * string -> unit
+)
+ident(
+  def ecrisTransition "compilateur/compilateur.ml" 15 385 389 "compilateur/compilateur.ml" 169 5934 5939
+)
+"compilateur/compilateur.ml" 9 110 135 "compilateur/compilateur.ml" 9 110 146
+type(
+  int
+)
+ident(
+  def etatCourant "compilateur/compilateur.ml" 12 258 264 "compilateur/compilateur.ml" 13 334 383
+)
+"compilateur/compilateur.ml" 9 110 148 "compilateur/compilateur.ml" 9 110 160
+type(
+  string
+)
+ident(
+  def symboleEntre "compilateur/compilateur.ml" 12 258 264 "compilateur/compilateur.ml" 13 334 383
+)
+"compilateur/compilateur.ml" 9 110 162 "compilateur/compilateur.ml" 9 110 173
+type(
+  int
+)
+ident(
+  def etatSuivant "compilateur/compilateur.ml" 12 258 264 "compilateur/compilateur.ml" 13 334 383
+)
+"compilateur/compilateur.ml" 10 175 200 "compilateur/compilateur.ml" 10 175 213
+type(
+  string
+)
+ident(
+  def symboleSortie "compilateur/compilateur.ml" 12 258 264 "compilateur/compilateur.ml" 13 334 383
+)
+"compilateur/compilateur.ml" 10 175 215 "compilateur/compilateur.ml" 10 175 230
+type(
+  string
+)
+ident(
+  def actionEffectuee "compilateur/compilateur.ml" 12 258 264 "compilateur/compilateur.ml" 13 334 383
+)
+"compilateur/compilateur.ml" 9 110 134 "compilateur/compilateur.ml" 10 175 231
+type(
+  int * string * int * string * string
+)
+"compilateur/compilateur.ml" 12 258 264 "compilateur/compilateur.ml" 12 258 271
+type(
+  out_channel ->
+  (int -> string -> int -> string -> string -> unit, out_channel, unit)
+  format -> int -> string -> int -> string -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 12 258 272 "compilateur/compilateur.ml" 12 258 281
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 12 258 282 "compilateur/compilateur.ml" 12 258 308
+type(
+  (int -> string -> int -> string -> string -> unit, out_channel, unit)
+  format
+)
+"compilateur/compilateur.ml" 12 258 309 "compilateur/compilateur.ml" 12 258 320
+type(
+  int
+)
+ident(
+  int_ref etatCourant "compilateur/compilateur.ml" 9 110 135 "compilateur/compilateur.ml" 9 110 146
+)
+"compilateur/compilateur.ml" 12 258 321 "compilateur/compilateur.ml" 12 258 333
+type(
+  string
+)
+ident(
+  int_ref symboleEntre "compilateur/compilateur.ml" 9 110 148 "compilateur/compilateur.ml" 9 110 160
+)
+"compilateur/compilateur.ml" 13 334 342 "compilateur/compilateur.ml" 13 334 353
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 9 110 162 "compilateur/compilateur.ml" 9 110 173
+)
+"compilateur/compilateur.ml" 13 334 354 "compilateur/compilateur.ml" 13 334 367
+type(
+  string
+)
+ident(
+  int_ref symboleSortie "compilateur/compilateur.ml" 10 175 200 "compilateur/compilateur.ml" 10 175 213
+)
+"compilateur/compilateur.ml" 13 334 368 "compilateur/compilateur.ml" 13 334 383
+type(
+  string
+)
+ident(
+  int_ref actionEffectuee "compilateur/compilateur.ml" 10 175 215 "compilateur/compilateur.ml" 10 175 230
+)
+"compilateur/compilateur.ml" 12 258 264 "compilateur/compilateur.ml" 13 334 383
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 17 425 433 "compilateur/compilateur.ml" 17 425 447
+type(
+  string list -> string -> unit
+)
+ident(
+  def verifieSymbole "compilateur/compilateur.ml" 22 559 563 "compilateur/compilateur.ml" 169 5934 5939
+)
+"compilateur/compilateur.ml" 17 425 448 "compilateur/compilateur.ml" 17 425 456
+type(
+  string list
+)
+ident(
+  def alphabet "compilateur/compilateur.ml" 17 425 457 "compilateur/compilateur.ml" 20 516 557
+)
+"compilateur/compilateur.ml" 17 425 457 "compilateur/compilateur.ml" 17 425 464
+type(
+  string
+)
+ident(
+  def symbole "compilateur/compilateur.ml" 18 467 473 "compilateur/compilateur.ml" 20 516 557
+)
+"compilateur/compilateur.ml" 18 467 476 "compilateur/compilateur.ml" 18 467 484
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"compilateur/compilateur.ml" 18 467 485 "compilateur/compilateur.ml" 18 467 492
+type(
+  string
+)
+ident(
+  int_ref symbole "compilateur/compilateur.ml" 17 425 457 "compilateur/compilateur.ml" 17 425 464
+)
+"compilateur/compilateur.ml" 18 467 493 "compilateur/compilateur.ml" 18 467 501
+type(
+  string list
+)
+ident(
+  int_ref alphabet "compilateur/compilateur.ml" 17 425 448 "compilateur/compilateur.ml" 17 425 456
+)
+"compilateur/compilateur.ml" 18 467 476 "compilateur/compilateur.ml" 18 467 501
+call(
+  stack
+)
+type(
+  bool
+)
+"compilateur/compilateur.ml" 19 502 513 "compilateur/compilateur.ml" 19 502 515
+type(
+  unit
+)
+"compilateur/compilateur.ml" 20 516 527 "compilateur/compilateur.ml" 20 516 532
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"compilateur/compilateur.ml" 20 516 549 "compilateur/compilateur.ml" 20 516 556
+type(
+  string
+)
+ident(
+  int_ref symbole "compilateur/compilateur.ml" 17 425 457 "compilateur/compilateur.ml" 17 425 464
+)
+"compilateur/compilateur.ml" 20 516 533 "compilateur/compilateur.ml" 20 516 557
+type(
+  exn
+)
+"compilateur/compilateur.ml" 20 516 527 "compilateur/compilateur.ml" 20 516 557
+type(
+  unit
+)
+"compilateur/compilateur.ml" 18 467 473 "compilateur/compilateur.ml" 20 516 557
+type(
+  unit
+)
+"compilateur/compilateur.ml" 22 559 567 "compilateur/compilateur.ml" 22 559 586
+type(
+  string list -> string list -> unit
+)
+ident(
+  def check_listeSymboles "compilateur/compilateur.ml" 25 669 673 "compilateur/compilateur.ml" 169 5934 5939
+)
+"compilateur/compilateur.ml" 22 559 587 "compilateur/compilateur.ml" 22 559 595
+type(
+  string list
+)
+ident(
+  def alphabet "compilateur/compilateur.ml" 22 559 596 "compilateur/compilateur.ml" 23 612 667
+)
+"compilateur/compilateur.ml" 22 559 596 "compilateur/compilateur.ml" 22 559 609
+type(
+  string list
+)
+ident(
+  def listeSymboles "compilateur/compilateur.ml" 23 612 618 "compilateur/compilateur.ml" 23 612 667
+)
+"compilateur/compilateur.ml" 23 612 618 "compilateur/compilateur.ml" 23 612 627
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 23 612 629 "compilateur/compilateur.ml" 23 612 643
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref verifieSymbole "compilateur/compilateur.ml" 17 425 433 "compilateur/compilateur.ml" 17 425 447
+)
+"compilateur/compilateur.ml" 23 612 644 "compilateur/compilateur.ml" 23 612 652
+type(
+  string list
+)
+ident(
+  int_ref alphabet "compilateur/compilateur.ml" 22 559 587 "compilateur/compilateur.ml" 22 559 595
+)
+"compilateur/compilateur.ml" 23 612 628 "compilateur/compilateur.ml" 23 612 653
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"compilateur/compilateur.ml" 23 612 654 "compilateur/compilateur.ml" 23 612 667
+type(
+  string list
+)
+ident(
+  int_ref listeSymboles "compilateur/compilateur.ml" 22 559 596 "compilateur/compilateur.ml" 22 559 609
+)
+"compilateur/compilateur.ml" 23 612 618 "compilateur/compilateur.ml" 23 612 667
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  def transforme "compilateur/compilateur.ml" 25 669 673 "compilateur/compilateur.ml" 169 5934 5939
+)
+"compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+type(
+  Grammaire.symbole list
+)
+ident(
+  def symboles "compilateur/compilateur.ml" 26 711 717 "compilateur/compilateur.ml" 157 5583 5612
+)
+"compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+type(
+  int
+)
+ident(
+  def etat "compilateur/compilateur.ml" 26 711 717 "compilateur/compilateur.ml" 157 5583 5612
+)
+"compilateur/compilateur.ml" 25 669 692 "compilateur/compilateur.ml" 25 669 708
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 27 726 734 "compilateur/compilateur.ml" 27 726 740
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 28 744 755 "compilateur/compilateur.ml" 28 744 762
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 28 744 763 "compilateur/compilateur.ml" 28 744 772
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 28 744 773 "compilateur/compilateur.ml" 28 744 779
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 28 744 755 "compilateur/compilateur.ml" 28 744 779
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 29 781 792 "compilateur/compilateur.ml" 29 781 801
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 30 802 820 "compilateur/compilateur.ml" 30 802 823
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 30 802 827 "compilateur/compilateur.ml" 30 802 876
+)
+"compilateur/compilateur.ml" 30 802 827 "compilateur/compilateur.ml" 30 802 842
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 30 802 844 "compilateur/compilateur.ml" 30 802 848
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 30 802 850 "compilateur/compilateur.ml" 30 802 853
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 30 802 820 "compilateur/compilateur.ml" 30 802 823
+)
+"compilateur/compilateur.ml" 30 802 856 "compilateur/compilateur.ml" 30 802 860
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 30 802 861 "compilateur/compilateur.ml" 30 802 862
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 30 802 863 "compilateur/compilateur.ml" 30 802 864
+type(
+  int
+)
+"compilateur/compilateur.ml" 30 802 855 "compilateur/compilateur.ml" 30 802 865
+type(
+  int
+)
+"compilateur/compilateur.ml" 30 802 867 "compilateur/compilateur.ml" 30 802 870
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 30 802 820 "compilateur/compilateur.ml" 30 802 823
+)
+"compilateur/compilateur.ml" 30 802 872 "compilateur/compilateur.ml" 30 802 875
+type(
+  string
+)
+"compilateur/compilateur.ml" 30 802 843 "compilateur/compilateur.ml" 30 802 876
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 30 802 827 "compilateur/compilateur.ml" 30 802 876
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 30 802 815 "compilateur/compilateur.ml" 30 802 877
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 31 878 891 "compilateur/compilateur.ml" 31 878 899
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 29 781 792 "compilateur/compilateur.ml" 31 878 899
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 32 901 912 "compilateur/compilateur.ml" 32 901 919
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 32 901 920 "compilateur/compilateur.ml" 32 901 929
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 32 901 930 "compilateur/compilateur.ml" 32 901 936
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 32 901 912 "compilateur/compilateur.ml" 32 901 936
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 33 938 950 "compilateur/compilateur.ml" 33 938 958
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 33 938 961 "compilateur/compilateur.ml" 33 938 965
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 33 938 966 "compilateur/compilateur.ml" 33 938 967
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 33 938 968 "compilateur/compilateur.ml" 33 938 969
+type(
+  int
+)
+"compilateur/compilateur.ml" 33 938 960 "compilateur/compilateur.ml" 33 938 970
+type(
+  int
+)
+"compilateur/compilateur.ml" 33 938 949 "compilateur/compilateur.ml" 33 938 971
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 32 901 912 "compilateur/compilateur.ml" 33 938 971
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 29 781 792 "compilateur/compilateur.ml" 33 938 971
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 28 744 754 "compilateur/compilateur.ml" 33 938 972
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 34 973 981 "compilateur/compilateur.ml" 34 973 987
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 35 991 1002 "compilateur/compilateur.ml" 35 991 1009
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 35 991 1010 "compilateur/compilateur.ml" 35 991 1019
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 35 991 1020 "compilateur/compilateur.ml" 35 991 1026
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 35 991 1002 "compilateur/compilateur.ml" 35 991 1026
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 36 1028 1039 "compilateur/compilateur.ml" 36 1028 1048
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 37 1049 1067 "compilateur/compilateur.ml" 37 1049 1070
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 37 1049 1074 "compilateur/compilateur.ml" 37 1049 1123
+)
+"compilateur/compilateur.ml" 37 1049 1074 "compilateur/compilateur.ml" 37 1049 1089
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 37 1049 1091 "compilateur/compilateur.ml" 37 1049 1095
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 37 1049 1097 "compilateur/compilateur.ml" 37 1049 1100
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 37 1049 1067 "compilateur/compilateur.ml" 37 1049 1070
+)
+"compilateur/compilateur.ml" 37 1049 1103 "compilateur/compilateur.ml" 37 1049 1107
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 37 1049 1108 "compilateur/compilateur.ml" 37 1049 1109
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 37 1049 1110 "compilateur/compilateur.ml" 37 1049 1111
+type(
+  int
+)
+"compilateur/compilateur.ml" 37 1049 1102 "compilateur/compilateur.ml" 37 1049 1112
+type(
+  int
+)
+"compilateur/compilateur.ml" 37 1049 1114 "compilateur/compilateur.ml" 37 1049 1117
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 37 1049 1067 "compilateur/compilateur.ml" 37 1049 1070
+)
+"compilateur/compilateur.ml" 37 1049 1119 "compilateur/compilateur.ml" 37 1049 1122
+type(
+  string
+)
+"compilateur/compilateur.ml" 37 1049 1090 "compilateur/compilateur.ml" 37 1049 1123
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 37 1049 1074 "compilateur/compilateur.ml" 37 1049 1123
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 37 1049 1062 "compilateur/compilateur.ml" 37 1049 1124
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 38 1125 1138 "compilateur/compilateur.ml" 38 1125 1146
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 36 1028 1039 "compilateur/compilateur.ml" 38 1125 1146
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 39 1148 1159 "compilateur/compilateur.ml" 39 1148 1166
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 39 1148 1167 "compilateur/compilateur.ml" 39 1148 1176
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 39 1148 1177 "compilateur/compilateur.ml" 39 1148 1183
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 39 1148 1159 "compilateur/compilateur.ml" 39 1148 1183
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 40 1185 1197 "compilateur/compilateur.ml" 40 1185 1205
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 40 1185 1208 "compilateur/compilateur.ml" 40 1185 1212
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 40 1185 1213 "compilateur/compilateur.ml" 40 1185 1214
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 40 1185 1215 "compilateur/compilateur.ml" 40 1185 1216
+type(
+  int
+)
+"compilateur/compilateur.ml" 40 1185 1207 "compilateur/compilateur.ml" 40 1185 1217
+type(
+  int
+)
+"compilateur/compilateur.ml" 40 1185 1196 "compilateur/compilateur.ml" 40 1185 1218
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 39 1148 1159 "compilateur/compilateur.ml" 40 1185 1218
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 36 1028 1039 "compilateur/compilateur.ml" 40 1185 1218
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 35 991 1001 "compilateur/compilateur.ml" 40 1185 1219
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 41 1220 1237 "compilateur/compilateur.ml" 41 1220 1244
+type(
+  Grammaire.symbole
+)
+ident(
+  def out_sym "compilateur/compilateur.ml" 42 1248 1258 "compilateur/compilateur.ml" 50 1554 1588
+)
+"compilateur/compilateur.ml" 41 1220 1228 "compilateur/compilateur.ml" 41 1220 1244
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 42 1248 1259 "compilateur/compilateur.ml" 42 1248 1266
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 42 1248 1267 "compilateur/compilateur.ml" 42 1248 1276
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 42 1248 1277 "compilateur/compilateur.ml" 42 1248 1290
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 42 1248 1259 "compilateur/compilateur.ml" 42 1248 1290
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 43 1292 1303 "compilateur/compilateur.ml" 43 1292 1317
+type(
+  Grammaire.symbole list -> Grammaire.symbole -> unit
+)
+ident(
+  int_ref verifieSymbole "compilateur/compilateur.ml" 17 425 433 "compilateur/compilateur.ml" 17 425 447
+)
+"compilateur/compilateur.ml" 43 1292 1318 "compilateur/compilateur.ml" 43 1292 1326
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 43 1292 1327 "compilateur/compilateur.ml" 43 1292 1334
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref out_sym "compilateur/compilateur.ml" 41 1220 1237 "compilateur/compilateur.ml" 41 1220 1244
+)
+"compilateur/compilateur.ml" 43 1292 1303 "compilateur/compilateur.ml" 43 1292 1334
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 44 1336 1347 "compilateur/compilateur.ml" 44 1336 1356
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 45 1357 1375 "compilateur/compilateur.ml" 45 1357 1378
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 46 1382 1398 "compilateur/compilateur.ml" 47 1414 1484
+)
+"compilateur/compilateur.ml" 46 1382 1398 "compilateur/compilateur.ml" 46 1382 1413
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 47 1414 1433 "compilateur/compilateur.ml" 47 1414 1437
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 47 1414 1439 "compilateur/compilateur.ml" 47 1414 1442
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 45 1357 1375 "compilateur/compilateur.ml" 45 1357 1378
+)
+"compilateur/compilateur.ml" 47 1414 1445 "compilateur/compilateur.ml" 47 1414 1449
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 47 1414 1450 "compilateur/compilateur.ml" 47 1414 1451
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 47 1414 1452 "compilateur/compilateur.ml" 47 1414 1453
+type(
+  int
+)
+"compilateur/compilateur.ml" 47 1414 1444 "compilateur/compilateur.ml" 47 1414 1454
+type(
+  int
+)
+"compilateur/compilateur.ml" 47 1414 1456 "compilateur/compilateur.ml" 47 1414 1463
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref out_sym "compilateur/compilateur.ml" 41 1220 1237 "compilateur/compilateur.ml" 41 1220 1244
+)
+"compilateur/compilateur.ml" 47 1414 1465 "compilateur/compilateur.ml" 47 1414 1483
+type(
+  string
+)
+"compilateur/compilateur.ml" 47 1414 1432 "compilateur/compilateur.ml" 47 1414 1484
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 46 1382 1398 "compilateur/compilateur.ml" 47 1414 1484
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 45 1357 1370 "compilateur/compilateur.ml" 47 1414 1485
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 48 1486 1499 "compilateur/compilateur.ml" 48 1486 1507
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 44 1336 1347 "compilateur/compilateur.ml" 48 1486 1507
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 49 1509 1520 "compilateur/compilateur.ml" 49 1509 1527
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 49 1509 1528 "compilateur/compilateur.ml" 49 1509 1537
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 49 1509 1538 "compilateur/compilateur.ml" 49 1509 1552
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 49 1509 1520 "compilateur/compilateur.ml" 49 1509 1552
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 50 1554 1566 "compilateur/compilateur.ml" 50 1554 1574
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 50 1554 1577 "compilateur/compilateur.ml" 50 1554 1581
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 50 1554 1582 "compilateur/compilateur.ml" 50 1554 1583
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 50 1554 1584 "compilateur/compilateur.ml" 50 1554 1585
+type(
+  int
+)
+"compilateur/compilateur.ml" 50 1554 1576 "compilateur/compilateur.ml" 50 1554 1586
+type(
+  int
+)
+"compilateur/compilateur.ml" 50 1554 1565 "compilateur/compilateur.ml" 50 1554 1587
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 49 1509 1520 "compilateur/compilateur.ml" 50 1554 1587
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 44 1336 1347 "compilateur/compilateur.ml" 50 1554 1587
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 43 1292 1303 "compilateur/compilateur.ml" 50 1554 1587
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 42 1248 1258 "compilateur/compilateur.ml" 50 1554 1588
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 51 1589 1601 "compilateur/compilateur.ml" 51 1589 1614
+type(
+  Grammaire.symbole list
+)
+ident(
+  def listeSymboles "compilateur/compilateur.ml" 52 1632 1642 "compilateur/compilateur.ml" 68 2252 2291
+)
+"compilateur/compilateur.ml" 51 1589 1616 "compilateur/compilateur.ml" 51 1589 1627
+type(
+  Grammaire.expression
+)
+ident(
+  def expressions "compilateur/compilateur.ml" 52 1632 1642 "compilateur/compilateur.ml" 68 2252 2291
+)
+"compilateur/compilateur.ml" 51 1589 1597 "compilateur/compilateur.ml" 51 1589 1628
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 52 1632 1643 "compilateur/compilateur.ml" 52 1632 1650
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 52 1632 1651 "compilateur/compilateur.ml" 52 1632 1660
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 52 1632 1661 "compilateur/compilateur.ml" 52 1632 1668
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 52 1632 1643 "compilateur/compilateur.ml" 52 1632 1668
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 53 1670 1681 "compilateur/compilateur.ml" 53 1670 1700
+type(
+  Grammaire.symbole list -> Grammaire.symbole list -> unit
+)
+ident(
+  int_ref check_listeSymboles "compilateur/compilateur.ml" 22 559 567 "compilateur/compilateur.ml" 22 559 586
+)
+"compilateur/compilateur.ml" 53 1670 1701 "compilateur/compilateur.ml" 53 1670 1709
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 53 1670 1710 "compilateur/compilateur.ml" 53 1670 1723
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref listeSymboles "compilateur/compilateur.ml" 51 1589 1601 "compilateur/compilateur.ml" 51 1589 1614
+)
+"compilateur/compilateur.ml" 53 1670 1681 "compilateur/compilateur.ml" 53 1670 1723
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 54 1725 1741 "compilateur/compilateur.ml" 54 1725 1749
+type(
+  Grammaire.symbole list
+)
+"compilateur/compilateur.ml" 54 1725 1751 "compilateur/compilateur.ml" 54 1725 1762
+type(
+  int
+)
+"compilateur/compilateur.ml" 54 1725 1740 "compilateur/compilateur.ml" 54 1725 1763
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 55 1766 1779 "compilateur/compilateur.ml" 55 1766 1789
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  int_ref transforme "compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+)
+"compilateur/compilateur.ml" 55 1766 1791 "compilateur/compilateur.ml" 55 1766 1799
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 55 1766 1802 "compilateur/compilateur.ml" 55 1766 1806
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 55 1766 1807 "compilateur/compilateur.ml" 55 1766 1808
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 55 1766 1809 "compilateur/compilateur.ml" 55 1766 1810
+type(
+  int
+)
+"compilateur/compilateur.ml" 55 1766 1801 "compilateur/compilateur.ml" 55 1766 1811
+type(
+  int
+)
+"compilateur/compilateur.ml" 55 1766 1790 "compilateur/compilateur.ml" 55 1766 1812
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 55 1766 1813 "compilateur/compilateur.ml" 55 1766 1824
+type(
+  Grammaire.expression
+)
+ident(
+  int_ref expressions "compilateur/compilateur.ml" 51 1589 1616 "compilateur/compilateur.ml" 51 1589 1627
+)
+"compilateur/compilateur.ml" 55 1766 1779 "compilateur/compilateur.ml" 55 1766 1824
+call(
+  stack
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 57 1839 1853 "compilateur/compilateur.ml" 57 1839 1862
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 58 1863 1884 "compilateur/compilateur.ml" 58 1863 1887
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 59 1891 1910 "compilateur/compilateur.ml" 65 2111 2183
+)
+"compilateur/compilateur.ml" 59 1891 1914 "compilateur/compilateur.ml" 59 1891 1925
+type(
+  int
+)
+"compilateur/compilateur.ml" 60 1928 1952 "compilateur/compilateur.ml" 60 1928 1960
+type(
+  Grammaire.symbole -> Grammaire.symbole list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"compilateur/compilateur.ml" 60 1928 1961 "compilateur/compilateur.ml" 60 1928 1964
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 58 1863 1884 "compilateur/compilateur.ml" 58 1863 1887
+)
+"compilateur/compilateur.ml" 60 1928 1965 "compilateur/compilateur.ml" 60 1928 1978
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref listeSymboles "compilateur/compilateur.ml" 51 1589 1601 "compilateur/compilateur.ml" 51 1589 1614
+)
+"compilateur/compilateur.ml" 60 1928 1952 "compilateur/compilateur.ml" 60 1928 1978
+call(
+  stack
+)
+type(
+  bool
+)
+"compilateur/compilateur.ml" 61 1979 2005 "compilateur/compilateur.ml" 61 1979 2009
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 61 1979 2010 "compilateur/compilateur.ml" 61 1979 2011
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 61 1979 2012 "compilateur/compilateur.ml" 61 1979 2013
+type(
+  int
+)
+"compilateur/compilateur.ml" 61 1979 2005 "compilateur/compilateur.ml" 61 1979 2013
+type(
+  int
+)
+"compilateur/compilateur.ml" 62 2014 2040 "compilateur/compilateur.ml" 62 2014 2051
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 54 1725 1751 "compilateur/compilateur.ml" 54 1725 1762
+)
+"compilateur/compilateur.ml" 60 1928 1949 "compilateur/compilateur.ml" 62 2014 2051
+type(
+  int
+)
+"compilateur/compilateur.ml" 64 2074 2095 "compilateur/compilateur.ml" 64 2074 2110
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 65 2111 2135 "compilateur/compilateur.ml" 65 2111 2139
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 65 2111 2141 "compilateur/compilateur.ml" 65 2111 2144
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 58 1863 1884 "compilateur/compilateur.ml" 58 1863 1887
+)
+"compilateur/compilateur.ml" 65 2111 2146 "compilateur/compilateur.ml" 65 2111 2157
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 59 1891 1914 "compilateur/compilateur.ml" 59 1891 1925
+)
+"compilateur/compilateur.ml" 65 2111 2159 "compilateur/compilateur.ml" 65 2111 2162
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 58 1863 1884 "compilateur/compilateur.ml" 58 1863 1887
+)
+"compilateur/compilateur.ml" 65 2111 2164 "compilateur/compilateur.ml" 65 2111 2182
+type(
+  string
+)
+"compilateur/compilateur.ml" 65 2111 2134 "compilateur/compilateur.ml" 65 2111 2183
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 64 2074 2095 "compilateur/compilateur.ml" 65 2111 2183
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 59 1891 1910 "compilateur/compilateur.ml" 65 2111 2183
+type(
+  unit
+)
+"compilateur/compilateur.ml" 58 1863 1879 "compilateur/compilateur.ml" 65 2111 2184
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 66 2185 2201 "compilateur/compilateur.ml" 66 2185 2209
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 54 1725 1741 "compilateur/compilateur.ml" 54 1725 1749
+)
+"compilateur/compilateur.ml" 57 1839 1853 "compilateur/compilateur.ml" 66 2185 2209
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 67 2211 2225 "compilateur/compilateur.ml" 67 2211 2232
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 67 2211 2233 "compilateur/compilateur.ml" 67 2211 2242
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 67 2211 2243 "compilateur/compilateur.ml" 67 2211 2250
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 67 2211 2225 "compilateur/compilateur.ml" 67 2211 2250
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 68 2252 2267 "compilateur/compilateur.ml" 68 2252 2275
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 54 1725 1741 "compilateur/compilateur.ml" 54 1725 1749
+)
+"compilateur/compilateur.ml" 68 2252 2277 "compilateur/compilateur.ml" 68 2252 2288
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 54 1725 1751 "compilateur/compilateur.ml" 54 1725 1762
+)
+"compilateur/compilateur.ml" 68 2252 2266 "compilateur/compilateur.ml" 68 2252 2289
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 67 2211 2225 "compilateur/compilateur.ml" 68 2252 2289
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 57 1839 1852 "compilateur/compilateur.ml" 68 2252 2290
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 54 1725 1736 "compilateur/compilateur.ml" 68 2252 2290
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 53 1670 1681 "compilateur/compilateur.ml" 68 2252 2290
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 52 1632 1642 "compilateur/compilateur.ml" 68 2252 2291
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 69 2292 2305 "compilateur/compilateur.ml" 69 2292 2318
+type(
+  Grammaire.symbole list
+)
+ident(
+  def listeSymboles "compilateur/compilateur.ml" 70 2357 2367 "compilateur/compilateur.ml" 97 3436 3479
+)
+"compilateur/compilateur.ml" 69 2292 2320 "compilateur/compilateur.ml" 69 2292 2334
+type(
+  Grammaire.expression
+)
+ident(
+  def if_expressions "compilateur/compilateur.ml" 70 2357 2367 "compilateur/compilateur.ml" 97 3436 3479
+)
+"compilateur/compilateur.ml" 69 2292 2336 "compilateur/compilateur.ml" 69 2292 2352
+type(
+  Grammaire.expression
+)
+ident(
+  def else_expressions "compilateur/compilateur.ml" 70 2357 2367 "compilateur/compilateur.ml" 97 3436 3479
+)
+"compilateur/compilateur.ml" 69 2292 2300 "compilateur/compilateur.ml" 69 2292 2353
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 70 2357 2368 "compilateur/compilateur.ml" 70 2357 2375
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 70 2357 2376 "compilateur/compilateur.ml" 70 2357 2385
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 70 2357 2386 "compilateur/compilateur.ml" 70 2357 2396
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 70 2357 2368 "compilateur/compilateur.ml" 70 2357 2396
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 71 2398 2409 "compilateur/compilateur.ml" 71 2398 2428
+type(
+  Grammaire.symbole list -> Grammaire.symbole list -> unit
+)
+ident(
+  int_ref check_listeSymboles "compilateur/compilateur.ml" 22 559 567 "compilateur/compilateur.ml" 22 559 586
+)
+"compilateur/compilateur.ml" 71 2398 2429 "compilateur/compilateur.ml" 71 2398 2437
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 71 2398 2438 "compilateur/compilateur.ml" 71 2398 2451
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref listeSymboles "compilateur/compilateur.ml" 69 2292 2305 "compilateur/compilateur.ml" 69 2292 2318
+)
+"compilateur/compilateur.ml" 71 2398 2409 "compilateur/compilateur.ml" 71 2398 2451
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 72 2453 2469 "compilateur/compilateur.ml" 72 2453 2477
+type(
+  Grammaire.symbole list
+)
+"compilateur/compilateur.ml" 72 2453 2479 "compilateur/compilateur.ml" 72 2453 2488
+type(
+  int
+)
+"compilateur/compilateur.ml" 72 2453 2468 "compilateur/compilateur.ml" 72 2453 2489
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 73 2492 2505 "compilateur/compilateur.ml" 73 2492 2515
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  int_ref transforme "compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+)
+"compilateur/compilateur.ml" 73 2492 2517 "compilateur/compilateur.ml" 73 2492 2525
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 73 2492 2528 "compilateur/compilateur.ml" 73 2492 2532
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 73 2492 2533 "compilateur/compilateur.ml" 73 2492 2534
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 73 2492 2535 "compilateur/compilateur.ml" 73 2492 2536
+type(
+  int
+)
+"compilateur/compilateur.ml" 73 2492 2527 "compilateur/compilateur.ml" 73 2492 2537
+type(
+  int
+)
+"compilateur/compilateur.ml" 73 2492 2516 "compilateur/compilateur.ml" 73 2492 2538
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 73 2492 2539 "compilateur/compilateur.ml" 73 2492 2553
+type(
+  Grammaire.expression
+)
+ident(
+  int_ref if_expressions "compilateur/compilateur.ml" 69 2292 2320 "compilateur/compilateur.ml" 69 2292 2334
+)
+"compilateur/compilateur.ml" 73 2492 2505 "compilateur/compilateur.ml" 73 2492 2553
+call(
+  stack
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 75 2568 2582 "compilateur/compilateur.ml" 75 2568 2591
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 76 2592 2613 "compilateur/compilateur.ml" 76 2592 2616
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 77 2620 2639 "compilateur/compilateur.ml" 83 2842 2914
+)
+"compilateur/compilateur.ml" 77 2620 2643 "compilateur/compilateur.ml" 77 2620 2654
+type(
+  int
+)
+"compilateur/compilateur.ml" 78 2657 2681 "compilateur/compilateur.ml" 78 2657 2689
+type(
+  Grammaire.symbole -> Grammaire.symbole list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"compilateur/compilateur.ml" 78 2657 2690 "compilateur/compilateur.ml" 78 2657 2693
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 76 2592 2613 "compilateur/compilateur.ml" 76 2592 2616
+)
+"compilateur/compilateur.ml" 78 2657 2694 "compilateur/compilateur.ml" 78 2657 2707
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref listeSymboles "compilateur/compilateur.ml" 69 2292 2305 "compilateur/compilateur.ml" 69 2292 2318
+)
+"compilateur/compilateur.ml" 78 2657 2681 "compilateur/compilateur.ml" 78 2657 2707
+call(
+  stack
+)
+type(
+  bool
+)
+"compilateur/compilateur.ml" 79 2708 2734 "compilateur/compilateur.ml" 79 2708 2738
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 79 2708 2739 "compilateur/compilateur.ml" 79 2708 2740
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 79 2708 2741 "compilateur/compilateur.ml" 79 2708 2742
+type(
+  int
+)
+"compilateur/compilateur.ml" 79 2708 2734 "compilateur/compilateur.ml" 79 2708 2742
+type(
+  int
+)
+"compilateur/compilateur.ml" 80 2743 2769 "compilateur/compilateur.ml" 80 2743 2778
+type(
+  int
+)
+ident(
+  int_ref else_etat "compilateur/compilateur.ml" 72 2453 2479 "compilateur/compilateur.ml" 72 2453 2488
+)
+"compilateur/compilateur.ml" 80 2743 2779 "compilateur/compilateur.ml" 80 2743 2780
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 80 2743 2781 "compilateur/compilateur.ml" 80 2743 2782
+type(
+  int
+)
+"compilateur/compilateur.ml" 80 2743 2769 "compilateur/compilateur.ml" 80 2743 2782
+type(
+  int
+)
+"compilateur/compilateur.ml" 78 2657 2678 "compilateur/compilateur.ml" 80 2743 2782
+type(
+  int
+)
+"compilateur/compilateur.ml" 82 2805 2826 "compilateur/compilateur.ml" 82 2805 2841
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 83 2842 2866 "compilateur/compilateur.ml" 83 2842 2870
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 83 2842 2872 "compilateur/compilateur.ml" 83 2842 2875
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 76 2592 2613 "compilateur/compilateur.ml" 76 2592 2616
+)
+"compilateur/compilateur.ml" 83 2842 2877 "compilateur/compilateur.ml" 83 2842 2888
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 77 2620 2643 "compilateur/compilateur.ml" 77 2620 2654
+)
+"compilateur/compilateur.ml" 83 2842 2890 "compilateur/compilateur.ml" 83 2842 2893
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 76 2592 2613 "compilateur/compilateur.ml" 76 2592 2616
+)
+"compilateur/compilateur.ml" 83 2842 2895 "compilateur/compilateur.ml" 83 2842 2913
+type(
+  string
+)
+"compilateur/compilateur.ml" 83 2842 2865 "compilateur/compilateur.ml" 83 2842 2914
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 82 2805 2826 "compilateur/compilateur.ml" 83 2842 2914
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 77 2620 2639 "compilateur/compilateur.ml" 83 2842 2914
+type(
+  unit
+)
+"compilateur/compilateur.ml" 76 2592 2608 "compilateur/compilateur.ml" 83 2842 2915
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 84 2916 2932 "compilateur/compilateur.ml" 84 2916 2940
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 72 2453 2469 "compilateur/compilateur.ml" 72 2453 2477
+)
+"compilateur/compilateur.ml" 75 2568 2582 "compilateur/compilateur.ml" 84 2916 2940
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 85 2942 2956 "compilateur/compilateur.ml" 85 2942 2963
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 85 2942 2964 "compilateur/compilateur.ml" 85 2942 2973
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 85 2942 2974 "compilateur/compilateur.ml" 85 2942 2984
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 85 2942 2956 "compilateur/compilateur.ml" 85 2942 2984
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 86 2986 3000 "compilateur/compilateur.ml" 86 2986 3007
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 86 2986 3008 "compilateur/compilateur.ml" 86 2986 3017
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 86 2986 3018 "compilateur/compilateur.ml" 86 2986 3026
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 86 2986 3000 "compilateur/compilateur.ml" 86 2986 3026
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 87 3028 3047 "compilateur/compilateur.ml" 87 3028 3055
+type(
+  Grammaire.symbole list
+)
+"compilateur/compilateur.ml" 87 3028 3057 "compilateur/compilateur.ml" 87 3028 3068
+type(
+  int
+)
+"compilateur/compilateur.ml" 87 3028 3046 "compilateur/compilateur.ml" 87 3028 3069
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 88 3072 3088 "compilateur/compilateur.ml" 88 3072 3098
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  int_ref transforme "compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+)
+"compilateur/compilateur.ml" 88 3072 3100 "compilateur/compilateur.ml" 88 3072 3108
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 72 2453 2469 "compilateur/compilateur.ml" 72 2453 2477
+)
+"compilateur/compilateur.ml" 88 3072 3111 "compilateur/compilateur.ml" 88 3072 3120
+type(
+  int
+)
+ident(
+  int_ref else_etat "compilateur/compilateur.ml" 72 2453 2479 "compilateur/compilateur.ml" 72 2453 2488
+)
+"compilateur/compilateur.ml" 88 3072 3121 "compilateur/compilateur.ml" 88 3072 3122
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 88 3072 3123 "compilateur/compilateur.ml" 88 3072 3124
+type(
+  int
+)
+"compilateur/compilateur.ml" 88 3072 3110 "compilateur/compilateur.ml" 88 3072 3125
+type(
+  int
+)
+"compilateur/compilateur.ml" 88 3072 3099 "compilateur/compilateur.ml" 88 3072 3126
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 88 3072 3127 "compilateur/compilateur.ml" 88 3072 3143
+type(
+  Grammaire.expression
+)
+ident(
+  int_ref else_expressions "compilateur/compilateur.ml" 69 2292 2336 "compilateur/compilateur.ml" 69 2292 2352
+)
+"compilateur/compilateur.ml" 88 3072 3088 "compilateur/compilateur.ml" 88 3072 3143
+call(
+  stack
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 90 3161 3178 "compilateur/compilateur.ml" 90 3161 3187
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 91 3188 3212 "compilateur/compilateur.ml" 91 3188 3215
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 92 3219 3241 "compilateur/compilateur.ml" 94 3316 3360
+)
+"compilateur/compilateur.ml" 92 3219 3241 "compilateur/compilateur.ml" 92 3219 3256
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 93 3257 3282 "compilateur/compilateur.ml" 93 3257 3291
+type(
+  int
+)
+ident(
+  int_ref else_etat "compilateur/compilateur.ml" 72 2453 2479 "compilateur/compilateur.ml" 72 2453 2488
+)
+"compilateur/compilateur.ml" 93 3257 3293 "compilateur/compilateur.ml" 93 3257 3296
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 91 3188 3212 "compilateur/compilateur.ml" 91 3188 3215
+)
+"compilateur/compilateur.ml" 93 3257 3298 "compilateur/compilateur.ml" 93 3257 3309
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 87 3028 3057 "compilateur/compilateur.ml" 87 3028 3068
+)
+"compilateur/compilateur.ml" 93 3257 3311 "compilateur/compilateur.ml" 93 3257 3314
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 91 3188 3212 "compilateur/compilateur.ml" 91 3188 3215
+)
+"compilateur/compilateur.ml" 94 3316 3341 "compilateur/compilateur.ml" 94 3316 3359
+type(
+  string
+)
+"compilateur/compilateur.ml" 93 3257 3281 "compilateur/compilateur.ml" 94 3316 3360
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 92 3219 3241 "compilateur/compilateur.ml" 94 3316 3360
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 91 3188 3207 "compilateur/compilateur.ml" 94 3316 3361
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 95 3362 3381 "compilateur/compilateur.ml" 95 3362 3389
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 87 3028 3047 "compilateur/compilateur.ml" 87 3028 3055
+)
+"compilateur/compilateur.ml" 90 3161 3178 "compilateur/compilateur.ml" 95 3362 3389
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 96 3391 3408 "compilateur/compilateur.ml" 96 3391 3415
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 96 3391 3416 "compilateur/compilateur.ml" 96 3391 3425
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 96 3391 3426 "compilateur/compilateur.ml" 96 3391 3434
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 96 3391 3408 "compilateur/compilateur.ml" 96 3391 3434
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 97 3436 3454 "compilateur/compilateur.ml" 97 3436 3462
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 87 3028 3047 "compilateur/compilateur.ml" 87 3028 3055
+)
+"compilateur/compilateur.ml" 97 3436 3464 "compilateur/compilateur.ml" 97 3436 3475
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 87 3028 3057 "compilateur/compilateur.ml" 87 3028 3068
+)
+"compilateur/compilateur.ml" 97 3436 3453 "compilateur/compilateur.ml" 97 3436 3476
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 96 3391 3408 "compilateur/compilateur.ml" 97 3436 3476
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 90 3161 3177 "compilateur/compilateur.ml" 97 3436 3477
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 87 3028 3042 "compilateur/compilateur.ml" 97 3436 3477
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 86 2986 3000 "compilateur/compilateur.ml" 97 3436 3477
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 85 2942 2956 "compilateur/compilateur.ml" 97 3436 3477
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 75 2568 2581 "compilateur/compilateur.ml" 97 3436 3478
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 72 2453 2464 "compilateur/compilateur.ml" 97 3436 3478
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 71 2398 2409 "compilateur/compilateur.ml" 97 3436 3478
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 70 2357 2367 "compilateur/compilateur.ml" 97 3436 3479
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 99 3481 3498 "compilateur/compilateur.ml" 99 3481 3511
+type(
+  Grammaire.symbole list
+)
+ident(
+  def listeSymboles "compilateur/compilateur.ml" 100 3529 3539 "compilateur/compilateur.ml" 122 4398 4437
+)
+"compilateur/compilateur.ml" 99 3481 3513 "compilateur/compilateur.ml" 99 3481 3524
+type(
+  Grammaire.expression
+)
+ident(
+  def expressions "compilateur/compilateur.ml" 100 3529 3539 "compilateur/compilateur.ml" 122 4398 4437
+)
+"compilateur/compilateur.ml" 99 3481 3489 "compilateur/compilateur.ml" 99 3481 3525
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 100 3529 3540 "compilateur/compilateur.ml" 100 3529 3547
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 100 3529 3548 "compilateur/compilateur.ml" 100 3529 3557
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 100 3529 3558 "compilateur/compilateur.ml" 100 3529 3570
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 100 3529 3540 "compilateur/compilateur.ml" 100 3529 3570
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 101 3572 3583 "compilateur/compilateur.ml" 101 3572 3602
+type(
+  Grammaire.symbole list -> Grammaire.symbole list -> unit
+)
+ident(
+  int_ref check_listeSymboles "compilateur/compilateur.ml" 22 559 567 "compilateur/compilateur.ml" 22 559 586
+)
+"compilateur/compilateur.ml" 101 3572 3603 "compilateur/compilateur.ml" 101 3572 3611
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 101 3572 3612 "compilateur/compilateur.ml" 101 3572 3625
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref listeSymboles "compilateur/compilateur.ml" 99 3481 3498 "compilateur/compilateur.ml" 99 3481 3511
+)
+"compilateur/compilateur.ml" 101 3572 3583 "compilateur/compilateur.ml" 101 3572 3625
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 102 3627 3643 "compilateur/compilateur.ml" 102 3627 3651
+type(
+  Grammaire.symbole list
+)
+"compilateur/compilateur.ml" 102 3627 3653 "compilateur/compilateur.ml" 102 3627 3666
+type(
+  int
+)
+"compilateur/compilateur.ml" 102 3627 3642 "compilateur/compilateur.ml" 102 3627 3667
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 103 3670 3683 "compilateur/compilateur.ml" 103 3670 3693
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  int_ref transforme "compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+)
+"compilateur/compilateur.ml" 103 3670 3695 "compilateur/compilateur.ml" 103 3670 3703
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 103 3670 3706 "compilateur/compilateur.ml" 103 3670 3710
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 103 3670 3711 "compilateur/compilateur.ml" 103 3670 3712
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 103 3670 3713 "compilateur/compilateur.ml" 103 3670 3714
+type(
+  int
+)
+"compilateur/compilateur.ml" 103 3670 3705 "compilateur/compilateur.ml" 103 3670 3715
+type(
+  int
+)
+"compilateur/compilateur.ml" 103 3670 3694 "compilateur/compilateur.ml" 103 3670 3716
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 103 3670 3717 "compilateur/compilateur.ml" 103 3670 3728
+type(
+  Grammaire.expression
+)
+ident(
+  int_ref expressions "compilateur/compilateur.ml" 99 3481 3513 "compilateur/compilateur.ml" 99 3481 3524
+)
+"compilateur/compilateur.ml" 103 3670 3683 "compilateur/compilateur.ml" 103 3670 3728
+call(
+  stack
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 104 3732 3747 "compilateur/compilateur.ml" 104 3732 3758
+type(
+  int
+)
+"compilateur/compilateur.ml" 104 3732 3761 "compilateur/compilateur.ml" 104 3732 3774
+type(
+  int
+)
+ident(
+  int_ref etatReference "compilateur/compilateur.ml" 102 3627 3653 "compilateur/compilateur.ml" 102 3627 3666
+)
+"compilateur/compilateur.ml" 104 3732 3775 "compilateur/compilateur.ml" 104 3732 3776
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 104 3732 3777 "compilateur/compilateur.ml" 104 3732 3778
+type(
+  int
+)
+"compilateur/compilateur.ml" 104 3732 3761 "compilateur/compilateur.ml" 104 3732 3778
+type(
+  int
+)
+"compilateur/compilateur.ml" 106 3793 3807 "compilateur/compilateur.ml" 106 3793 3816
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 107 3817 3838 "compilateur/compilateur.ml" 107 3817 3841
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 108 3845 3864 "compilateur/compilateur.ml" 114 4065 4137
+)
+"compilateur/compilateur.ml" 108 3845 3868 "compilateur/compilateur.ml" 108 3845 3879
+type(
+  int
+)
+"compilateur/compilateur.ml" 109 3882 3906 "compilateur/compilateur.ml" 109 3882 3914
+type(
+  Grammaire.symbole -> Grammaire.symbole list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"compilateur/compilateur.ml" 109 3882 3915 "compilateur/compilateur.ml" 109 3882 3918
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 107 3817 3838 "compilateur/compilateur.ml" 107 3817 3841
+)
+"compilateur/compilateur.ml" 109 3882 3919 "compilateur/compilateur.ml" 109 3882 3932
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref listeSymboles "compilateur/compilateur.ml" 99 3481 3498 "compilateur/compilateur.ml" 99 3481 3511
+)
+"compilateur/compilateur.ml" 109 3882 3906 "compilateur/compilateur.ml" 109 3882 3932
+call(
+  stack
+)
+type(
+  bool
+)
+"compilateur/compilateur.ml" 110 3933 3959 "compilateur/compilateur.ml" 110 3933 3963
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 110 3933 3964 "compilateur/compilateur.ml" 110 3933 3965
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 110 3933 3966 "compilateur/compilateur.ml" 110 3933 3967
+type(
+  int
+)
+"compilateur/compilateur.ml" 110 3933 3959 "compilateur/compilateur.ml" 110 3933 3967
+type(
+  int
+)
+"compilateur/compilateur.ml" 111 3968 3994 "compilateur/compilateur.ml" 111 3968 4005
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 104 3732 3747 "compilateur/compilateur.ml" 104 3732 3758
+)
+"compilateur/compilateur.ml" 109 3882 3903 "compilateur/compilateur.ml" 111 3968 4005
+type(
+  int
+)
+"compilateur/compilateur.ml" 113 4028 4049 "compilateur/compilateur.ml" 113 4028 4064
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 114 4065 4089 "compilateur/compilateur.ml" 114 4065 4093
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 114 4065 4095 "compilateur/compilateur.ml" 114 4065 4098
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 107 3817 3838 "compilateur/compilateur.ml" 107 3817 3841
+)
+"compilateur/compilateur.ml" 114 4065 4100 "compilateur/compilateur.ml" 114 4065 4111
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 108 3845 3868 "compilateur/compilateur.ml" 108 3845 3879
+)
+"compilateur/compilateur.ml" 114 4065 4113 "compilateur/compilateur.ml" 114 4065 4116
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 107 3817 3838 "compilateur/compilateur.ml" 107 3817 3841
+)
+"compilateur/compilateur.ml" 114 4065 4118 "compilateur/compilateur.ml" 114 4065 4136
+type(
+  string
+)
+"compilateur/compilateur.ml" 114 4065 4088 "compilateur/compilateur.ml" 114 4065 4137
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 113 4028 4049 "compilateur/compilateur.ml" 114 4065 4137
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 108 3845 3864 "compilateur/compilateur.ml" 114 4065 4137
+type(
+  unit
+)
+"compilateur/compilateur.ml" 107 3817 3833 "compilateur/compilateur.ml" 114 4065 4138
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 115 4139 4155 "compilateur/compilateur.ml" 115 4139 4163
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 102 3627 3643 "compilateur/compilateur.ml" 102 3627 3651
+)
+"compilateur/compilateur.ml" 106 3793 3807 "compilateur/compilateur.ml" 115 4139 4163
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 116 4165 4179 "compilateur/compilateur.ml" 116 4165 4188
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 117 4189 4210 "compilateur/compilateur.ml" 117 4189 4213
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 118 4217 4236 "compilateur/compilateur.ml" 119 4252 4324
+)
+"compilateur/compilateur.ml" 118 4217 4236 "compilateur/compilateur.ml" 118 4217 4251
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 119 4252 4274 "compilateur/compilateur.ml" 119 4252 4287
+type(
+  int
+)
+ident(
+  int_ref etatReference "compilateur/compilateur.ml" 102 3627 3653 "compilateur/compilateur.ml" 102 3627 3666
+)
+"compilateur/compilateur.ml" 119 4252 4289 "compilateur/compilateur.ml" 119 4252 4292
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 117 4189 4210 "compilateur/compilateur.ml" 117 4189 4213
+)
+"compilateur/compilateur.ml" 119 4252 4294 "compilateur/compilateur.ml" 119 4252 4298
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 119 4252 4300 "compilateur/compilateur.ml" 119 4252 4303
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 117 4189 4210 "compilateur/compilateur.ml" 117 4189 4213
+)
+"compilateur/compilateur.ml" 119 4252 4305 "compilateur/compilateur.ml" 119 4252 4323
+type(
+  string
+)
+"compilateur/compilateur.ml" 119 4252 4273 "compilateur/compilateur.ml" 119 4252 4324
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 118 4217 4236 "compilateur/compilateur.ml" 119 4252 4324
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 117 4189 4205 "compilateur/compilateur.ml" 119 4252 4325
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 120 4326 4342 "compilateur/compilateur.ml" 120 4326 4350
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 102 3627 3643 "compilateur/compilateur.ml" 102 3627 3651
+)
+"compilateur/compilateur.ml" 116 4165 4179 "compilateur/compilateur.ml" 120 4326 4350
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 121 4352 4366 "compilateur/compilateur.ml" 121 4352 4373
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 121 4352 4374 "compilateur/compilateur.ml" 121 4352 4383
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 121 4352 4384 "compilateur/compilateur.ml" 121 4352 4396
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 121 4352 4366 "compilateur/compilateur.ml" 121 4352 4396
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 122 4398 4413 "compilateur/compilateur.ml" 122 4398 4421
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 102 3627 3643 "compilateur/compilateur.ml" 102 3627 3651
+)
+"compilateur/compilateur.ml" 122 4398 4423 "compilateur/compilateur.ml" 122 4398 4434
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 104 3732 3747 "compilateur/compilateur.ml" 104 3732 3758
+)
+"compilateur/compilateur.ml" 122 4398 4412 "compilateur/compilateur.ml" 122 4398 4435
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 121 4352 4366 "compilateur/compilateur.ml" 122 4398 4435
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 116 4165 4179 "compilateur/compilateur.ml" 122 4398 4435
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 106 3793 3806 "compilateur/compilateur.ml" 122 4398 4436
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 104 3732 3743 "compilateur/compilateur.ml" 122 4398 4436
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 102 3627 3638 "compilateur/compilateur.ml" 122 4398 4436
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 101 3572 3583 "compilateur/compilateur.ml" 122 4398 4436
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 100 3529 3539 "compilateur/compilateur.ml" 122 4398 4437
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 123 4438 4446 "compilateur/compilateur.ml" 123 4438 4449
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 124 4453 4464 "compilateur/compilateur.ml" 124 4453 4471
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 124 4453 4472 "compilateur/compilateur.ml" 124 4453 4481
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 124 4453 4482 "compilateur/compilateur.ml" 124 4453 4490
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 124 4453 4464 "compilateur/compilateur.ml" 124 4453 4490
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 125 4492 4503 "compilateur/compilateur.ml" 125 4492 4512
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 126 4513 4531 "compilateur/compilateur.ml" 126 4513 4534
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 127 4538 4554 "compilateur/compilateur.ml" 128 4570 4636
+)
+"compilateur/compilateur.ml" 127 4538 4554 "compilateur/compilateur.ml" 127 4538 4569
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 128 4570 4589 "compilateur/compilateur.ml" 128 4570 4593
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 128 4570 4595 "compilateur/compilateur.ml" 128 4570 4598
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 126 4513 4531 "compilateur/compilateur.ml" 126 4513 4534
+)
+"compilateur/compilateur.ml" 128 4570 4601 "compilateur/compilateur.ml" 128 4570 4605
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 128 4570 4606 "compilateur/compilateur.ml" 128 4570 4607
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 128 4570 4608 "compilateur/compilateur.ml" 128 4570 4609
+type(
+  int
+)
+"compilateur/compilateur.ml" 128 4570 4600 "compilateur/compilateur.ml" 128 4570 4610
+type(
+  int
+)
+"compilateur/compilateur.ml" 128 4570 4612 "compilateur/compilateur.ml" 128 4570 4615
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 126 4513 4531 "compilateur/compilateur.ml" 126 4513 4534
+)
+"compilateur/compilateur.ml" 128 4570 4617 "compilateur/compilateur.ml" 128 4570 4635
+type(
+  string
+)
+"compilateur/compilateur.ml" 128 4570 4588 "compilateur/compilateur.ml" 128 4570 4636
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 127 4538 4554 "compilateur/compilateur.ml" 128 4570 4636
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 126 4513 4526 "compilateur/compilateur.ml" 128 4570 4637
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 129 4638 4651 "compilateur/compilateur.ml" 129 4638 4659
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 125 4492 4503 "compilateur/compilateur.ml" 129 4638 4659
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 130 4661 4672 "compilateur/compilateur.ml" 130 4661 4679
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 130 4661 4680 "compilateur/compilateur.ml" 130 4661 4689
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 130 4661 4690 "compilateur/compilateur.ml" 130 4661 4698
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 130 4661 4672 "compilateur/compilateur.ml" 130 4661 4698
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 131 4700 4712 "compilateur/compilateur.ml" 131 4700 4720
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 131 4700 4723 "compilateur/compilateur.ml" 131 4700 4727
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 131 4700 4728 "compilateur/compilateur.ml" 131 4700 4729
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 131 4700 4730 "compilateur/compilateur.ml" 131 4700 4731
+type(
+  int
+)
+"compilateur/compilateur.ml" 131 4700 4722 "compilateur/compilateur.ml" 131 4700 4732
+type(
+  int
+)
+"compilateur/compilateur.ml" 131 4700 4711 "compilateur/compilateur.ml" 131 4700 4733
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 130 4661 4672 "compilateur/compilateur.ml" 131 4700 4733
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 125 4492 4503 "compilateur/compilateur.ml" 131 4700 4733
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 124 4453 4463 "compilateur/compilateur.ml" 131 4700 4734
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 133 4736 4751 "compilateur/compilateur.ml" 133 4736 4762
+type(
+  Grammaire.expression
+)
+ident(
+  def expressions "compilateur/compilateur.ml" 134 4766 4776 "compilateur/compilateur.ml" 152 5448 5485
+)
+"compilateur/compilateur.ml" 133 4736 4744 "compilateur/compilateur.ml" 133 4736 4762
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 134 4766 4781 "compilateur/compilateur.ml" 134 4766 4789
+type(
+  Grammaire.symbole list
+)
+"compilateur/compilateur.ml" 134 4766 4791 "compilateur/compilateur.ml" 134 4766 4804
+type(
+  int
+)
+"compilateur/compilateur.ml" 134 4766 4780 "compilateur/compilateur.ml" 134 4766 4805
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 135 4808 4820 "compilateur/compilateur.ml" 135 4808 4830
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  int_ref transforme "compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+)
+"compilateur/compilateur.ml" 135 4808 4832 "compilateur/compilateur.ml" 135 4808 4840
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 135 4808 4843 "compilateur/compilateur.ml" 135 4808 4847
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 135 4808 4848 "compilateur/compilateur.ml" 135 4808 4849
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 135 4808 4850 "compilateur/compilateur.ml" 135 4808 4851
+type(
+  int
+)
+"compilateur/compilateur.ml" 135 4808 4842 "compilateur/compilateur.ml" 135 4808 4852
+type(
+  int
+)
+"compilateur/compilateur.ml" 135 4808 4831 "compilateur/compilateur.ml" 135 4808 4853
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 135 4808 4854 "compilateur/compilateur.ml" 135 4808 4865
+type(
+  Grammaire.expression
+)
+ident(
+  int_ref expressions "compilateur/compilateur.ml" 133 4736 4751 "compilateur/compilateur.ml" 133 4736 4762
+)
+"compilateur/compilateur.ml" 135 4808 4820 "compilateur/compilateur.ml" 135 4808 4865
+call(
+  stack
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 136 4869 4883 "compilateur/compilateur.ml" 136 4869 4894
+type(
+  int
+)
+"compilateur/compilateur.ml" 136 4869 4897 "compilateur/compilateur.ml" 136 4869 4910
+type(
+  int
+)
+ident(
+  int_ref etatReference "compilateur/compilateur.ml" 134 4766 4791 "compilateur/compilateur.ml" 134 4766 4804
+)
+"compilateur/compilateur.ml" 136 4869 4911 "compilateur/compilateur.ml" 136 4869 4912
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 136 4869 4913 "compilateur/compilateur.ml" 136 4869 4914
+type(
+  int
+)
+"compilateur/compilateur.ml" 136 4869 4897 "compilateur/compilateur.ml" 136 4869 4914
+type(
+  int
+)
+"compilateur/compilateur.ml" 138 4928 4941 "compilateur/compilateur.ml" 138 4928 4948
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 138 4928 4949 "compilateur/compilateur.ml" 138 4928 4958
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 138 4928 4959 "compilateur/compilateur.ml" 138 4928 4970
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 138 4928 4941 "compilateur/compilateur.ml" 138 4928 4970
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 139 4972 4985 "compilateur/compilateur.ml" 139 4972 4994
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 140 4995 5015 "compilateur/compilateur.ml" 140 4995 5018
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 141 5022 5040 "compilateur/compilateur.ml" 144 5124 5195
+)
+"compilateur/compilateur.ml" 141 5022 5044 "compilateur/compilateur.ml" 141 5022 5055
+type(
+  int
+)
+"compilateur/compilateur.ml" 141 5022 5058 "compilateur/compilateur.ml" 141 5022 5062
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 141 5022 5063 "compilateur/compilateur.ml" 141 5022 5064
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"compilateur/compilateur.ml" 141 5022 5065 "compilateur/compilateur.ml" 141 5022 5066
+type(
+  int
+)
+"compilateur/compilateur.ml" 141 5022 5058 "compilateur/compilateur.ml" 141 5022 5066
+type(
+  int
+)
+"compilateur/compilateur.ml" 143 5088 5108 "compilateur/compilateur.ml" 143 5088 5123
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 144 5124 5147 "compilateur/compilateur.ml" 144 5124 5151
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 144 5124 5153 "compilateur/compilateur.ml" 144 5124 5156
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 140 4995 5015 "compilateur/compilateur.ml" 140 4995 5018
+)
+"compilateur/compilateur.ml" 144 5124 5158 "compilateur/compilateur.ml" 144 5124 5169
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 141 5022 5044 "compilateur/compilateur.ml" 141 5022 5055
+)
+"compilateur/compilateur.ml" 144 5124 5171 "compilateur/compilateur.ml" 144 5124 5174
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 140 4995 5015 "compilateur/compilateur.ml" 140 4995 5018
+)
+"compilateur/compilateur.ml" 144 5124 5176 "compilateur/compilateur.ml" 144 5124 5194
+type(
+  string
+)
+"compilateur/compilateur.ml" 144 5124 5146 "compilateur/compilateur.ml" 144 5124 5195
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 143 5088 5108 "compilateur/compilateur.ml" 144 5124 5195
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 141 5022 5040 "compilateur/compilateur.ml" 144 5124 5195
+type(
+  unit
+)
+"compilateur/compilateur.ml" 140 4995 5010 "compilateur/compilateur.ml" 144 5124 5196
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 145 5197 5212 "compilateur/compilateur.ml" 145 5197 5220
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 134 4766 4781 "compilateur/compilateur.ml" 134 4766 4789
+)
+"compilateur/compilateur.ml" 139 4972 4985 "compilateur/compilateur.ml" 145 5197 5220
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 146 5222 5235 "compilateur/compilateur.ml" 146 5222 5244
+type(
+  (Grammaire.symbole -> unit) -> Grammaire.symbole list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"compilateur/compilateur.ml" 147 5245 5265 "compilateur/compilateur.ml" 147 5245 5268
+type(
+  Grammaire.symbole
+)
+ident(
+  def sym "compilateur/compilateur.ml" 148 5272 5290 "compilateur/compilateur.ml" 149 5306 5377
+)
+"compilateur/compilateur.ml" 148 5272 5290 "compilateur/compilateur.ml" 148 5272 5305
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string -> unit
+)
+ident(
+  int_ref ecrisTransition "compilateur/compilateur.ml" 9 110 118 "compilateur/compilateur.ml" 9 110 133
+)
+"compilateur/compilateur.ml" 149 5306 5327 "compilateur/compilateur.ml" 149 5306 5340
+type(
+  int
+)
+ident(
+  int_ref etatReference "compilateur/compilateur.ml" 134 4766 4791 "compilateur/compilateur.ml" 134 4766 4804
+)
+"compilateur/compilateur.ml" 149 5306 5342 "compilateur/compilateur.ml" 149 5306 5345
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 147 5245 5265 "compilateur/compilateur.ml" 147 5245 5268
+)
+"compilateur/compilateur.ml" 149 5306 5347 "compilateur/compilateur.ml" 149 5306 5351
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 149 5306 5353 "compilateur/compilateur.ml" 149 5306 5356
+type(
+  Grammaire.symbole
+)
+ident(
+  int_ref sym "compilateur/compilateur.ml" 147 5245 5265 "compilateur/compilateur.ml" 147 5245 5268
+)
+"compilateur/compilateur.ml" 149 5306 5358 "compilateur/compilateur.ml" 149 5306 5376
+type(
+  string
+)
+"compilateur/compilateur.ml" 149 5306 5326 "compilateur/compilateur.ml" 149 5306 5377
+type(
+  int * Grammaire.symbole * int * Grammaire.symbole * string
+)
+"compilateur/compilateur.ml" 148 5272 5290 "compilateur/compilateur.ml" 149 5306 5377
+call(
+  tail
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 147 5245 5260 "compilateur/compilateur.ml" 149 5306 5378
+type(
+  Grammaire.symbole -> unit
+)
+"compilateur/compilateur.ml" 150 5379 5394 "compilateur/compilateur.ml" 150 5379 5402
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 134 4766 4781 "compilateur/compilateur.ml" 134 4766 4789
+)
+"compilateur/compilateur.ml" 146 5222 5235 "compilateur/compilateur.ml" 150 5379 5402
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 151 5404 5417 "compilateur/compilateur.ml" 151 5404 5424
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"compilateur/compilateur.ml" 151 5404 5425 "compilateur/compilateur.ml" 151 5404 5434
+type(
+  out_channel
+)
+ident(
+  int_ref reference "compilateur/compilateur.ml" 7 67 75 "compilateur/compilateur.ml" 7 67 84
+)
+"compilateur/compilateur.ml" 151 5404 5435 "compilateur/compilateur.ml" 151 5404 5446
+type(
+  (unit, out_channel, unit) format
+)
+"compilateur/compilateur.ml" 151 5404 5417 "compilateur/compilateur.ml" 151 5404 5446
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/compilateur.ml" 152 5448 5462 "compilateur/compilateur.ml" 152 5448 5470
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 134 4766 4781 "compilateur/compilateur.ml" 134 4766 4789
+)
+"compilateur/compilateur.ml" 152 5448 5472 "compilateur/compilateur.ml" 152 5448 5483
+type(
+  int
+)
+ident(
+  int_ref etatSuivant "compilateur/compilateur.ml" 136 4869 4883 "compilateur/compilateur.ml" 136 4869 4894
+)
+"compilateur/compilateur.ml" 152 5448 5461 "compilateur/compilateur.ml" 152 5448 5484
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 151 5404 5417 "compilateur/compilateur.ml" 152 5448 5484
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 146 5222 5235 "compilateur/compilateur.ml" 152 5448 5484
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 139 4972 4985 "compilateur/compilateur.ml" 152 5448 5484
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 138 4928 4940 "compilateur/compilateur.ml" 152 5448 5485
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 136 4869 4879 "compilateur/compilateur.ml" 152 5448 5485
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 134 4766 4776 "compilateur/compilateur.ml" 152 5448 5485
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 154 5487 5502 "compilateur/compilateur.ml" 154 5487 5513
+type(
+  Grammaire.expression list
+)
+ident(
+  def expressions "compilateur/compilateur.ml" 156 5518 5528 "compilateur/compilateur.ml" 156 5518 5582
+)
+"compilateur/compilateur.ml" 154 5487 5495 "compilateur/compilateur.ml" 154 5487 5513
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 156 5518 5528 "compilateur/compilateur.ml" 156 5518 5542
+type(
+  (Grammaire.symbole list * int ->
+   Grammaire.expression -> Grammaire.symbole list * int) ->
+  Grammaire.symbole list * int ->
+  Grammaire.expression list -> Grammaire.symbole list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"compilateur/compilateur.ml" 156 5518 5543 "compilateur/compilateur.ml" 156 5518 5553
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  int_ref transforme "compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+)
+"compilateur/compilateur.ml" 156 5518 5555 "compilateur/compilateur.ml" 156 5518 5563
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 156 5518 5565 "compilateur/compilateur.ml" 156 5518 5569
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 156 5518 5554 "compilateur/compilateur.ml" 156 5518 5570
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 156 5518 5571 "compilateur/compilateur.ml" 156 5518 5582
+type(
+  Grammaire.expression list
+)
+ident(
+  int_ref expressions "compilateur/compilateur.ml" 154 5487 5502 "compilateur/compilateur.ml" 154 5487 5513
+)
+"compilateur/compilateur.ml" 156 5518 5528 "compilateur/compilateur.ml" 156 5518 5582
+call(
+  tail
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 157 5583 5591 "compilateur/compilateur.ml" 157 5583 5592
+type(
+  Grammaire.expression
+)
+"compilateur/compilateur.ml" 157 5583 5597 "compilateur/compilateur.ml" 157 5583 5605
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 25 669 693 "compilateur/compilateur.ml" 25 669 701
+)
+"compilateur/compilateur.ml" 157 5583 5607 "compilateur/compilateur.ml" 157 5583 5611
+type(
+  int
+)
+ident(
+  int_ref etat "compilateur/compilateur.ml" 25 669 703 "compilateur/compilateur.ml" 25 669 707
+)
+"compilateur/compilateur.ml" 157 5583 5596 "compilateur/compilateur.ml" 157 5583 5612
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 26 711 717 "compilateur/compilateur.ml" 157 5583 5612
+type(
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 159 5614 5622 "compilateur/compilateur.ml" 159 5614 5629
+type(
+  Grammaire.programme -> Grammaire.symbole list * int
+)
+ident(
+  def compile "compilateur/compilateur.ml" 164 5755 5759 "compilateur/compilateur.ml" 169 5934 5939
+)
+"compilateur/compilateur.ml" 161 5647 5666 "compilateur/compilateur.ml" 161 5647 5674
+type(
+  Grammaire.symbole list
+)
+ident(
+  def symboles "compilateur/compilateur.ml" 162 5692 5702 "compilateur/compilateur.ml" 162 5692 5753
+)
+"compilateur/compilateur.ml" 161 5647 5676 "compilateur/compilateur.ml" 161 5647 5687
+type(
+  Grammaire.expression list
+)
+ident(
+  def expressions "compilateur/compilateur.ml" 162 5692 5702 "compilateur/compilateur.ml" 162 5692 5753
+)
+"compilateur/compilateur.ml" 161 5647 5655 "compilateur/compilateur.ml" 161 5647 5688
+type(
+  Grammaire.programme
+)
+"compilateur/compilateur.ml" 162 5692 5702 "compilateur/compilateur.ml" 162 5692 5716
+type(
+  (Grammaire.symbole list * int ->
+   Grammaire.expression -> Grammaire.symbole list * int) ->
+  Grammaire.symbole list * int ->
+  Grammaire.expression list -> Grammaire.symbole list * int
+)
+ident(
+  ext_ref List.fold_left
+)
+"compilateur/compilateur.ml" 162 5692 5717 "compilateur/compilateur.ml" 162 5692 5727
+type(
+  Grammaire.symbole list * int ->
+  Grammaire.expression -> Grammaire.symbole list * int
+)
+ident(
+  int_ref transforme "compilateur/compilateur.ml" 25 669 681 "compilateur/compilateur.ml" 25 669 691
+)
+"compilateur/compilateur.ml" 162 5692 5729 "compilateur/compilateur.ml" 162 5692 5737
+type(
+  Grammaire.symbole list
+)
+ident(
+  int_ref symboles "compilateur/compilateur.ml" 161 5647 5666 "compilateur/compilateur.ml" 161 5647 5674
+)
+"compilateur/compilateur.ml" 162 5692 5739 "compilateur/compilateur.ml" 162 5692 5740
+type(
+  int
+)
+"compilateur/compilateur.ml" 162 5692 5728 "compilateur/compilateur.ml" 162 5692 5741
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 162 5692 5742 "compilateur/compilateur.ml" 162 5692 5753
+type(
+  Grammaire.expression list
+)
+ident(
+  int_ref expressions "compilateur/compilateur.ml" 161 5647 5676 "compilateur/compilateur.ml" 161 5647 5687
+)
+"compilateur/compilateur.ml" 162 5692 5702 "compilateur/compilateur.ml" 162 5692 5753
+call(
+  tail
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 160 5632 5638 "compilateur/compilateur.ml" 162 5692 5753
+type(
+  Grammaire.programme -> Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 164 5755 5763 "compilateur/compilateur.ml" 164 5755 5774
+type(
+  Grammaire.symbole list * int
+)
+ident(
+  def compilateur "compilateur/compilateur.ml" 167 5861 5932 "compilateur/compilateur.ml" 169 5934 5939
+)
+"compilateur/compilateur.ml" 165 5777 5787 "compilateur/compilateur.ml" 165 5777 5806
+type(
+  Lexing.lexbuf
+)
+"compilateur/compilateur.ml" 165 5777 5809 "compilateur/compilateur.ml" 165 5777 5828
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"compilateur/compilateur.ml" 165 5777 5830 "compilateur/compilateur.ml" 165 5777 5837
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"compilateur/compilateur.ml" 165 5777 5838 "compilateur/compilateur.ml" 165 5777 5846
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"compilateur/compilateur.ml" 165 5777 5848 "compilateur/compilateur.ml" 165 5777 5849
+type(
+  int
+)
+"compilateur/compilateur.ml" 165 5777 5838 "compilateur/compilateur.ml" 165 5777 5850
+type(
+  string
+)
+"compilateur/compilateur.ml" 165 5777 5829 "compilateur/compilateur.ml" 165 5777 5851
+call(
+  stack
+)
+type(
+  in_channel
+)
+"compilateur/compilateur.ml" 165 5777 5809 "compilateur/compilateur.ml" 165 5777 5851
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"compilateur/compilateur.ml" 167 5861 5869 "compilateur/compilateur.ml" 167 5861 5876
+type(
+  Grammaire.programme -> Grammaire.symbole list * int
+)
+ident(
+  int_ref compile "compilateur/compilateur.ml" 159 5614 5622 "compilateur/compilateur.ml" 159 5614 5629
+)
+"compilateur/compilateur.ml" 167 5861 5878 "compilateur/compilateur.ml" 167 5861 5897
+type(
+  (Lexing.lexbuf -> Analyseur.token) -> Lexing.lexbuf -> Grammaire.programme
+)
+ident(
+  ext_ref Analyseur.programme
+)
+"compilateur/compilateur.ml" 167 5861 5898 "compilateur/compilateur.ml" 167 5861 5911
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  ext_ref Lexique.token
+)
+"compilateur/compilateur.ml" 167 5861 5912 "compilateur/compilateur.ml" 167 5861 5931
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexiqueInstructions "compilateur/compilateur.ml" 165 5777 5787 "compilateur/compilateur.ml" 165 5777 5806
+)
+"compilateur/compilateur.ml" 167 5861 5877 "compilateur/compilateur.ml" 167 5861 5932
+call(
+  stack
+)
+type(
+  Grammaire.programme
+)
+"compilateur/compilateur.ml" 167 5861 5869 "compilateur/compilateur.ml" 167 5861 5932
+call(
+  stack
+)
+type(
+  Grammaire.symbole list * int
+)
+"compilateur/compilateur.ml" 165 5777 5783 "compilateur/compilateur.ml" 167 5861 5932
+type(
+  Grammaire.symbole list * int
+)

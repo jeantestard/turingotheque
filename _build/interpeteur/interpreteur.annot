@@ -1,0 +1,1658 @@
+"interpeteur/interpreteur.ml" 10 150 162 "interpeteur/interpreteur.ml" 10 150 180
+type(
+  GrammaireTransitions.transition list ->
+  string -> string -> string * string * int
+)
+ident(
+  def transitionSuivante "interpeteur/interpreteur.ml" 10 150 154 "interpeteur/interpreteur.ml" 87 3293 3298
+)
+"interpeteur/interpreteur.ml" 10 150 181 "interpeteur/interpreteur.ml" 10 150 197
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  def tableTransitions "interpeteur/interpreteur.ml" 10 150 198 "interpeteur/interpreteur.ml" 18 490 542
+)
+"interpeteur/interpreteur.ml" 10 150 198 "interpeteur/interpreteur.ml" 10 150 202
+type(
+  string
+)
+ident(
+  def etat "interpeteur/interpreteur.ml" 10 150 203 "interpeteur/interpreteur.ml" 18 490 542
+)
+"interpeteur/interpreteur.ml" 10 150 203 "interpeteur/interpreteur.ml" 10 150 210
+type(
+  string
+)
+ident(
+  def symbole "interpeteur/interpreteur.ml" 11 213 219 "interpeteur/interpreteur.ml" 18 490 542
+)
+"interpeteur/interpreteur.ml" 11 213 225 "interpeteur/interpreteur.ml" 11 213 241
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref tableTransitions "interpeteur/interpreteur.ml" 10 150 181 "interpeteur/interpreteur.ml" 10 150 197
+)
+"interpeteur/interpreteur.ml" 12 247 255 "interpeteur/interpreteur.ml" 12 247 257
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/interpreteur.ml" 12 247 261 "interpeteur/interpreteur.ml" 12 247 266
+type(
+  exn -> string * string * int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"interpeteur/interpreteur.ml" 12 247 267 "interpeteur/interpreteur.ml" 12 247 284
+type(
+  exn
+)
+"interpeteur/interpreteur.ml" 12 247 261 "interpeteur/interpreteur.ml" 12 247 284
+type(
+  string * string * int
+)
+"interpeteur/interpreteur.ml" 13 285 293 "interpeteur/interpreteur.ml" 13 285 297
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  def tete "interpeteur/interpreteur.ml" 14 310 320 "interpeteur/interpreteur.ml" 18 490 542
+)
+"interpeteur/interpreteur.ml" 13 285 301 "interpeteur/interpreteur.ml" 13 285 306
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  def suite "interpeteur/interpreteur.ml" 14 310 320 "interpeteur/interpreteur.ml" 18 490 542
+)
+"interpeteur/interpreteur.ml" 13 285 293 "interpeteur/interpreteur.ml" 13 285 306
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/interpreteur.ml" 14 310 324 "interpeteur/interpreteur.ml" 14 310 328
+type(
+  string
+)
+ident(
+  int_ref etat "interpeteur/interpreteur.ml" 10 150 198 "interpeteur/interpreteur.ml" 10 150 202
+)
+"interpeteur/interpreteur.ml" 14 310 330 "interpeteur/interpreteur.ml" 14 310 337
+type(
+  string
+)
+ident(
+  int_ref symbole "interpeteur/interpreteur.ml" 10 150 203 "interpeteur/interpreteur.ml" 10 150 210
+)
+"interpeteur/interpreteur.ml" 14 310 323 "interpeteur/interpreteur.ml" 14 310 338
+type(
+  string * string
+)
+"interpeteur/interpreteur.ml" 14 310 339 "interpeteur/interpreteur.ml" 14 310 340
+type(
+  string * string -> string * string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"interpeteur/interpreteur.ml" 14 310 343 "interpeteur/interpreteur.ml" 14 310 347
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  int_ref tete "interpeteur/interpreteur.ml" 13 285 293 "interpeteur/interpreteur.ml" 13 285 297
+)
+"interpeteur/interpreteur.ml" 14 310 342 "interpeteur/interpreteur.ml" 14 310 360
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 14 310 363 "interpeteur/interpreteur.ml" 14 310 367
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  int_ref tete "interpeteur/interpreteur.ml" 13 285 293 "interpeteur/interpreteur.ml" 13 285 297
+)
+"interpeteur/interpreteur.ml" 14 310 362 "interpeteur/interpreteur.ml" 14 310 381
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 14 310 341 "interpeteur/interpreteur.ml" 14 310 382
+type(
+  string * string
+)
+"interpeteur/interpreteur.ml" 14 310 323 "interpeteur/interpreteur.ml" 14 310 382
+type(
+  bool
+)
+"interpeteur/interpreteur.ml" 16 398 412 "interpeteur/interpreteur.ml" 16 398 416
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  int_ref tete "interpeteur/interpreteur.ml" 13 285 293 "interpeteur/interpreteur.ml" 13 285 297
+)
+"interpeteur/interpreteur.ml" 16 398 411 "interpeteur/interpreteur.ml" 16 398 429
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 16 398 432 "interpeteur/interpreteur.ml" 16 398 436
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  int_ref tete "interpeteur/interpreteur.ml" 13 285 293 "interpeteur/interpreteur.ml" 13 285 297
+)
+"interpeteur/interpreteur.ml" 16 398 431 "interpeteur/interpreteur.ml" 16 398 451
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 17 453 467 "interpeteur/interpreteur.ml" 17 453 471
+type(
+  GrammaireTransitions.transition
+)
+ident(
+  int_ref tete "interpeteur/interpreteur.ml" 13 285 293 "interpeteur/interpreteur.ml" 13 285 297
+)
+"interpeteur/interpreteur.ml" 17 453 466 "interpeteur/interpreteur.ml" 17 453 488
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 16 398 410 "interpeteur/interpreteur.ml" 17 453 489
+type(
+  string * string * int
+)
+"interpeteur/interpreteur.ml" 18 490 505 "interpeteur/interpreteur.ml" 18 490 523
+type(
+  GrammaireTransitions.transition list ->
+  string -> string -> string * string * int
+)
+ident(
+  int_ref transitionSuivante "interpeteur/interpreteur.ml" 10 150 162 "interpeteur/interpreteur.ml" 10 150 180
+)
+"interpeteur/interpreteur.ml" 18 490 524 "interpeteur/interpreteur.ml" 18 490 529
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref suite "interpeteur/interpreteur.ml" 13 285 301 "interpeteur/interpreteur.ml" 13 285 306
+)
+"interpeteur/interpreteur.ml" 18 490 530 "interpeteur/interpreteur.ml" 18 490 534
+type(
+  string
+)
+ident(
+  int_ref etat "interpeteur/interpreteur.ml" 10 150 198 "interpeteur/interpreteur.ml" 10 150 202
+)
+"interpeteur/interpreteur.ml" 18 490 535 "interpeteur/interpreteur.ml" 18 490 542
+type(
+  string
+)
+ident(
+  int_ref symbole "interpeteur/interpreteur.ml" 10 150 203 "interpeteur/interpreteur.ml" 10 150 210
+)
+"interpeteur/interpreteur.ml" 18 490 505 "interpeteur/interpreteur.ml" 18 490 542
+call(
+  tail
+)
+type(
+  string * string * int
+)
+"interpeteur/interpreteur.ml" 14 310 320 "interpeteur/interpreteur.ml" 18 490 542
+type(
+  string * string * int
+)
+"interpeteur/interpreteur.ml" 11 213 219 "interpeteur/interpreteur.ml" 18 490 542
+type(
+  string * string * int
+)
+"interpeteur/interpreteur.ml" 20 544 552 "interpeteur/interpreteur.ml" 20 544 567
+type(
+  out_channel -> string array -> unit
+)
+ident(
+  def imprimeResultat "interpeteur/interpreteur.ml" 27 739 743 "interpeteur/interpreteur.ml" 87 3293 3298
+)
+"interpeteur/interpreteur.ml" 20 544 568 "interpeteur/interpreteur.ml" 20 544 581
+type(
+  out_channel
+)
+ident(
+  def fichierSortie "interpeteur/interpreteur.ml" 20 544 582 "interpeteur/interpreteur.ml" 25 724 737
+)
+"interpeteur/interpreteur.ml" 20 544 582 "interpeteur/interpreteur.ml" 20 544 587
+type(
+  string array
+)
+ident(
+  def ruban "interpeteur/interpreteur.ml" 21 590 596 "interpeteur/interpreteur.ml" 25 724 737
+)
+"interpeteur/interpreteur.ml" 21 590 596 "interpeteur/interpreteur.ml" 21 590 606
+type(
+  (string -> unit) -> string array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"interpeteur/interpreteur.ml" 22 607 620 "interpeteur/interpreteur.ml" 22 607 627
+type(
+  string
+)
+ident(
+  def symbole "interpeteur/interpreteur.ml" 23 631 642 "interpeteur/interpreteur.ml" 24 680 722
+)
+"interpeteur/interpreteur.ml" 23 631 643 "interpeteur/interpreteur.ml" 23 631 656
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"interpeteur/interpreteur.ml" 23 631 657 "interpeteur/interpreteur.ml" 23 631 670
+type(
+  out_channel
+)
+ident(
+  int_ref fichierSortie "interpeteur/interpreteur.ml" 20 544 568 "interpeteur/interpreteur.ml" 20 544 581
+)
+"interpeteur/interpreteur.ml" 23 631 671 "interpeteur/interpreteur.ml" 23 631 678
+type(
+  string
+)
+ident(
+  int_ref symbole "interpeteur/interpreteur.ml" 22 607 620 "interpeteur/interpreteur.ml" 22 607 627
+)
+"interpeteur/interpreteur.ml" 23 631 643 "interpeteur/interpreteur.ml" 23 631 678
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 24 680 692 "interpeteur/interpreteur.ml" 24 680 703
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"interpeteur/interpreteur.ml" 24 680 704 "interpeteur/interpreteur.ml" 24 680 717
+type(
+  out_channel
+)
+ident(
+  int_ref fichierSortie "interpeteur/interpreteur.ml" 20 544 568 "interpeteur/interpreteur.ml" 20 544 581
+)
+"interpeteur/interpreteur.ml" 24 680 718 "interpeteur/interpreteur.ml" 24 680 721
+type(
+  char
+)
+"interpeteur/interpreteur.ml" 24 680 692 "interpeteur/interpreteur.ml" 24 680 721
+call(
+  tail
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 23 631 642 "interpeteur/interpreteur.ml" 24 680 722
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 22 607 615 "interpeteur/interpreteur.ml" 24 680 723
+type(
+  string -> unit
+)
+"interpeteur/interpreteur.ml" 25 724 732 "interpeteur/interpreteur.ml" 25 724 737
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 20 544 582 "interpeteur/interpreteur.ml" 20 544 587
+)
+"interpeteur/interpreteur.ml" 21 590 596 "interpeteur/interpreteur.ml" 25 724 737
+call(
+  tail
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 28 751 757 "interpeteur/interpreteur.ml" 28 751 767
+type(
+  int ->
+  string ->
+  GrammaireTransitions.transition list ->
+  string array -> string -> int -> string array
+)
+ident(
+  def interprete "interpeteur/interpreteur.ml" 27 739 743 "interpeteur/interpreteur.ml" 87 3293 3298
+)
+"interpeteur/interpreteur.ml" 28 751 768 "interpeteur/interpreteur.ml" 28 751 776
+type(
+  int
+)
+ident(
+  def priorite "interpeteur/interpreteur.ml" 28 751 777 "interpeteur/interpreteur.ml" 73 2666 2745
+)
+"interpeteur/interpreteur.ml" 28 751 777 "interpeteur/interpreteur.ml" 28 751 789
+type(
+  string
+)
+ident(
+  def nomProgramme "interpeteur/interpreteur.ml" 28 751 790 "interpeteur/interpreteur.ml" 73 2666 2745
+)
+"interpeteur/interpreteur.ml" 28 751 790 "interpeteur/interpreteur.ml" 28 751 806
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  def tableTransitions "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 73 2666 2745
+)
+"interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+type(
+  string array
+)
+ident(
+  def ruban "interpeteur/interpreteur.ml" 28 751 813 "interpeteur/interpreteur.ml" 73 2666 2745
+)
+"interpeteur/interpreteur.ml" 28 751 813 "interpeteur/interpreteur.ml" 28 751 817
+type(
+  string
+)
+ident(
+  def etat "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 73 2666 2745
+)
+"interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+type(
+  int
+)
+ident(
+  def position "interpeteur/interpreteur.ml" 29 829 835 "interpeteur/interpreteur.ml" 73 2666 2745
+)
+"interpeteur/interpreteur.ml" 29 829 836 "interpeteur/interpreteur.ml" 29 829 848
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 29 829 849 "interpeteur/interpreteur.ml" 29 829 862
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 29 829 836 "interpeteur/interpreteur.ml" 29 829 862
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 30 864 871 "interpeteur/interpreteur.ml" 30 864 883
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 30 864 884 "interpeteur/interpreteur.ml" 30 864 888
+type(
+  string
+)
+ident(
+  int_ref etat "interpeteur/interpreteur.ml" 28 751 813 "interpeteur/interpreteur.ml" 28 751 817
+)
+"interpeteur/interpreteur.ml" 30 864 871 "interpeteur/interpreteur.ml" 30 864 888
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 31 890 897 "interpeteur/interpreteur.ml" 31 890 910
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"interpeteur/interpreteur.ml" 31 890 911 "interpeteur/interpreteur.ml" 31 890 913
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 31 890 897 "interpeteur/interpreteur.ml" 31 890 913
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 32 915 922 "interpeteur/interpreteur.ml" 32 915 934
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 32 915 935 "interpeteur/interpreteur.ml" 32 915 959
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 32 915 922 "interpeteur/interpreteur.ml" 32 915 959
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 33 961 968 "interpeteur/interpreteur.ml" 33 961 977
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"interpeteur/interpreteur.ml" 33 961 978 "interpeteur/interpreteur.ml" 33 961 986
+type(
+  int
+)
+ident(
+  int_ref position "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+)
+"interpeteur/interpreteur.ml" 33 961 968 "interpeteur/interpreteur.ml" 33 961 986
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 34 988 995 "interpeteur/interpreteur.ml" 34 988 1008
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"interpeteur/interpreteur.ml" 34 988 1009 "interpeteur/interpreteur.ml" 34 988 1011
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 34 988 995 "interpeteur/interpreteur.ml" 34 988 1011
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 35 1013 1020 "interpeteur/interpreteur.ml" 35 1013 1032
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 35 1013 1033 "interpeteur/interpreteur.ml" 35 1013 1060
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 35 1013 1020 "interpeteur/interpreteur.ml" 35 1013 1060
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 36 1062 1073 "interpeteur/interpreteur.ml" 36 1062 1080
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 36 1062 1087 "interpeteur/interpreteur.ml" 36 1062 1092
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 36 1062 1094 "interpeteur/interpreteur.ml" 36 1062 1102
+type(
+  int
+)
+ident(
+  int_ref position "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+)
+"interpeteur/interpreteur.ml" 36 1062 1087 "interpeteur/interpreteur.ml" 36 1062 1103
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 36 1062 1128 "interpeteur/interpreteur.ml" 36 1062 1131
+type(
+  string
+)
+ident(
+  def err "interpeteur/interpreteur.ml" 36 1062 1135 "interpeteur/interpreteur.ml" 36 1062 1138
+)
+"interpeteur/interpreteur.ml" 36 1062 1111 "interpeteur/interpreteur.ml" 36 1062 1131
+type(
+  exn
+)
+"interpeteur/interpreteur.ml" 36 1062 1135 "interpeteur/interpreteur.ml" 36 1062 1138
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 36 1062 1083 "interpeteur/interpreteur.ml" 36 1062 1138
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 38 1149 1159 "interpeteur/interpreteur.ml" 38 1149 1174
+type(
+  out_channel -> string array -> unit
+)
+ident(
+  int_ref imprimeResultat "interpeteur/interpreteur.ml" 20 544 552 "interpeteur/interpreteur.ml" 20 544 567
+)
+"interpeteur/interpreteur.ml" 38 1149 1175 "interpeteur/interpreteur.ml" 38 1149 1181
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"interpeteur/interpreteur.ml" 38 1149 1182 "interpeteur/interpreteur.ml" 38 1149 1187
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 38 1149 1159 "interpeteur/interpreteur.ml" 38 1149 1187
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 39 1189 1199 "interpeteur/interpreteur.ml" 39 1189 1212
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"interpeteur/interpreteur.ml" 39 1189 1213 "interpeteur/interpreteur.ml" 39 1189 1215
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 39 1189 1199 "interpeteur/interpreteur.ml" 39 1189 1215
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 40 1217 1227 "interpeteur/interpreteur.ml" 40 1217 1239
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 40 1217 1240 "interpeteur/interpreteur.ml" 40 1217 1255
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 40 1217 1227 "interpeteur/interpreteur.ml" 40 1217 1255
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 41 1257 1267 "interpeteur/interpreteur.ml" 41 1257 1279
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 41 1257 1280 "interpeteur/interpreteur.ml" 41 1257 1287
+type(
+  string
+)
+ident(
+  int_ref symbole "interpeteur/interpreteur.ml" 36 1062 1073 "interpeteur/interpreteur.ml" 36 1062 1080
+)
+"interpeteur/interpreteur.ml" 41 1257 1267 "interpeteur/interpreteur.ml" 41 1257 1287
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 42 1289 1299 "interpeteur/interpreteur.ml" 42 1289 1312
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"interpeteur/interpreteur.ml" 42 1289 1313 "interpeteur/interpreteur.ml" 42 1289 1315
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 42 1289 1299 "interpeteur/interpreteur.ml" 42 1289 1315
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 43 1317 1327 "interpeteur/interpreteur.ml" 43 1317 1339
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 43 1317 1340 "interpeteur/interpreteur.ml" 43 1317 1369
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 43 1317 1327 "interpeteur/interpreteur.ml" 43 1317 1369
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 44 1371 1381 "interpeteur/interpreteur.ml" 44 1371 1393
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 44 1371 1394 "interpeteur/interpreteur.ml" 44 1371 1406
+type(
+  string
+)
+ident(
+  int_ref nomProgramme "interpeteur/interpreteur.ml" 28 751 777 "interpeteur/interpreteur.ml" 28 751 789
+)
+"interpeteur/interpreteur.ml" 44 1371 1381 "interpeteur/interpreteur.ml" 44 1371 1406
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 45 1408 1418 "interpeteur/interpreteur.ml" 45 1408 1431
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"interpeteur/interpreteur.ml" 45 1408 1432 "interpeteur/interpreteur.ml" 45 1408 1434
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 45 1408 1418 "interpeteur/interpreteur.ml" 45 1408 1434
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 46 1436 1446 "interpeteur/interpreteur.ml" 46 1436 1459
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"interpeteur/interpreteur.ml" 46 1436 1460 "interpeteur/interpreteur.ml" 46 1436 1462
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 46 1436 1446 "interpeteur/interpreteur.ml" 46 1436 1462
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 47 1464 1474 "interpeteur/interpreteur.ml" 47 1464 1486
+type(
+  float -> unit
+)
+ident(
+  ext_ref Thread.delay
+)
+"interpeteur/interpreteur.ml" 47 1464 1488 "interpeteur/interpreteur.ml" 47 1464 1500
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"interpeteur/interpreteur.ml" 47 1464 1501 "interpeteur/interpreteur.ml" 47 1464 1509
+type(
+  int
+)
+ident(
+  int_ref priorite "interpeteur/interpreteur.ml" 28 751 768 "interpeteur/interpreteur.ml" 28 751 776
+)
+"interpeteur/interpreteur.ml" 47 1464 1487 "interpeteur/interpreteur.ml" 47 1464 1510
+type(
+  float
+)
+"interpeteur/interpreteur.ml" 47 1464 1474 "interpeteur/interpreteur.ml" 47 1464 1510
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 49 1526 1543 "interpeteur/interpreteur.ml" 49 1526 1554
+type(
+  string
+)
+ident(
+  def etatSuivant "interpeteur/interpreteur.ml" 51 1656 1668 "interpeteur/interpreteur.ml" 71 2610 2650
+)
+"interpeteur/interpreteur.ml" 49 1526 1556 "interpeteur/interpreteur.ml" 49 1526 1569
+type(
+  string
+)
+ident(
+  def symboleSortie "interpeteur/interpreteur.ml" 51 1656 1668 "interpeteur/interpreteur.ml" 71 2610 2650
+)
+"interpeteur/interpreteur.ml" 49 1526 1571 "interpeteur/interpreteur.ml" 49 1526 1586
+type(
+  int
+)
+ident(
+  def actionEffectuee "interpeteur/interpreteur.ml" 51 1656 1668 "interpeteur/interpreteur.ml" 71 2610 2650
+)
+"interpeteur/interpreteur.ml" 49 1526 1542 "interpeteur/interpreteur.ml" 49 1526 1587
+type(
+  string * string * int
+)
+"interpeteur/interpreteur.ml" 50 1590 1604 "interpeteur/interpreteur.ml" 50 1590 1622
+type(
+  GrammaireTransitions.transition list ->
+  string -> string -> string * string * int
+)
+ident(
+  int_ref transitionSuivante "interpeteur/interpreteur.ml" 10 150 162 "interpeteur/interpreteur.ml" 10 150 180
+)
+"interpeteur/interpreteur.ml" 50 1590 1623 "interpeteur/interpreteur.ml" 50 1590 1639
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref tableTransitions "interpeteur/interpreteur.ml" 28 751 790 "interpeteur/interpreteur.ml" 28 751 806
+)
+"interpeteur/interpreteur.ml" 50 1590 1640 "interpeteur/interpreteur.ml" 50 1590 1644
+type(
+  string
+)
+ident(
+  int_ref etat "interpeteur/interpreteur.ml" 28 751 813 "interpeteur/interpreteur.ml" 28 751 817
+)
+"interpeteur/interpreteur.ml" 50 1590 1645 "interpeteur/interpreteur.ml" 50 1590 1652
+type(
+  string
+)
+ident(
+  int_ref symbole "interpeteur/interpreteur.ml" 36 1062 1073 "interpeteur/interpreteur.ml" 36 1062 1080
+)
+"interpeteur/interpreteur.ml" 50 1590 1604 "interpeteur/interpreteur.ml" 50 1590 1652
+call(
+  stack
+)
+type(
+  string * string * int
+)
+"interpeteur/interpreteur.ml" 51 1656 1672 "interpeteur/interpreteur.ml" 51 1656 1688
+type(
+  int
+)
+ident(
+  def positionSuivante "interpeteur/interpreteur.ml" 53 1733 1747 "interpeteur/interpreteur.ml" 71 2610 2650
+)
+"interpeteur/interpreteur.ml" 51 1656 1691 "interpeteur/interpreteur.ml" 51 1656 1699
+type(
+  int
+)
+ident(
+  int_ref position "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+)
+"interpeteur/interpreteur.ml" 51 1656 1700 "interpeteur/interpreteur.ml" 51 1656 1701
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"interpeteur/interpreteur.ml" 51 1656 1702 "interpeteur/interpreteur.ml" 51 1656 1717
+type(
+  int
+)
+ident(
+  int_ref actionEffectuee "interpeteur/interpreteur.ml" 49 1526 1571 "interpeteur/interpreteur.ml" 49 1526 1586
+)
+"interpeteur/interpreteur.ml" 51 1656 1691 "interpeteur/interpreteur.ml" 51 1656 1717
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 54 1751 1768 "interpeteur/interpreteur.ml" 54 1751 1773
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 54 1751 1775 "interpeteur/interpreteur.ml" 54 1751 1783
+type(
+  int
+)
+ident(
+  int_ref position "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+)
+"interpeteur/interpreteur.ml" 54 1751 1788 "interpeteur/interpreteur.ml" 54 1751 1801
+type(
+  string
+)
+ident(
+  int_ref symboleSortie "interpeteur/interpreteur.ml" 49 1526 1556 "interpeteur/interpreteur.ml" 49 1526 1569
+)
+"interpeteur/interpreteur.ml" 54 1751 1768 "interpeteur/interpreteur.ml" 54 1751 1801
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 55 1803 1820 "interpeteur/interpreteur.ml" 55 1803 1830
+type(
+  int ->
+  string ->
+  GrammaireTransitions.transition list ->
+  string array -> string -> int -> string array
+)
+ident(
+  int_ref interprete "interpeteur/interpreteur.ml" 28 751 757 "interpeteur/interpreteur.ml" 28 751 767
+)
+"interpeteur/interpreteur.ml" 55 1803 1831 "interpeteur/interpreteur.ml" 55 1803 1839
+type(
+  int
+)
+ident(
+  int_ref priorite "interpeteur/interpreteur.ml" 28 751 768 "interpeteur/interpreteur.ml" 28 751 776
+)
+"interpeteur/interpreteur.ml" 55 1803 1840 "interpeteur/interpreteur.ml" 55 1803 1852
+type(
+  string
+)
+ident(
+  int_ref nomProgramme "interpeteur/interpreteur.ml" 28 751 777 "interpeteur/interpreteur.ml" 28 751 789
+)
+"interpeteur/interpreteur.ml" 55 1803 1853 "interpeteur/interpreteur.ml" 55 1803 1869
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref tableTransitions "interpeteur/interpreteur.ml" 28 751 790 "interpeteur/interpreteur.ml" 28 751 806
+)
+"interpeteur/interpreteur.ml" 55 1803 1870 "interpeteur/interpreteur.ml" 55 1803 1875
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 56 1876 1895 "interpeteur/interpreteur.ml" 56 1876 1906
+type(
+  string
+)
+ident(
+  int_ref etatSuivant "interpeteur/interpreteur.ml" 49 1526 1543 "interpeteur/interpreteur.ml" 49 1526 1554
+)
+"interpeteur/interpreteur.ml" 56 1876 1907 "interpeteur/interpreteur.ml" 56 1876 1923
+type(
+  int
+)
+ident(
+  int_ref positionSuivante "interpeteur/interpreteur.ml" 51 1656 1672 "interpeteur/interpreteur.ml" 51 1656 1688
+)
+"interpeteur/interpreteur.ml" 55 1803 1820 "interpeteur/interpreteur.ml" 56 1876 1923
+call(
+  stack
+)
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 54 1751 1767 "interpeteur/interpreteur.ml" 56 1876 1924
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 58 1944 1977 "interpeteur/interpreteur.ml" 58 1944 1980
+type(
+  string
+)
+ident(
+  def err "interpeteur/interpreteur.ml" 59 1984 2002 "interpeteur/interpreteur.ml" 71 2610 2650
+)
+"interpeteur/interpreteur.ml" 58 1944 1960 "interpeteur/interpreteur.ml" 58 1944 1980
+type(
+  exn
+)
+"interpeteur/interpreteur.ml" 59 1984 2005 "interpeteur/interpreteur.ml" 59 1984 2013
+type(
+  int
+)
+ident(
+  int_ref position "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+)
+"interpeteur/interpreteur.ml" 59 1984 2014 "interpeteur/interpreteur.ml" 59 1984 2015
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"interpeteur/interpreteur.ml" 59 1984 2016 "interpeteur/interpreteur.ml" 59 1984 2017
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 59 1984 2005 "interpeteur/interpreteur.ml" 59 1984 2017
+type(
+  bool
+)
+"interpeteur/interpreteur.ml" 61 2041 2070 "interpeteur/interpreteur.ml" 61 2041 2078
+type(
+  int
+)
+ident(
+  int_ref position "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+)
+"interpeteur/interpreteur.ml" 61 2041 2079 "interpeteur/interpreteur.ml" 61 2041 2080
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"interpeteur/interpreteur.ml" 61 2041 2081 "interpeteur/interpreteur.ml" 61 2041 2085
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 61 2041 2069 "interpeteur/interpreteur.ml" 61 2041 2086
+type(
+  bool
+)
+"interpeteur/interpreteur.ml" 61 2041 2062 "interpeteur/interpreteur.ml" 61 2041 2086
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 62 2088 2114 "interpeteur/interpreteur.ml" 62 2088 2130
+type(
+  int
+)
+ident(
+  def positionSuivante "interpeteur/interpreteur.ml" 64 2179 2203 "interpeteur/interpreteur.ml" 66 2320 2374
+)
+"interpeteur/interpreteur.ml" 62 2088 2133 "interpeteur/interpreteur.ml" 62 2088 2149
+type(
+  int
+)
+ident(
+  int_ref positionSuivante "interpeteur/interpreteur.ml" 51 1656 1672 "interpeteur/interpreteur.ml" 51 1656 1688
+)
+"interpeteur/interpreteur.ml" 62 2088 2150 "interpeteur/interpreteur.ml" 62 2088 2151
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"interpeteur/interpreteur.ml" 62 2088 2152 "interpeteur/interpreteur.ml" 62 2088 2153
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 62 2088 2133 "interpeteur/interpreteur.ml" 62 2088 2153
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 64 2179 2203 "interpeteur/interpreteur.ml" 64 2179 2213
+type(
+  int ->
+  string ->
+  GrammaireTransitions.transition list ->
+  string array -> string -> int -> string array
+)
+ident(
+  int_ref interprete "interpeteur/interpreteur.ml" 28 751 757 "interpeteur/interpreteur.ml" 28 751 767
+)
+"interpeteur/interpreteur.ml" 64 2179 2214 "interpeteur/interpreteur.ml" 64 2179 2222
+type(
+  int
+)
+ident(
+  int_ref priorite "interpeteur/interpreteur.ml" 28 751 768 "interpeteur/interpreteur.ml" 28 751 776
+)
+"interpeteur/interpreteur.ml" 64 2179 2223 "interpeteur/interpreteur.ml" 64 2179 2235
+type(
+  string
+)
+ident(
+  int_ref nomProgramme "interpeteur/interpreteur.ml" 28 751 777 "interpeteur/interpreteur.ml" 28 751 789
+)
+"interpeteur/interpreteur.ml" 64 2179 2236 "interpeteur/interpreteur.ml" 64 2179 2252
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref tableTransitions "interpeteur/interpreteur.ml" 28 751 790 "interpeteur/interpreteur.ml" 28 751 806
+)
+"interpeteur/interpreteur.ml" 65 2253 2280 "interpeteur/interpreteur.ml" 65 2253 2292
+type(
+  string array -> string array -> string array
+)
+ident(
+  ext_ref Array.append
+)
+"interpeteur/interpreteur.ml" 65 2253 2296 "interpeteur/interpreteur.ml" 65 2253 2309
+type(
+  string
+)
+ident(
+  int_ref symboleSortie "interpeteur/interpreteur.ml" 49 1526 1556 "interpeteur/interpreteur.ml" 49 1526 1569
+)
+"interpeteur/interpreteur.ml" 65 2253 2293 "interpeteur/interpreteur.ml" 65 2253 2312
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 65 2253 2313 "interpeteur/interpreteur.ml" 65 2253 2318
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 65 2253 2279 "interpeteur/interpreteur.ml" 65 2253 2319
+call(
+  stack
+)
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 66 2320 2346 "interpeteur/interpreteur.ml" 66 2320 2357
+type(
+  string
+)
+ident(
+  int_ref etatSuivant "interpeteur/interpreteur.ml" 49 1526 1543 "interpeteur/interpreteur.ml" 49 1526 1554
+)
+"interpeteur/interpreteur.ml" 66 2320 2358 "interpeteur/interpreteur.ml" 66 2320 2374
+type(
+  int
+)
+ident(
+  int_ref positionSuivante "interpeteur/interpreteur.ml" 62 2088 2114 "interpeteur/interpreteur.ml" 62 2088 2130
+)
+"interpeteur/interpreteur.ml" 64 2179 2203 "interpeteur/interpreteur.ml" 66 2320 2374
+call(
+  stack
+)
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 62 2088 2109 "interpeteur/interpreteur.ml" 66 2320 2375
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 61 2041 2061 "interpeteur/interpreteur.ml" 66 2320 2376
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 68 2400 2429 "interpeteur/interpreteur.ml" 68 2400 2437
+type(
+  int
+)
+ident(
+  int_ref position "interpeteur/interpreteur.ml" 28 751 818 "interpeteur/interpreteur.ml" 28 751 826
+)
+"interpeteur/interpreteur.ml" 68 2400 2438 "interpeteur/interpreteur.ml" 68 2400 2439
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"interpeteur/interpreteur.ml" 68 2400 2441 "interpeteur/interpreteur.ml" 68 2400 2453
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"interpeteur/interpreteur.ml" 68 2400 2454 "interpeteur/interpreteur.ml" 68 2400 2459
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 68 2400 2440 "interpeteur/interpreteur.ml" 68 2400 2460
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 68 2400 2428 "interpeteur/interpreteur.ml" 68 2400 2461
+type(
+  bool
+)
+"interpeteur/interpreteur.ml" 68 2400 2421 "interpeteur/interpreteur.ml" 68 2400 2461
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 69 2463 2484 "interpeteur/interpreteur.ml" 69 2463 2494
+type(
+  int ->
+  string ->
+  GrammaireTransitions.transition list ->
+  string array -> string -> int -> string array
+)
+ident(
+  int_ref interprete "interpeteur/interpreteur.ml" 28 751 757 "interpeteur/interpreteur.ml" 28 751 767
+)
+"interpeteur/interpreteur.ml" 69 2463 2495 "interpeteur/interpreteur.ml" 69 2463 2503
+type(
+  int
+)
+ident(
+  int_ref priorite "interpeteur/interpreteur.ml" 28 751 768 "interpeteur/interpreteur.ml" 28 751 776
+)
+"interpeteur/interpreteur.ml" 69 2463 2504 "interpeteur/interpreteur.ml" 69 2463 2516
+type(
+  string
+)
+ident(
+  int_ref nomProgramme "interpeteur/interpreteur.ml" 28 751 777 "interpeteur/interpreteur.ml" 28 751 789
+)
+"interpeteur/interpreteur.ml" 69 2463 2517 "interpeteur/interpreteur.ml" 69 2463 2533
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref tableTransitions "interpeteur/interpreteur.ml" 28 751 790 "interpeteur/interpreteur.ml" 28 751 806
+)
+"interpeteur/interpreteur.ml" 70 2534 2558 "interpeteur/interpreteur.ml" 70 2534 2570
+type(
+  string array -> string array -> string array
+)
+ident(
+  ext_ref Array.append
+)
+"interpeteur/interpreteur.ml" 70 2534 2571 "interpeteur/interpreteur.ml" 70 2534 2576
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 70 2534 2580 "interpeteur/interpreteur.ml" 70 2534 2593
+type(
+  string
+)
+ident(
+  int_ref symboleSortie "interpeteur/interpreteur.ml" 49 1526 1556 "interpeteur/interpreteur.ml" 49 1526 1569
+)
+"interpeteur/interpreteur.ml" 70 2534 2577 "interpeteur/interpreteur.ml" 70 2534 2596
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 70 2534 2557 "interpeteur/interpreteur.ml" 70 2534 2597
+call(
+  stack
+)
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 70 2534 2598 "interpeteur/interpreteur.ml" 70 2534 2609
+type(
+  string
+)
+ident(
+  int_ref etatSuivant "interpeteur/interpreteur.ml" 49 1526 1543 "interpeteur/interpreteur.ml" 49 1526 1554
+)
+"interpeteur/interpreteur.ml" 71 2610 2633 "interpeteur/interpreteur.ml" 71 2610 2649
+type(
+  int
+)
+ident(
+  int_ref positionSuivante "interpeteur/interpreteur.ml" 51 1656 1672 "interpeteur/interpreteur.ml" 51 1656 1688
+)
+"interpeteur/interpreteur.ml" 69 2463 2484 "interpeteur/interpreteur.ml" 71 2610 2649
+call(
+  stack
+)
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 68 2400 2420 "interpeteur/interpreteur.ml" 71 2610 2650
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 59 1984 2002 "interpeteur/interpreteur.ml" 71 2610 2650
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 53 1733 1747 "interpeteur/interpreteur.ml" 71 2610 2650
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 51 1656 1668 "interpeteur/interpreteur.ml" 71 2610 2650
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 49 1526 1538 "interpeteur/interpreteur.ml" 71 2610 2650
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 73 2666 2678 "interpeteur/interpreteur.ml" 73 2666 2695
+type(
+  exn
+)
+"interpeteur/interpreteur.ml" 73 2666 2700 "interpeteur/interpreteur.ml" 73 2666 2712
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"interpeteur/interpreteur.ml" 73 2666 2713 "interpeteur/interpreteur.ml" 73 2666 2735
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 73 2666 2700 "interpeteur/interpreteur.ml" 73 2666 2735
+call(
+  stack
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 73 2666 2737 "interpeteur/interpreteur.ml" 73 2666 2742
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 28 751 807 "interpeteur/interpreteur.ml" 28 751 812
+)
+"interpeteur/interpreteur.ml" 73 2666 2699 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 48 1512 1522 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 47 1464 1474 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 46 1436 1446 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 45 1408 1418 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 44 1371 1381 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 43 1317 1327 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 42 1289 1299 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 41 1257 1267 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 40 1217 1227 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 39 1189 1199 "interpeteur/interpreteur.ml" 73 2666 2743
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 38 1149 1158 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 36 1062 1069 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 35 1013 1020 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 34 988 995 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 33 961 968 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 32 915 922 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 31 890 897 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 30 864 871 "interpeteur/interpreteur.ml" 73 2666 2744
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 29 829 835 "interpeteur/interpreteur.ml" 73 2666 2745
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 75 2747 2755 "interpeteur/interpreteur.ml" 75 2747 2770
+type(
+  string -> string -> int -> unit
+)
+ident(
+  def machineDeTuring "interpeteur/interpreteur.ml" 85 3254 3291 "interpeteur/interpreteur.ml" 87 3293 3298
+)
+"interpeteur/interpreteur.ml" 75 2747 2771 "interpeteur/interpreteur.ml" 75 2747 2783
+type(
+  string
+)
+ident(
+  def nomProgramme "interpeteur/interpreteur.ml" 75 2747 2784 "interpeteur/interpreteur.ml" 85 3254 3291
+)
+"interpeteur/interpreteur.ml" 75 2747 2784 "interpeteur/interpreteur.ml" 75 2747 2789
+type(
+  string
+)
+ident(
+  def ruban "interpeteur/interpreteur.ml" 75 2747 2790 "interpeteur/interpreteur.ml" 85 3254 3291
+)
+"interpeteur/interpreteur.ml" 75 2747 2790 "interpeteur/interpreteur.ml" 75 2747 2798
+type(
+  int
+)
+ident(
+  def priorite "interpeteur/interpreteur.ml" 76 2801 2807 "interpeteur/interpreteur.ml" 85 3254 3291
+)
+"interpeteur/interpreteur.ml" 76 2801 2811 "interpeteur/interpreteur.ml" 76 2801 2823
+type(
+  Lexing.lexbuf
+)
+"interpeteur/interpreteur.ml" 76 2801 2826 "interpeteur/interpreteur.ml" 76 2801 2845
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"interpeteur/interpreteur.ml" 76 2801 2847 "interpeteur/interpreteur.ml" 76 2801 2854
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"interpeteur/interpreteur.ml" 76 2801 2855 "interpeteur/interpreteur.ml" 76 2801 2867
+type(
+  string
+)
+ident(
+  int_ref nomProgramme "interpeteur/interpreteur.ml" 75 2747 2771 "interpeteur/interpreteur.ml" 75 2747 2783
+)
+"interpeteur/interpreteur.ml" 76 2801 2846 "interpeteur/interpreteur.ml" 76 2801 2868
+call(
+  stack
+)
+type(
+  in_channel
+)
+"interpeteur/interpreteur.ml" 76 2801 2826 "interpeteur/interpreteur.ml" 76 2801 2868
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"interpeteur/interpreteur.ml" 77 2872 2882 "interpeteur/interpreteur.ml" 77 2872 2898
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/interpreteur.ml" 78 2901 2909 "interpeteur/interpreteur.ml" 78 2901 2946
+type(
+  (Lexing.lexbuf -> AnalyseurTransitions.token) ->
+  Lexing.lexbuf -> GrammaireTransitions.transition list
+)
+ident(
+  ext_ref AnalyseurTransitions.tableTransitions
+)
+"interpeteur/interpreteur.ml" 78 2901 2947 "interpeteur/interpreteur.ml" 78 2901 2971
+type(
+  Lexing.lexbuf -> AnalyseurTransitions.token
+)
+ident(
+  ext_ref LexiqueTransitions.token
+)
+"interpeteur/interpreteur.ml" 79 2972 2982 "interpeteur/interpreteur.ml" 79 2972 2994
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref instructions "interpeteur/interpreteur.ml" 76 2801 2811 "interpeteur/interpreteur.ml" 76 2801 2823
+)
+"interpeteur/interpreteur.ml" 78 2901 2909 "interpeteur/interpreteur.ml" 79 2972 2994
+call(
+  stack
+)
+type(
+  GrammaireTransitions.transition list
+)
+"interpeteur/interpreteur.ml" 80 2998 3008 "interpeteur/interpreteur.ml" 80 2998 3020
+type(
+  Lexing.lexbuf
+)
+"interpeteur/interpreteur.ml" 80 2998 3023 "interpeteur/interpreteur.ml" 80 2998 3042
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"interpeteur/interpreteur.ml" 80 2998 3044 "interpeteur/interpreteur.ml" 80 2998 3051
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"interpeteur/interpreteur.ml" 80 2998 3052 "interpeteur/interpreteur.ml" 80 2998 3057
+type(
+  string
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 75 2747 2784 "interpeteur/interpreteur.ml" 75 2747 2789
+)
+"interpeteur/interpreteur.ml" 80 2998 3043 "interpeteur/interpreteur.ml" 80 2998 3058
+call(
+  stack
+)
+type(
+  in_channel
+)
+"interpeteur/interpreteur.ml" 80 2998 3023 "interpeteur/interpreteur.ml" 80 2998 3058
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"interpeteur/interpreteur.ml" 81 3062 3072 "interpeteur/interpreteur.ml" 81 3062 3077
+type(
+  string list
+)
+"interpeteur/interpreteur.ml" 81 3062 3080 "interpeteur/interpreteur.ml" 81 3062 3100
+type(
+  (Lexing.lexbuf -> AnalyseurRuban.token) -> Lexing.lexbuf -> string list
+)
+ident(
+  ext_ref AnalyseurRuban.ruban
+)
+"interpeteur/interpreteur.ml" 81 3062 3101 "interpeteur/interpreteur.ml" 81 3062 3119
+type(
+  Lexing.lexbuf -> AnalyseurRuban.token
+)
+ident(
+  ext_ref LexiqueRuban.token
+)
+"interpeteur/interpreteur.ml" 81 3062 3120 "interpeteur/interpreteur.ml" 81 3062 3132
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref instructions "interpeteur/interpreteur.ml" 80 2998 3008 "interpeteur/interpreteur.ml" 80 2998 3020
+)
+"interpeteur/interpreteur.ml" 81 3062 3080 "interpeteur/interpreteur.ml" 81 3062 3132
+call(
+  stack
+)
+type(
+  string list
+)
+"interpeteur/interpreteur.ml" 82 3136 3146 "interpeteur/interpreteur.ml" 82 3136 3151
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 83 3154 3162 "interpeteur/interpreteur.ml" 83 3154 3172
+type(
+  int ->
+  string ->
+  GrammaireTransitions.transition list ->
+  string array -> string -> int -> string array
+)
+ident(
+  int_ref interprete "interpeteur/interpreteur.ml" 28 751 757 "interpeteur/interpreteur.ml" 28 751 767
+)
+"interpeteur/interpreteur.ml" 83 3154 3173 "interpeteur/interpreteur.ml" 83 3154 3181
+type(
+  int
+)
+ident(
+  int_ref priorite "interpeteur/interpreteur.ml" 75 2747 2790 "interpeteur/interpreteur.ml" 75 2747 2798
+)
+"interpeteur/interpreteur.ml" 83 3154 3182 "interpeteur/interpreteur.ml" 83 3154 3194
+type(
+  string
+)
+ident(
+  int_ref nomProgramme "interpeteur/interpreteur.ml" 75 2747 2771 "interpeteur/interpreteur.ml" 75 2747 2783
+)
+"interpeteur/interpreteur.ml" 83 3154 3195 "interpeteur/interpreteur.ml" 83 3154 3211
+type(
+  GrammaireTransitions.transition list
+)
+ident(
+  int_ref tableTransitions "interpeteur/interpreteur.ml" 77 2872 2882 "interpeteur/interpreteur.ml" 77 2872 2898
+)
+"interpeteur/interpreteur.ml" 84 3212 3223 "interpeteur/interpreteur.ml" 84 3212 3236
+type(
+  string list -> string array
+)
+ident(
+  ext_ref Array.of_list
+)
+"interpeteur/interpreteur.ml" 84 3212 3237 "interpeteur/interpreteur.ml" 84 3212 3242
+type(
+  string list
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 81 3062 3072 "interpeteur/interpreteur.ml" 81 3062 3077
+)
+"interpeteur/interpreteur.ml" 84 3212 3222 "interpeteur/interpreteur.ml" 84 3212 3243
+call(
+  stack
+)
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 84 3212 3244 "interpeteur/interpreteur.ml" 84 3212 3251
+type(
+  string
+)
+"interpeteur/interpreteur.ml" 84 3212 3252 "interpeteur/interpreteur.ml" 84 3212 3253
+type(
+  int
+)
+"interpeteur/interpreteur.ml" 83 3154 3162 "interpeteur/interpreteur.ml" 84 3212 3253
+call(
+  stack
+)
+type(
+  string array
+)
+"interpeteur/interpreteur.ml" 85 3254 3263 "interpeteur/interpreteur.ml" 85 3254 3278
+type(
+  out_channel -> string array -> unit
+)
+ident(
+  int_ref imprimeResultat "interpeteur/interpreteur.ml" 20 544 552 "interpeteur/interpreteur.ml" 20 544 567
+)
+"interpeteur/interpreteur.ml" 85 3254 3279 "interpeteur/interpreteur.ml" 85 3254 3285
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"interpeteur/interpreteur.ml" 85 3254 3286 "interpeteur/interpreteur.ml" 85 3254 3291
+type(
+  string array
+)
+ident(
+  int_ref ruban "interpeteur/interpreteur.ml" 82 3136 3146 "interpeteur/interpreteur.ml" 82 3136 3151
+)
+"interpeteur/interpreteur.ml" 85 3254 3263 "interpeteur/interpreteur.ml" 85 3254 3291
+call(
+  tail
+)
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 82 3136 3142 "interpeteur/interpreteur.ml" 85 3254 3291
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 81 3062 3068 "interpeteur/interpreteur.ml" 85 3254 3291
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 80 2998 3004 "interpeteur/interpreteur.ml" 85 3254 3291
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 77 2872 2878 "interpeteur/interpreteur.ml" 85 3254 3291
+type(
+  unit
+)
+"interpeteur/interpreteur.ml" 76 2801 2807 "interpeteur/interpreteur.ml" 85 3254 3291
+type(
+  unit
+)

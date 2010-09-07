@@ -1,0 +1,765 @@
+"compilateur/lexique.ml" 4 77 81 "compilateur/lexique.ml" 4 77 99
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "compilateur/lexique.ml" 519 34932 34932 --
+)
+"compilateur/lexique.ml" 6 125 128 "compilateur/lexique.ml" 10 405 442
+type(
+  string
+)
+"compilateur/lexique.ml" 12 468 471 "compilateur/lexique.ml" 16 748 785
+type(
+  string
+)
+"compilateur/lexique.ml" 18 811 814 "compilateur/lexique.ml" 22 1091 1128
+type(
+  string
+)
+"compilateur/lexique.ml" 24 1152 1155 "compilateur/lexique.ml" 263 17882 17927
+type(
+  string
+)
+"compilateur/lexique.ml" 265 17951 17954 "compilateur/lexique.ml" 504 34681 34726
+type(
+  string
+)
+"compilateur/lexique.ml" 506 34754 34757 "compilateur/lexique.ml" 506 34754 34759
+type(
+  string
+)
+"compilateur/lexique.ml" 508 34790 34793 "compilateur/lexique.ml" 508 34790 34795
+type(
+  string
+)
+"compilateur/lexique.ml" 510 34826 34829 "compilateur/lexique.ml" 510 34826 34831
+type(
+  string
+)
+"compilateur/lexique.ml" 512 34860 34863 "compilateur/lexique.ml" 512 34860 34865
+type(
+  string
+)
+"compilateur/lexique.ml" 514 34894 34897 "compilateur/lexique.ml" 514 34894 34899
+type(
+  string
+)
+"compilateur/lexique.ml" 516 34922 34925 "compilateur/lexique.ml" 516 34922 34927
+type(
+  string
+)
+"compilateur/lexique.ml" 4 77 102 "compilateur/lexique.ml" 517 34929 34930
+type(
+  Lexing.lex_tables
+)
+"compilateur/lexique.ml" 519 34932 34940 "compilateur/lexique.ml" 519 34932 34945
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  def token "compilateur/lexique.ml" 519 34932 34932 --
+)
+"compilateur/lexique.ml" 519 34932 34946 "compilateur/lexique.ml" 519 34932 34952
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "compilateur/lexique.ml" 520 34955 34959 "compilateur/lexique.ml" 520 34955 34989
+)
+"compilateur/lexique.ml" 520 34955 34959 "compilateur/lexique.ml" 520 34955 34980
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "compilateur/lexique.ml" 521 34990 34994 "compilateur/lexique.ml" 521 34990 35015
+)
+"compilateur/lexique.ml" 520 34955 34981 "compilateur/lexique.ml" 520 34955 34987
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 519 34932 34946 "compilateur/lexique.ml" 519 34932 34952
+)
+"compilateur/lexique.ml" 520 34955 34988 "compilateur/lexique.ml" 520 34955 34989
+type(
+  int
+)
+"compilateur/lexique.ml" 520 34955 34959 "compilateur/lexique.ml" 520 34955 34989
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 521 34990 34994 "compilateur/lexique.ml" 521 34990 35015
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  def __ocaml_lex_token_rec "compilateur/lexique.ml" 519 34932 34932 --
+)
+"compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "compilateur/lexique.ml" 521 34990 35023 "compilateur/lexique.ml" 628 37300 37405
+)
+"compilateur/lexique.ml" 521 34990 35023 "compilateur/lexique.ml" 521 34990 35040
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "compilateur/lexique.ml" 522 35043 35045 "compilateur/lexique.ml" 628 37300 37405
+)
+"compilateur/lexique.ml" 522 35043 35051 "compilateur/lexique.ml" 522 35043 35064
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"compilateur/lexique.ml" 522 35043 35065 "compilateur/lexique.ml" 522 35043 35083
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "compilateur/lexique.ml" 4 77 81 "compilateur/lexique.ml" 4 77 99
+)
+"compilateur/lexique.ml" 522 35043 35084 "compilateur/lexique.ml" 522 35043 35101
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "compilateur/lexique.ml" 521 34990 35023 "compilateur/lexique.ml" 521 34990 35040
+)
+"compilateur/lexique.ml" 522 35043 35102 "compilateur/lexique.ml" 522 35043 35108
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 522 35043 35051 "compilateur/lexique.ml" 522 35043 35108
+call(
+  stack
+)
+type(
+  int
+)
+"compilateur/lexique.ml" 523 35114 35122 "compilateur/lexique.ml" 523 35114 35123
+type(
+  int
+)
+"compilateur/lexique.mll" 4 35157 35164 "compilateur/lexique.mll" 4 35157 35170
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 528 35203 35207 "compilateur/lexique.ml" 528 35203 35208
+type(
+  int
+)
+"compilateur/lexique.mll" 5 35242 35249 "compilateur/lexique.mll" 5 35242 35255
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 533 35288 35292 "compilateur/lexique.ml" 533 35288 35293
+type(
+  int
+)
+"compilateur/lexique.mll" 6 35327 35339 "compilateur/lexique.mll" 6 35327 35350
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 538 35383 35387 "compilateur/lexique.ml" 538 35383 35388
+type(
+  int
+)
+"compilateur/lexique.mll" 7 35422 35433 "compilateur/lexique.mll" 7 35422 35443
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 543 35476 35480 "compilateur/lexique.ml" 543 35476 35481
+type(
+  int
+)
+"compilateur/lexique.mll" 8 35515 35521 "compilateur/lexique.mll" 8 35515 35531
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 548 35564 35568 "compilateur/lexique.ml" 548 35564 35569
+type(
+  int
+)
+"compilateur/lexique.mll" 9 35603 35609 "compilateur/lexique.mll" 9 35603 35619
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 553 35652 35656 "compilateur/lexique.ml" 553 35652 35657
+type(
+  int
+)
+"compilateur/lexique.mll" 10 35692 35702 "compilateur/lexique.mll" 10 35692 35711
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 558 35744 35748 "compilateur/lexique.ml" 558 35744 35749
+type(
+  int
+)
+"compilateur/lexique.mll" 11 35784 35792 "compilateur/lexique.mll" 11 35784 35799
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 563 35832 35836 "compilateur/lexique.ml" 563 35832 35837
+type(
+  int
+)
+"compilateur/lexique.mll" 12 35872 35879 "compilateur/lexique.mll" 12 35872 35885
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 568 35918 35922 "compilateur/lexique.ml" 568 35918 35923
+type(
+  int
+)
+"compilateur/lexique.mll" 13 35958 35964 "compilateur/lexique.mll" 13 35958 35972
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 573 36005 36009 "compilateur/lexique.ml" 573 36005 36011
+type(
+  int
+)
+"compilateur/lexique.mll" 14 36046 36052 "compilateur/lexique.mll" 14 36046 36060
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 578 36093 36097 "compilateur/lexique.ml" 578 36093 36099
+type(
+  int
+)
+"compilateur/lexique.mll" 15 36134 36140 "compilateur/lexique.mll" 15 36134 36147
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 583 36180 36184 "compilateur/lexique.ml" 583 36180 36186
+type(
+  int
+)
+"compilateur/lexique.mll" 16 36221 36227 "compilateur/lexique.mll" 16 36221 36234
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 588 36267 36271 "compilateur/lexique.ml" 588 36267 36273
+type(
+  int
+)
+"compilateur/lexique.mll" 17 36312 36355 "compilateur/lexique.mll" 17 36312 36361
+type(
+  string
+)
+"compilateur/lexique.ml" 593 36393 36395 "compilateur/lexique.ml" 593 36393 36412
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"compilateur/lexique.ml" 593 36393 36413 "compilateur/lexique.ml" 593 36393 36419
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 593 36393 36420 "compilateur/lexique.ml" 593 36393 36426
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 593 36393 36420 "compilateur/lexique.ml" 593 36393 36447
+type(
+  int
+)
+"compilateur/lexique.ml" 593 36393 36448 "compilateur/lexique.ml" 593 36393 36454
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 593 36393 36448 "compilateur/lexique.ml" 593 36393 36474
+type(
+  int
+)
+"compilateur/lexique.ml" 593 36393 36395 "compilateur/lexique.ml" 593 36393 36474
+call(
+  stack
+)
+type(
+  string
+)
+"compilateur/lexique.mll" 17 36509 36568 "compilateur/lexique.mll" 17 36509 36576
+type(
+  string
+)
+ident(
+  int_ref lexeme "compilateur/lexique.mll" 17 36312 36355 "compilateur/lexique.mll" 17 36312 36361
+)
+"compilateur/lexique.mll" 17 36509 36559 "compilateur/lexique.mll" 17 36509 36578
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 589 36277 36277 "compilateur/lexique.mll" 17 36509 36578
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 598 36611 36615 "compilateur/lexique.ml" 598 36611 36617
+type(
+  int
+)
+"compilateur/lexique.mll" 18 36652 36658 "compilateur/lexique.mll" 18 36652 36672
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 603 36705 36709 "compilateur/lexique.ml" 603 36705 36711
+type(
+  int
+)
+"compilateur/lexique.mll" 19 36746 36771 "compilateur/lexique.mll" 19 36746 36776
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "compilateur/lexique.ml" 519 34932 34940 "compilateur/lexique.ml" 519 34932 34945
+)
+"compilateur/lexique.mll" 19 36746 36777 "compilateur/lexique.mll" 19 36746 36783
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.mll" 19 36746 36769 "compilateur/lexique.mll" 19 36746 36785
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 608 36818 36822 "compilateur/lexique.ml" 608 36818 36824
+type(
+  int
+)
+"compilateur/lexique.mll" 20 36859 36867 "compilateur/lexique.mll" 20 36859 36878
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref commentaire "compilateur/lexique.ml" 630 37407 37411 "compilateur/lexique.ml" 630 37407 37422
+)
+"compilateur/lexique.mll" 20 36859 36879 "compilateur/lexique.mll" 20 36859 36885
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.mll" 20 36859 36865 "compilateur/lexique.mll" 20 36859 36887
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 613 36920 36924 "compilateur/lexique.ml" 613 36920 36926
+type(
+  int
+)
+"compilateur/lexique.mll" 21 36961 36967 "compilateur/lexique.mll" 21 36961 36974
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 618 37007 37011 "compilateur/lexique.ml" 618 37007 37013
+type(
+  int
+)
+"compilateur/lexique.mll" 22 37052 37059 "compilateur/lexique.mll" 22 37052 37063
+type(
+  char
+)
+"compilateur/lexique.ml" 623 37095 37097 "compilateur/lexique.ml" 623 37095 37119
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"compilateur/lexique.ml" 623 37095 37120 "compilateur/lexique.ml" 623 37095 37126
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 623 37095 37127 "compilateur/lexique.ml" 623 37095 37133
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 623 37095 37127 "compilateur/lexique.ml" 623 37095 37154
+type(
+  int
+)
+"compilateur/lexique.ml" 623 37095 37097 "compilateur/lexique.ml" 623 37095 37154
+call(
+  stack
+)
+type(
+  char
+)
+"compilateur/lexique.mll" 22 37189 37203 "compilateur/lexique.mll" 22 37189 37208
+type(
+  exn -> Analyseur.token
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"compilateur/lexique.mll" 22 37189 37218 "compilateur/lexique.mll" 22 37189 37243
+type(
+  string
+)
+"compilateur/lexique.mll" 22 37189 37244 "compilateur/lexique.mll" 22 37189 37245
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"compilateur/lexique.mll" 22 37189 37246 "compilateur/lexique.mll" 22 37189 37258
+type(
+  char -> string
+)
+ident(
+  ext_ref Char.escaped
+)
+"compilateur/lexique.mll" 22 37189 37259 "compilateur/lexique.mll" 22 37189 37263
+type(
+  char
+)
+ident(
+  int_ref char "compilateur/lexique.mll" 22 37052 37059 "compilateur/lexique.mll" 22 37052 37063
+)
+"compilateur/lexique.mll" 22 37189 37246 "compilateur/lexique.mll" 22 37189 37263
+call(
+  stack
+)
+type(
+  string
+)
+"compilateur/lexique.mll" 22 37189 37217 "compilateur/lexique.mll" 22 37189 37264
+call(
+  stack
+)
+type(
+  string
+)
+"compilateur/lexique.mll" 22 37189 37209 "compilateur/lexique.mll" 22 37189 37265
+type(
+  exn
+)
+"compilateur/lexique.mll" 22 37189 37201 "compilateur/lexique.mll" 22 37189 37267
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 619 37017 37017 "compilateur/lexique.mll" 22 37189 37267
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 628 37300 37304 "compilateur/lexique.ml" 628 37300 37321
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "compilateur/lexique.ml" 628 37300 37325 "compilateur/lexique.ml" 628 37300 37405
+)
+"compilateur/lexique.ml" 628 37300 37325 "compilateur/lexique.ml" 628 37300 37331
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 628 37300 37325 "compilateur/lexique.ml" 628 37300 37350
+type(
+  Lexing.lexbuf -> unit
+)
+"compilateur/lexique.ml" 628 37300 37351 "compilateur/lexique.ml" 628 37300 37357
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 628 37300 37325 "compilateur/lexique.ml" 628 37300 37357
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/lexique.ml" 628 37300 37359 "compilateur/lexique.ml" 628 37300 37380
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "compilateur/lexique.ml" 521 34990 34994 "compilateur/lexique.ml" 521 34990 35015
+)
+"compilateur/lexique.ml" 628 37300 37381 "compilateur/lexique.ml" 628 37300 37387
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 521 34990 35016 "compilateur/lexique.ml" 521 34990 35022
+)
+"compilateur/lexique.ml" 628 37300 37388 "compilateur/lexique.ml" 628 37300 37405
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "compilateur/lexique.ml" 628 37300 37304 "compilateur/lexique.ml" 628 37300 37321
+)
+"compilateur/lexique.ml" 628 37300 37359 "compilateur/lexique.ml" 628 37300 37405
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 628 37300 37325 "compilateur/lexique.ml" 628 37300 37405
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 522 35043 35045 "compilateur/lexique.ml" 628 37300 37405
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 630 37407 37411 "compilateur/lexique.ml" 630 37407 37422
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  def commentaire "compilateur/lexique.ml" 519 34932 34932 --
+)
+"compilateur/lexique.ml" 630 37407 37423 "compilateur/lexique.ml" 630 37407 37429
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "compilateur/lexique.ml" 631 37432 37436 "compilateur/lexique.ml" 631 37432 37473
+)
+"compilateur/lexique.ml" 631 37432 37436 "compilateur/lexique.ml" 631 37432 37463
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  int_ref __ocaml_lex_commentaire_rec "compilateur/lexique.ml" 632 37474 37478 "compilateur/lexique.ml" 632 37474 37505
+)
+"compilateur/lexique.ml" 631 37432 37464 "compilateur/lexique.ml" 631 37432 37470
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 630 37407 37423 "compilateur/lexique.ml" 630 37407 37429
+)
+"compilateur/lexique.ml" 631 37432 37471 "compilateur/lexique.ml" 631 37432 37473
+type(
+  int
+)
+"compilateur/lexique.ml" 631 37432 37436 "compilateur/lexique.ml" 631 37432 37473
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 632 37474 37478 "compilateur/lexique.ml" 632 37474 37505
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  def __ocaml_lex_commentaire_rec "compilateur/lexique.ml" 519 34932 34932 --
+)
+"compilateur/lexique.ml" 632 37474 37506 "compilateur/lexique.ml" 632 37474 37512
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "compilateur/lexique.ml" 632 37474 37513 "compilateur/lexique.ml" 644 37801 37912
+)
+"compilateur/lexique.ml" 632 37474 37513 "compilateur/lexique.ml" 632 37474 37530
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "compilateur/lexique.ml" 633 37533 37535 "compilateur/lexique.ml" 644 37801 37912
+)
+"compilateur/lexique.ml" 633 37533 37541 "compilateur/lexique.ml" 633 37533 37554
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"compilateur/lexique.ml" 633 37533 37555 "compilateur/lexique.ml" 633 37533 37573
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "compilateur/lexique.ml" 4 77 81 "compilateur/lexique.ml" 4 77 99
+)
+"compilateur/lexique.ml" 633 37533 37574 "compilateur/lexique.ml" 633 37533 37591
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "compilateur/lexique.ml" 632 37474 37513 "compilateur/lexique.ml" 632 37474 37530
+)
+"compilateur/lexique.ml" 633 37533 37592 "compilateur/lexique.ml" 633 37533 37598
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 632 37474 37506 "compilateur/lexique.ml" 632 37474 37512
+)
+"compilateur/lexique.ml" 633 37533 37541 "compilateur/lexique.ml" 633 37533 37598
+call(
+  stack
+)
+type(
+  int
+)
+"compilateur/lexique.ml" 634 37604 37612 "compilateur/lexique.ml" 634 37604 37613
+type(
+  int
+)
+"compilateur/lexique.mll" 25 37648 37655 "compilateur/lexique.mll" 25 37648 37660
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref token "compilateur/lexique.ml" 519 34932 34940 "compilateur/lexique.ml" 519 34932 34945
+)
+"compilateur/lexique.mll" 25 37648 37661 "compilateur/lexique.mll" 25 37648 37667
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 632 37474 37506 "compilateur/lexique.ml" 632 37474 37512
+)
+"compilateur/lexique.mll" 25 37648 37653 "compilateur/lexique.mll" 25 37648 37669
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 639 37702 37706 "compilateur/lexique.ml" 639 37702 37707
+type(
+  int
+)
+"compilateur/lexique.mll" 26 37742 37748 "compilateur/lexique.mll" 26 37742 37759
+type(
+  Lexing.lexbuf -> Analyseur.token
+)
+ident(
+  int_ref commentaire "compilateur/lexique.ml" 630 37407 37411 "compilateur/lexique.ml" 630 37407 37422
+)
+"compilateur/lexique.mll" 26 37742 37760 "compilateur/lexique.mll" 26 37742 37766
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 632 37474 37506 "compilateur/lexique.ml" 632 37474 37512
+)
+"compilateur/lexique.mll" 26 37742 37746 "compilateur/lexique.mll" 26 37742 37768
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 644 37801 37805 "compilateur/lexique.ml" 644 37801 37822
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "compilateur/lexique.ml" 644 37801 37826 "compilateur/lexique.ml" 644 37801 37912
+)
+"compilateur/lexique.ml" 644 37801 37826 "compilateur/lexique.ml" 644 37801 37832
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 632 37474 37506 "compilateur/lexique.ml" 632 37474 37512
+)
+"compilateur/lexique.ml" 644 37801 37826 "compilateur/lexique.ml" 644 37801 37851
+type(
+  Lexing.lexbuf -> unit
+)
+"compilateur/lexique.ml" 644 37801 37852 "compilateur/lexique.ml" 644 37801 37858
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 632 37474 37506 "compilateur/lexique.ml" 632 37474 37512
+)
+"compilateur/lexique.ml" 644 37801 37826 "compilateur/lexique.ml" 644 37801 37858
+call(
+  stack
+)
+type(
+  unit
+)
+"compilateur/lexique.ml" 644 37801 37860 "compilateur/lexique.ml" 644 37801 37887
+type(
+  Lexing.lexbuf -> int -> Analyseur.token
+)
+ident(
+  int_ref __ocaml_lex_commentaire_rec "compilateur/lexique.ml" 632 37474 37478 "compilateur/lexique.ml" 632 37474 37505
+)
+"compilateur/lexique.ml" 644 37801 37888 "compilateur/lexique.ml" 644 37801 37894
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "compilateur/lexique.ml" 632 37474 37506 "compilateur/lexique.ml" 632 37474 37512
+)
+"compilateur/lexique.ml" 644 37801 37895 "compilateur/lexique.ml" 644 37801 37912
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "compilateur/lexique.ml" 644 37801 37805 "compilateur/lexique.ml" 644 37801 37822
+)
+"compilateur/lexique.ml" 644 37801 37860 "compilateur/lexique.ml" 644 37801 37912
+call(
+  tail
+)
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 644 37801 37826 "compilateur/lexique.ml" 644 37801 37912
+type(
+  Analyseur.token
+)
+"compilateur/lexique.ml" 633 37533 37535 "compilateur/lexique.ml" 644 37801 37912
+type(
+  Analyseur.token
+)
